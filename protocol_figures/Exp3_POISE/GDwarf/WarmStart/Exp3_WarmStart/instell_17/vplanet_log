@@ -1,0 +1,33 @@
+INFO: sUnitMass set in vpl.in, all bodies will use this unit.
+INFO: sUnitTime set in vpl.in, all bodies will use this unit.
+INFO: sUnitAngle set in vpl.in, all bodies will use this unit.
+INFO: sUnitLength set in vpl.in, all bodies will use this unit.
+INFO: sUnitTemp not set in file sun.in, defaulting to Kelvin.
+INFO: sUnitTemp not set in file earth.in, defaulting to kelvin.
+INFO: dSemi < 0 in file earth.in, units assumed to be AU.
+INFO: dRadius < 0 in file earth.in, units assumed to be Rearth.
+INFO: dRotPeriod < 0 in file earth.in, units assumed to be Days.
+INFO: sOutFile not set, defaulting to tilted.sun.forward.
+INFO: sOutFile not set, defaulting to tilted.earth.forward.
+INFO: sIntegrationMethod not set, defaulting to Runge-Kutta4.
+INFO: No rotational information set in file sun.in. Defaulting to dRotRate = 2*pi/day.
+INFO: DeltaTime output for first step is defined to be 0 when bVarDt = 1.
+Input files read.
+All of sun's modules verified.
+TGlobal = 36.549881
+TGlobal = 48.764311
+TGlobal = 54.343925
+TGlobal = 56.882721
+TGlobal = 58.037299
+TGlobal = 58.562500; Prev RunningMean = 0.000000; Curr RunningMean = 55.318151
+TGlobal = 58.801554; Prev RunningMean = 55.318151; Curr RunningMean = 57.325600
+TGlobal = 58.910409; Prev RunningMean = 57.325600; Curr RunningMean = 58.238896
+TGlobal = 58.959787; Prev RunningMean = 58.238896; Curr RunningMean = 58.654310
+TGlobal = 58.982219; Prev RunningMean = 58.654310; Curr RunningMean = 58.843294
+TGlobal = 58.992409; Prev RunningMean = 58.843294; Curr RunningMean = 58.929275
+All of earth's modules verified.
+Input files verified.
+Log file written.
+Evolution completed.
+Log file updated.
+Simulation completed.

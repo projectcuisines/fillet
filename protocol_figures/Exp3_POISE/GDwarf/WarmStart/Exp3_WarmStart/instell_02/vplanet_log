@@ -1,0 +1,38 @@
+INFO: sUnitMass set in vpl.in, all bodies will use this unit.
+INFO: sUnitTime set in vpl.in, all bodies will use this unit.
+INFO: sUnitAngle set in vpl.in, all bodies will use this unit.
+INFO: sUnitLength set in vpl.in, all bodies will use this unit.
+INFO: sUnitTemp not set in file sun.in, defaulting to Kelvin.
+INFO: sUnitTemp not set in file earth.in, defaulting to kelvin.
+INFO: dSemi < 0 in file earth.in, units assumed to be AU.
+INFO: dRadius < 0 in file earth.in, units assumed to be Rearth.
+INFO: dRotPeriod < 0 in file earth.in, units assumed to be Days.
+INFO: sOutFile not set, defaulting to tilted.sun.forward.
+INFO: sOutFile not set, defaulting to tilted.earth.forward.
+INFO: sIntegrationMethod not set, defaulting to Runge-Kutta4.
+INFO: No rotational information set in file sun.in. Defaulting to dRotRate = 2*pi/day.
+INFO: DeltaTime output for first step is defined to be 0 when bVarDt = 1.
+Input files read.
+All of sun's modules verified.
+TGlobal = 7.348010
+TGlobal = 2.643108
+TGlobal = -1.960334
+TGlobal = -8.349576
+TGlobal = -14.214361
+TGlobal = -24.068712; Prev RunningMean = 0.000000; Curr RunningMean = -9.189975
+TGlobal = -34.018924; Prev RunningMean = -9.189975; Curr RunningMean = -16.522382
+TGlobal = -38.527240; Prev RunningMean = -16.522382; Curr RunningMean = -23.835763
+TGlobal = -40.575062; Prev RunningMean = -23.835763; Curr RunningMean = -30.280860
+TGlobal = -41.505249; Prev RunningMean = -30.280860; Curr RunningMean = -35.739038
+TGlobal = -41.927770; Prev RunningMean = -35.739038; Curr RunningMean = -39.310849
+TGlobal = -42.119692; Prev RunningMean = -39.310849; Curr RunningMean = -40.931003
+TGlobal = -42.206869; Prev RunningMean = -40.931003; Curr RunningMean = -41.666928
+TGlobal = -42.246468; Prev RunningMean = -41.666928; Curr RunningMean = -42.001210
+TGlobal = -42.264455; Prev RunningMean = -42.001210; Curr RunningMean = -42.153051
+TGlobal = -42.272625; Prev RunningMean = -42.153051; Curr RunningMean = -42.222022
+All of earth's modules verified.
+Input files verified.
+Log file written.
+Evolution completed.
+Log file updated.
+Simulation completed.

@@ -1,0 +1,12 @@
+sDestFolder GDwarf_WarmStart
+sBigplanetFile GDwarf_WarmStart.bpa
+sOutputFile Test.bpf
+
+
+saBodyFiles earth.in sun.in
+sPrimaryFile vpl.in
+
+saKeyInclude earth:Obliquity:forward earth:Instellation:final earth:IceBeltLand:final earth:IceBeltSea:final earth:IceCapNorthLand:final earth:IceCapNorthSea:final earth:IceCapSouthLand:final earth:IceCapSouthSea:final earth:IceFree:final earth:Snowball:final
+
+
+

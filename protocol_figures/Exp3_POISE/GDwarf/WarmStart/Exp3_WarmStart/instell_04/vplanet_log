@@ -1,0 +1,44 @@
+INFO: sUnitMass set in vpl.in, all bodies will use this unit.
+INFO: sUnitTime set in vpl.in, all bodies will use this unit.
+INFO: sUnitAngle set in vpl.in, all bodies will use this unit.
+INFO: sUnitLength set in vpl.in, all bodies will use this unit.
+INFO: sUnitTemp not set in file sun.in, defaulting to Kelvin.
+INFO: sUnitTemp not set in file earth.in, defaulting to kelvin.
+INFO: dSemi < 0 in file earth.in, units assumed to be AU.
+INFO: dRadius < 0 in file earth.in, units assumed to be Rearth.
+INFO: dRotPeriod < 0 in file earth.in, units assumed to be Days.
+INFO: sOutFile not set, defaulting to tilted.sun.forward.
+INFO: sOutFile not set, defaulting to tilted.earth.forward.
+INFO: sIntegrationMethod not set, defaulting to Runge-Kutta4.
+INFO: No rotational information set in file sun.in. Defaulting to dRotRate = 2*pi/day.
+INFO: DeltaTime output for first step is defined to be 0 when bVarDt = 1.
+Input files read.
+All of sun's modules verified.
+TGlobal = 11.602389
+TGlobal = 10.241558
+TGlobal = 9.048917
+TGlobal = 8.047976
+TGlobal = 7.224204
+TGlobal = 6.533463; Prev RunningMean = 0.000000; Curr RunningMean = 8.219224
+TGlobal = 5.960763; Prev RunningMean = 8.219224; Curr RunningMean = 7.363064
+TGlobal = 5.444942; Prev RunningMean = 7.363064; Curr RunningMean = 6.642270
+TGlobal = 5.047387; Prev RunningMean = 6.642270; Curr RunningMean = 6.042152
+TGlobal = 4.658549; Prev RunningMean = 6.042152; Curr RunningMean = 5.529021
+TGlobal = 4.377031; Prev RunningMean = 5.529021; Curr RunningMean = 5.097734
+TGlobal = 4.068316; Prev RunningMean = 5.097734; Curr RunningMean = 4.719245
+TGlobal = 3.808691; Prev RunningMean = 4.719245; Curr RunningMean = 4.391995
+TGlobal = 3.632920; Prev RunningMean = 4.391995; Curr RunningMean = 4.109101
+TGlobal = 3.466760; Prev RunningMean = 4.109101; Curr RunningMean = 3.870743
+TGlobal = 3.261911; Prev RunningMean = 3.870743; Curr RunningMean = 3.647719
+TGlobal = 3.064060; Prev RunningMean = 3.647719; Curr RunningMean = 3.446868
+TGlobal = 2.942215; Prev RunningMean = 3.446868; Curr RunningMean = 3.273573
+TGlobal = 2.856747; Prev RunningMean = 3.273573; Curr RunningMean = 3.118338
+TGlobal = 2.801554; Prev RunningMean = 3.118338; Curr RunningMean = 2.985297
+TGlobal = 2.727774; Prev RunningMean = 2.985297; Curr RunningMean = 2.878470
+TGlobal = 2.649761; Prev RunningMean = 2.878470; Curr RunningMean = 2.795610
+All of earth's modules verified.
+Input files verified.
+Log file written.
+Evolution completed.
+Log file updated.
+Simulation completed.

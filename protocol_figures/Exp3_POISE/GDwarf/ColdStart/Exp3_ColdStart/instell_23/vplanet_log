@@ -1,0 +1,38 @@
+INFO: sUnitMass set in vpl.in, all bodies will use this unit.
+INFO: sUnitTime set in vpl.in, all bodies will use this unit.
+INFO: sUnitAngle set in vpl.in, all bodies will use this unit.
+INFO: sUnitLength set in vpl.in, all bodies will use this unit.
+INFO: sUnitTemp not set in file sun.in, defaulting to Kelvin.
+INFO: sUnitTemp not set in file earth.in, defaulting to kelvin.
+INFO: dSemi < 0 in file earth.in, units assumed to be AU.
+INFO: dRadius < 0 in file earth.in, units assumed to be Rearth.
+INFO: dRotPeriod < 0 in file earth.in, units assumed to be Days.
+INFO: sOutFile not set, defaulting to tilted.sun.forward.
+INFO: sOutFile not set, defaulting to tilted.earth.forward.
+INFO: sIntegrationMethod not set, defaulting to Runge-Kutta4.
+INFO: No rotational information set in file sun.in. Defaulting to dRotRate = 2*pi/day.
+INFO: DeltaTime output for first step is defined to be 0 when bVarDt = 1.
+Input files read.
+All of sun's modules verified.
+TGlobal = -24.508942
+TGlobal = -17.308358
+TGlobal = -14.114425
+TGlobal = -4.166501
+TGlobal = 28.076324
+TGlobal = 51.301832; Prev RunningMean = 0.000000; Curr RunningMean = 8.757775
+TGlobal = 62.453398; Prev RunningMean = 8.757775; Curr RunningMean = 24.710126
+TGlobal = 67.396583; Prev RunningMean = 24.710126; Curr RunningMean = 41.012327
+TGlobal = 69.588554; Prev RunningMean = 41.012327; Curr RunningMean = 55.763338
+TGlobal = 70.560680; Prev RunningMean = 55.763338; Curr RunningMean = 64.260209
+TGlobal = 70.991921; Prev RunningMean = 64.260209; Curr RunningMean = 68.198227
+TGlobal = 71.183205; Prev RunningMean = 68.198227; Curr RunningMean = 69.944189
+TGlobal = 71.268052; Prev RunningMean = 69.944189; Curr RunningMean = 70.718483
+TGlobal = 71.305688; Prev RunningMean = 70.718483; Curr RunningMean = 71.061909
+TGlobal = 71.322381; Prev RunningMean = 71.061909; Curr RunningMean = 71.214250
+TGlobal = 71.329786; Prev RunningMean = 71.214250; Curr RunningMean = 71.281823
+All of earth's modules verified.
+Input files verified.
+Log file written.
+Evolution completed.
+Log file updated.
+Simulation completed.

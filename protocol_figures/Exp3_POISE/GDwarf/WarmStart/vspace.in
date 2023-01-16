@@ -1,0 +1,20 @@
+sSrcFolder  .
+sDestFolder Exp3_WarmStart
+sTrialName  instell_
+
+sBodyFile   sun.in
+dLuminosity [3.06202615e26,5.74129904e26,n29]
+
+sBodyFile   earth.in
+dObliquity 23.5
+dIceAlbedo 0.6
+dAlbedoLand 0.3
+dAlbedoWater 0.2
+dDiffusion 0.5
+dLandFrac 0.25
+dPlanckA 204.05
+dHeatCapLand 1e7
+dHeatCapWater 4e6
+dMixingDepth 100
+
+sPrimaryFile   vpl.in

@@ -1,0 +1,24 @@
+srcfolder .
+destfolder Exp3_ColdStart
+trialname  instell_
+
+file   sun.in
+dLuminosity [3.06202615e26,5.74129904e26,n29]
+
+file   earth.in
+dObliquity 23.5
+dIceAlbedo 0.6
+dAlbedoLand 0.3
+dAlbedoWater 0.2
+dDiffusion 0.5
+dLandFrac 0.25
+dPlanckA 204.05
+dHeatCapLand 1e7
+dHeatCapWater 4e6
+dMixingDepth 100
+
+dInitIceHeight 6.68459e-12
+dTGlobalInit -40
+dInitIceLat 0
+
+file   vpl.in
