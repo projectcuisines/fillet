@@ -2,6 +2,7 @@
 # Compile all cases into a list
 
 # Name of benchmark/experiment:
+# Describe how ice line latitude is determined: 
 
 # Columns of data
 # Case = case number (0 -> total number of cases in experiment)
