@@ -8,7 +8,7 @@ INFO: dSemi < 0 in file earth.in, units assumed to be AU.
 INFO: dRadius < 0 in file earth.in, units assumed to be Rearth.
 INFO: dRotPeriod < 0 in file earth.in, units assumed to be Days.
 INFO: sOutFile not set, defaulting to tilted.sun.forward.
-INFO: sOutFile not set, defaulting to tilted.earth.forward.
+INFO: sOutFile not set, defaulting to tilted.Earth.forward.
 INFO: sIntegrationMethod not set, defaulting to Runge-Kutta4.
 INFO: No rotational information set in file sun.in. Defaulting to dRotRate = 2*pi/day.
 INFO: DeltaTime output for first step is defined to be 0 when bVarDt = 1.
@@ -25,7 +25,7 @@ TGlobal = 46.063745; Prev RunningMean = 44.817032; Curr RunningMean = 45.533527
 TGlobal = 46.102844; Prev RunningMean = 45.533527; Curr RunningMean = 45.860952
 TGlobal = 46.120594; Prev RunningMean = 45.860952; Curr RunningMean = 46.010812
 TGlobal = 46.128656; Prev RunningMean = 46.010812; Curr RunningMean = 46.078693
-All of earth's modules verified.
+All of Earth's modules verified.
 Input files verified.
 Log file written.
 Evolution completed.

@@ -1,4 +1,4 @@
-sName       earth                    #name of planet
+sName       Earth                    #name of planet
 saModules   poise                       #what vplanet modules you want to use
 #saModules    distorb distrot poise     #we might use distorb & distrot later
 dMass        3.00316726e-06             #mass of planet
@@ -68,6 +68,6 @@ dMixingDepth 100
 saOutputOrder    Time PrecA -TGlobal AlbedoGlobal -FluxOutGlobal $
   -TotIceMass -TotIceFlow -TotIceBalance DeltaTime AreaIceCov Snowball Obliq Ecce
 saGridOutput     Time -Latitude -TempLat AlbedoLat -AnnInsol -FluxIn -FluxOut IceMass -IceHeight DIceMassDt $
-  -IceFlow -BedrockH -TempMaxLat -TempMinLat -FluxMerid -DivFlux -TempLandLat -TempWaterLat 
+  -IceFlow -BedrockH -TempMaxLat -TempMinLat -FluxMerid -DivFlux -TempLandLat -TempWaterLat PlanckBAvg PlanckAAvg AlbedoLand AlbedoWater
 
 dLandFrac 0.25

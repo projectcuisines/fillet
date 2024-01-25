@@ -1,6 +1,6 @@
 -------- Log file tilted.log -------
 
-Executable: /Users/rdeitrick/opt/anaconda3/bin/vplanet
+Executable: /Users/russell/opt/anaconda3/bin/vplanet
 Version: Unknown
 System Name: tilted
 Primary Input File: vpl.in
@@ -147,8 +147,9 @@ Color: 000000
 (IceBeltNorthLatSea) Northernmost extent of sea ice belt. [rad]: 100.000000 
 (IceBeltSouthLatLand) Southernmost extent of land ice belt. [rad]: 100.000000 
 (IceBeltSouthLatSea) Southernmost extent of sea ice belt. [rad]: 100.000000 
+(PlanckAAvg) Annually averaged Planck A coeff []: 204.050000 
 Output Order: Time[year] PrecA[deg] TGlobal[Celsius] AlbedoGlobal[] FluxOutGlobal[W/m^2] TotIceMass[kg] TotIceFlow[kg] TotIceBalance[kg] DeltaTime[year] AreaIceCov[year] Snowball[] Obliquity[deg] Eccentricity[]
-Grid Output Order: Time[year] Latitude[deg] TempLat[Celsius] AlbedoLat[] AnnInsol[W/m^2] FluxIn[W/m^2] FluxOut[W/m^2] IceMass[W/m^2] IceHeight[m] BedrockH[m] TempLandLat[Celsius] TempWaterLat[Celsius] AlbedoLandLat[] AlbedoWaterLat[]
+Grid Output Order: Time[year] Latitude[deg] TempLat[Celsius] AlbedoLat[] AnnInsol[W/m^2] FluxIn[W/m^2] FluxOut[W/m^2] IceMass[W/m^2] IceHeight[m] BedrockH[m] TempLandLat[Celsius] TempWaterLat[Celsius] AlbedoLandLat[] AlbedoWaterLat[] PlanckBAvg[] PlanckAAvg[]
 
 
 
@@ -273,5 +274,6 @@ Color: 000000
 (IceBeltNorthLatSea) Northernmost extent of sea ice belt. [rad]: 100.000000 
 (IceBeltSouthLatLand) Southernmost extent of land ice belt. [rad]: 100.000000 
 (IceBeltSouthLatSea) Southernmost extent of sea ice belt. [rad]: 100.000000 
+(PlanckAAvg) Annually averaged Planck A coeff []: 204.050000 
 Output Order: Time[year] PrecA[deg] TGlobal[Celsius] AlbedoGlobal[] FluxOutGlobal[W/m^2] TotIceMass[kg] TotIceFlow[kg] TotIceBalance[kg] DeltaTime[year] AreaIceCov[year] Snowball[] Obliquity[deg] Eccentricity[]
-Grid Output Order: Time[year] Latitude[deg] TempLat[Celsius] AlbedoLat[] AnnInsol[W/m^2] FluxIn[W/m^2] FluxOut[W/m^2] IceMass[W/m^2] IceHeight[m] BedrockH[m] TempLandLat[Celsius] TempWaterLat[Celsius] AlbedoLandLat[] AlbedoWaterLat[]
+Grid Output Order: Time[year] Latitude[deg] TempLat[Celsius] AlbedoLat[] AnnInsol[W/m^2] FluxIn[W/m^2] FluxOut[W/m^2] IceMass[W/m^2] IceHeight[m] BedrockH[m] TempLandLat[Celsius] TempWaterLat[Celsius] AlbedoLandLat[] AlbedoWaterLat[] PlanckBAvg[] PlanckAAvg[]
