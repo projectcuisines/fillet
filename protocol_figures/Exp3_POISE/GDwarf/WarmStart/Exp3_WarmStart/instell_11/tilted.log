@@ -1,6 +1,6 @@
 -------- Log file tilted.log -------
 
-Executable: /Users/rdeitrick/opt/anaconda3/bin/vplanet
+Executable: /Users/russell/opt/anaconda3/bin/vplanet
 Version: Unknown
 System Name: tilted
 Primary Input File: vpl.in
@@ -69,7 +69,7 @@ Color: 000000
 Output Order:
 Grid Output Order:
 
------ BODY: earth ----
+----- BODY: Earth ----
 Active Modules: POISE
 Module Bit Sum: 257
 Color: 000000
@@ -92,7 +92,7 @@ Color: 000000
 (OrbPeriod) Orbital Period [sec]: 3.155815e+07 
 (SemiMajorAxis) Semi-major Axis [m]: 1.495979e+11 
 (COPP) Climate Obliquity Precession Parameter []: 0.000000 
------POISE PARAMETERS (earth)------
+-----POISE PARAMETERS (Earth)------
 (TGlobal) Global mean temperature from POISE [Celsius]: 39.631251 
 (AlbedoGlobal) Global mean bond albedo from POISE []: 0.232962 
 (FluxInGlobal) Global mean flux in (insol*(1-albedo)) from POISE [kg*m^2/sec^2/(m^2*sec)]: 286.836654 
@@ -147,8 +147,9 @@ Color: 000000
 (IceBeltNorthLatSea) Northernmost extent of sea ice belt. [rad]: 100.000000 
 (IceBeltSouthLatLand) Southernmost extent of land ice belt. [rad]: 100.000000 
 (IceBeltSouthLatSea) Southernmost extent of sea ice belt. [rad]: 100.000000 
+(PlanckAAvg) Annually averaged Planck A coeff []: 204.050000 
 Output Order: Time[year] PrecA[deg] TGlobal[Celsius] AlbedoGlobal[] FluxOutGlobal[W/m^2] TotIceMass[kg] TotIceFlow[kg] TotIceBalance[kg] DeltaTime[year] AreaIceCov[year] Snowball[] Obliquity[deg] Eccentricity[]
-Grid Output Order: Time[year] Latitude[deg] TempLat[Celsius] AlbedoLat[] AnnInsol[W/m^2] FluxIn[W/m^2] FluxOut[W/m^2] IceMass[W/m^2] IceHeight[m] DIceMassDt[au] IceFlow[m/s] BedrockH[m] TempMaxLat[Celsius] TempMinLat[Celsius] FluxMerid[PW] DivFlux[W/m^2] TempLandLat[Celsius] TempWaterLat[Celsius]
+Grid Output Order: Time[year] Latitude[deg] TempLat[Celsius] AlbedoLat[] AnnInsol[W/m^2] FluxIn[W/m^2] FluxOut[W/m^2] IceMass[W/m^2] IceHeight[m] DIceMassDt[au] IceFlow[m/s] BedrockH[m] TempMaxLat[Celsius] TempMinLat[Celsius] FluxMerid[PW] DivFlux[W/m^2] TempLandLat[Celsius] TempWaterLat[Celsius] PlanckBAvg[Celsius] PlanckAAvg[Celsius] AlbedoLandLat[] AlbedoWaterLat[]
 
 
 
@@ -195,7 +196,7 @@ Color: 000000
 Output Order:
 Grid Output Order:
 
------ BODY: earth ----
+----- BODY: Earth ----
 Active Modules: POISE
 Module Bit Sum: 257
 Color: 000000
@@ -218,7 +219,7 @@ Color: 000000
 (OrbPeriod) Orbital Period [sec]: 3.155815e+07 
 (SemiMajorAxis) Semi-major Axis [m]: 1.495979e+11 
 (COPP) Climate Obliquity Precession Parameter []: 0.000000 
------POISE PARAMETERS (earth)------
+-----POISE PARAMETERS (Earth)------
 (TGlobal) Global mean temperature from POISE [Celsius]: 39.637826 
 (AlbedoGlobal) Global mean bond albedo from POISE []: 0.232962 
 (FluxInGlobal) Global mean flux in (insol*(1-albedo)) from POISE [kg*m^2/sec^2/(m^2*sec)]: 286.836654 
@@ -273,5 +274,6 @@ Color: 000000
 (IceBeltNorthLatSea) Northernmost extent of sea ice belt. [rad]: 100.000000 
 (IceBeltSouthLatLand) Southernmost extent of land ice belt. [rad]: 100.000000 
 (IceBeltSouthLatSea) Southernmost extent of sea ice belt. [rad]: 100.000000 
+(PlanckAAvg) Annually averaged Planck A coeff []: 204.050000 
 Output Order: Time[year] PrecA[deg] TGlobal[Celsius] AlbedoGlobal[] FluxOutGlobal[W/m^2] TotIceMass[kg] TotIceFlow[kg] TotIceBalance[kg] DeltaTime[year] AreaIceCov[year] Snowball[] Obliquity[deg] Eccentricity[]
-Grid Output Order: Time[year] Latitude[deg] TempLat[Celsius] AlbedoLat[] AnnInsol[W/m^2] FluxIn[W/m^2] FluxOut[W/m^2] IceMass[W/m^2] IceHeight[m] DIceMassDt[au] IceFlow[m/s] BedrockH[m] TempMaxLat[Celsius] TempMinLat[Celsius] FluxMerid[PW] DivFlux[W/m^2] TempLandLat[Celsius] TempWaterLat[Celsius]
+Grid Output Order: Time[year] Latitude[deg] TempLat[Celsius] AlbedoLat[] AnnInsol[W/m^2] FluxIn[W/m^2] FluxOut[W/m^2] IceMass[W/m^2] IceHeight[m] DIceMassDt[au] IceFlow[m/s] BedrockH[m] TempMaxLat[Celsius] TempMinLat[Celsius] FluxMerid[PW] DivFlux[W/m^2] TempLandLat[Celsius] TempWaterLat[Celsius] PlanckBAvg[Celsius] PlanckAAvg[Celsius] AlbedoLandLat[] AlbedoWaterLat[]
