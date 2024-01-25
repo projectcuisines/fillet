@@ -25,4 +25,4 @@
 # Note ice belt doesn't really have "edges" at 0 deg, but record as 0 anyway to
 # keep the columns the same length
 
-# Case Inst Obl XCO2 Tglob IceLineNMax IceLineNMin IceLineSMax IceLineSMin Diff OLR
+# Case Inst Obl XCO2 Tglob IceLineNMax IceLineNMin IceLineSMax IceLineSMin Diff OLRglob
