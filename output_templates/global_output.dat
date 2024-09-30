@@ -21,8 +21,8 @@
 # Polar caps: IceLineNMax = 90, IceLineNMin = 60, IceLineSMax = -60, IceLineSMin = -90
 # Snowball state: IceLineNMax = 90, IceLineNMin = 0, IceLineSMax = 0, IceLineSMin = -90
 # Ice free state: IceLineNMax = 90, IceLineNMin = 90, IceLineSMax = -90, IceLineSMin = -90
-# Ice belt: IceLineNMax = 30, IceLineNMin = 0, IceLineSMax = 0, IceLineSMin = 30
+# Ice belt: IceLineNMax = 30, IceLineNMin = 0, IceLineSMax = 0, IceLineSMin = -30
 # Note ice belt doesn't really have "edges" at 0 deg, but record as 0 anyway to
 # keep the columns the same length
 
-# Case Inst Obl XCO2 Tglob IceLineNMax IceLineNMin IceLineSMax IceLineSMin Diff OLR
+# Case Inst Obl XCO2 Tglob IceLineNMax IceLineNMin IceLineSMax IceLineSMin Diff OLRglob
