@@ -1,0 +1,15 @@
+# Name of benchmark/experiment: Benchmark 1
+# Describe how ice line latitude is determined: The surface ice coverage corresponds to latitude bands in which the annually-averaged surface temperature is < 263.15 K.
+
+# Columns of data
+# Case = case number (0 -> total number of cases in experiment)
+# Inst = instellation (S_earth; i.e., relative to Earth's 1361 W m^-2)
+# Obl = obliquity (degrees)
+# XCO2 = mixing ratio (volume) of CO2 (ppm)
+# Tglob = global, annual mean surface temperature (K)
+# IceLineN = latitude of ice line in northern hemisphere (deg)
+# IceLineS = latitude of ice line in southern hemisphere (deg)
+
+# Case Inst Obl XCO2 Tglob IceLineN IceLineS
+0 1.00 23.5 2.8e-4 287.229 75.4 -90.0
+

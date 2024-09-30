@@ -1,0 +1,28 @@
+ # Name of benchmark/experiment: Experiment 2 (cold start)
+ # Describe how ice line latitude is determined: The surface ice coverage corresponds to latitude bands in which the annually-averaged surface temperature is < 263.15 K.
+ # Columns of data
+ # Case = case number (0 -> total number of cases in experiment)
+ # SEFF = effective stellar flux divided by value at Earth (1361 W/m^2)
+ # Obl = obliquity (degrees)
+ # XCO2 = CO2 mixing ratio (volume in ppm)
+ # Tglob = global, annual mean surface temperature (K)
+ # IceLineS = latitude of ice line in southern hemisphere (deg)
+ # IceLineN = latitude of ice line in northern hemisphere (deg)
+
+ # Case SEFF Obl XCO2 Tglob IceLineN IceLineS
+0 1.57573E+00  23.5 280.  381.083  90.0 -90.0
+1 1.48173E+00  23.5 280.  380.426  90.0 -90.0
+2 1.39579E+00  23.5 280.  379.338  90.0 -90.0
+3 1.31719E+00  23.5 280.  377.823  90.0 -90.0
+4 1.24503E+00  23.5 280.  374.969  90.0 -90.0
+5 1.17914E+00  23.5 280.  320.509  90.0 -90.0
+6 1.11507E+00  23.5 280.  296.353  90.0 -90.0
+7 1.06085E+00  23.5 280.  291.728  90.0 -90.0
+8 1.01868E+00  23.5 280.  287.935  80.8 -90.0
+9 1.00848E+00  23.5 280.  286.871  73.2 -90.0
+10 9.14737E-01  23.5 280.  270.986  44.1 -40.6
+11 8.80853E-01  23.5 280.  263.744  38.1 -32.1
+12 8.70183E-01  23.5 280.  263.104  37.6 -31.5
+13 8.18984E-01  23.5 280.  260.236  33.6 -30.2
+14 7.83147E-01  23.5 280.  241.052  18.0 -17.4
+15 7.77626E-01  23.5 280.  215.104  0 0
