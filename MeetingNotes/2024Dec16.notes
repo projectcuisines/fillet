@@ -1,0 +1,30 @@
+16 Dec 2024
+
+Attending: T. Fauchez, J. Haqq-Misra, H. Delgado Diaz, R. Ramierez, R. Barnes
+
+Updates: Jacob will be working on tidally locked EBMs next year.
+
+Protocol v1.1: Mostly done, but need to check in with Russell about who will finish it and when. 
+
+Results Paper: Need to confirm that everyone is done with v1.1 (if applicable). JHM and RR used v1.1. Check 
+with Paolo and Shintaro.
+
+We plan to have one results paper with all benchmarks and experiments. After results compiled, everyone will analyze
+
+Need a deadline: March 1? Check with Shintaro on this deadline
+
+Observables: Hard problem, might require funding
+- Phase curves w/STARRY? 
+- Connect to 1D RCEs w/surface albedo from EBMs?
+- Assume rotation period < exposure time?
+- Distribute land/clouds after simulation?
+- Add a section on challenges to simulating observations in the Results Paper.
+- We all should think about this and bring any new ideas to next meeting (late Jan 25)
+
+Maybe we decide observables after the results paper because we'll know what we need? 
+- Protocol v2 designs a universal output for an observation calculator
+- Probably will require funding
+
+Misc: FILLET Lunch/Drinks at AAS?
+
+
