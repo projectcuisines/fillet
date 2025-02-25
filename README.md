@@ -12,7 +12,7 @@ Welcome! You've found the hompage of the FILLET Project! We're comparing one dim
 energy balance models (EBMs) that have been applied to habitable exoplanets. The project 
 began in 2022 and we've published one paper that describes Protocol 1. We're currently 
 comparing the following codes: 
-<a href="https://watermark.silverchair.com/stac1642.pdf">ESTM</a>, 
+<a href="https://academic.oup.com/mnras/article/514/4/5105/6609498">ESTM</a>, 
 <a href="https://iopscience.iop.org/article/10.3847/PSJ/ac49eb/pdf">HEXTOR</a>, 
 <a href="https://iopscience.iop.org/article/10.3847/2041-8205/825/2/L21/pdf">Kadoya-Tajika</a>, 
 <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JE006160">OPS</a>,
