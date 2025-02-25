@@ -30,7 +30,7 @@ For example:
 ...
 ```
 
-Note that I made up the data in the above, so don't attempt to replicate it...
+Note that the above data are fake, so don't attempt to replicate them!
 
 ### Global outputs (see Table 5 in Protocol 1.0 paper) 
 
