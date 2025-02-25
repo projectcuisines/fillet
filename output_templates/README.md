@@ -3,7 +3,7 @@
 
 All outputs should use plain text, space-separated columns based on the templates provided here. Add benchmark/experiment information to the headers. Use the `#` symbol for comments and notes. Add any notes regarding your simulation if you feel they are relevant--it doesn't hurt to have more information than necessary!
 
-### Latitudinal outputs (see Table 5 in protocol paper) 
+### Latitudinal outputs (see Table 5 in Protocol 1.0 paper) 
 
 For each individual case (simulation), transcribe the latitudinal output into a file based on the template file `lat_output.dat`. This file will contain, as space-separated columns, latitude, surface temperature, surface albedo, top-of-atmosphere/planetary albedo (surface + atmosphere), and OLR. All should be annually-averaged over the final orbit after running each simulation to equilibrium.
 
@@ -32,7 +32,7 @@ For example:
 
 Note that I made up the data in the above, so don't attempt to replicate it...
 
-### Global outputs (see Table 5 in protocol paper) 
+### Global outputs (see Table 5 in Protocol 1.0 paper) 
 
 For each benchmark or experiment, compile a list of the global properties using `global_output.dat` as a template. Give each individual simulation a case number (match this with the case number in the header in the latitudinal output file)--for the benchmarks there will be only 1 case. List as columns, the case number, instellation, obliquity, CO2 mixing ratio, global-annual mean surface temperature, and ice line latitude in the northern hemisphere and in the southern. 
 
@@ -59,4 +59,4 @@ For example:
 ...
 ```
 
-Note that I made up the data in the above, so don't attempt to replicate it...
+Note that the above data are fake, so don't attempt to replicate them!
