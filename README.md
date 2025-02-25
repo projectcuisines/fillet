@@ -4,3 +4,7 @@
     <img src="https://img.shields.io/badge/Read-the_paper-blue.svg?style=flat">
   </a>
 </h2>
+
+<p align="center">
+  <img width = "150" src="docs/FILLET_logo.png?raw=true"/>
+</p>
