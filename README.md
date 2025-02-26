@@ -16,21 +16,21 @@ in peer-reviewed publications. The project began in 2022 as a part of CUISINES, 
 paper describing "Protocol v1.0" published the next year 
 (<a href="https://iopscience.iop.org/article/10.3847/PSJ/acba05">Deitrick et al. 2023</a>).
 It lays out the methodology for benchmarking code against the pre-industrial Earth,
-as well as a larger experiments that map out where in parameter space permanent ice sheets 
-exist. Note that after the publication of Protocol v1.0, the initial intercomparison revealed that
-some of the parameters were meaningless for some implementations, so a revised Protocol, labeled v1.1, is
+as well as larger experiments that map out where in parameter space permanent ice sheets 
+exist. Note that after the publication of Protocol v1.0, the initial intercomparisons revealed that
+some parameters were meaningless for some implementations, so a revised Protocol, called v1.1, is
 currently in preparation.
 
-Protocol v2.0 will consist of the actual comparisosn between different community models. We're currently 
+Protocol v2.0 will consist of the actual comparisons between different community models. We're currently 
 comparing the following codes: 
 <a href="https://academic.oup.com/mnras/article/514/4/5105/6609498">ESTM</a>, 
 <a href="https://iopscience.iop.org/article/10.3847/PSJ/ac49eb/pdf">HEXTOR</a>, 
 <a href="https://iopscience.iop.org/article/10.3847/2041-8205/825/2/L21/pdf">Kadoya-Tajika</a>, 
 <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JE006160">OPS</a>,
 <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab4da6/pdf">Shields-Bitz</a>, and 
-<a href="https://github.com/VirtualPlanetaryLaboratory/vplanet">VPLanet</a>. If you have access to 
-an EBM and would like to include it in future FILLET studies, please reachout to
-[Chef Rory Barnes](mailto:rory@astro.washington.edu).
+<a href="https://github.com/VirtualPlanetaryLaboratory/vplanet">VPLanet-POISE</a>. If you have access to 
+an EBM and would like to include it in future FILLET studies, please reachout to Chef 
+[Rory Barnes](mailto:rory@astro.washington.edu).
 
 This repository is organized as follows:
 - Protocol1.0 contains scripts to generate the figures from the Protocol v1.0 paper
