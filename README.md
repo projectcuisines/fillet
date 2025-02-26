@@ -10,14 +10,15 @@
 </h2>
 
 
-Welcome! You've found the hompage of the FILLET, a well-defined and transparent comparison 
+Welcome! You've found the hompage of FILLET, a comparison 
 of one-dimensional energy balance models (EBMs) that have been applied to habitable exoplanets 
 in peer-reviewed publications. The project began in 2022 as a part of CUISINES, with the first 
-paper (<a href="https://iopscience.iop.org/article/10.3847/PSJ/acba05">Deitrick et al. 2023</a>) 
-describing "Protocol v1.0." It lays out the methodology for benchmarking code against modern Earth
-as well as a larger experiment that maps out where in parameter space permanent ice sheets will 
+paper describing "Protocol v1.0" published the next year 
+(<a href="https://iopscience.iop.org/article/10.3847/PSJ/acba05">Deitrick et al. 2023</a>).
+It lays out the methodology for benchmarking code against the pre-industrial Earth,
+as well as a larger experiments that map out where in parameter space permanent ice sheets 
 exist. Note that after the publication of Protocol v1.0, the initial intercomparison revealed that
-some of the parameters were meaningless for some implementations, so a revised protocol, v1.1, is
+some of the parameters were meaningless for some implementations, so a revised Protocol, labeled v1.1, is
 currently in preparation.
 
 Protocol v2.0 will consist of the actual comparisosn between different community models. We're currently 
