@@ -1,4 +1,4 @@
-## Scripts to generate figure in Deitrick et al. (2023)
+## Scripts to generate figures in Deitrick et al. (2023)
 
 To regenerate one of the figures, just run the corresponding Python script, e.g.
 
