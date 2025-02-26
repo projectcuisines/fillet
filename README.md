@@ -20,7 +20,7 @@ exist. Note that after the publication of Protocol v1.0, the initial intercompar
 some of the parameters were meaningless for some implementations, so a revised protocol, v1.1, is
 currently in preparation.
 
-Protocoal v2.0 will consist of the actual comparisosn between different community models. We're currently 
+Protocol v2.0 will consist of the actual comparisosn between different community models. We're currently 
 comparing the following codes: 
 <a href="https://academic.oup.com/mnras/article/514/4/5105/6609498">ESTM</a>, 
 <a href="https://iopscience.iop.org/article/10.3847/PSJ/ac49eb/pdf">HEXTOR</a>, 
@@ -31,3 +31,9 @@ comparing the following codes:
 an EBM and would like to include it in future FILLET studies, please reachout to
 [Chef Rory Barnes](mailto:rory@astro.washington.edu).
 
+This repository is organized as follows:
+- Protocol1.0 contains scripts to generate the figures from the Protocol v1.0 paper
+- Protocol2.0 contains scripts to compare EBMs following Protocol 1.0
+- Templates contains instructions on how to pre-process your data for model intercomparison
+- MeetingNotes contains the notes from ~monthly meetings
+- src contains helpful scripts
