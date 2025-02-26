@@ -12,6 +12,7 @@ For example:
 ```
 # Use this header for notes and global details
 # Name of benchmark/experiment: Benchmark 1
+# Code: HEXTOR
 # Case number: 0 
 # Instellation (S_earth): 1
 # XCO2 (ppm): 280
@@ -34,7 +35,7 @@ Note that the above data are fake, so don't attempt to replicate them!
 
 ### Global outputs (see Table 5 in Protocol 1.0 paper) 
 
-For each benchmark or experiment, compile a list of the global properties using `global_output.dat` as a template. Give each individual simulation a case number (match this with the case number in the header in the latitudinal output file)--for the benchmarks there will be only 1 case. List as columns, the case number, instellation, obliquity, CO2 mixing ratio, global-annual mean surface temperature, and ice line latitude in the northern hemisphere and in the southern. 
+For each benchmark or experiment, compile a list of the global properties using `global_output.dat` as a template. Give each individual simulation a case number (match this with the case number in the header in the latitudinal output file)--for the benchmarks there will be only 1 case. List as columns, the case number, instellation, obliquity, CO2 mixing ratio, global-annual mean surface temperature, and ice line latitude in the northern hemisphere and in the southern hemisphere. 
 
 For example:
 ```
@@ -43,6 +44,7 @@ For example:
 
 # Name of benchmark/experiment: Experiment 1
 # Describe how ice line latitude is determined: where temperature falls below freezing in annual average
+# Code: shields_bitz
 
 # Columns of data
 # Case = case number (0 -> total number of cases in experiment)
