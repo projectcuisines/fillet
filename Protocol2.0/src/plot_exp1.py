@@ -6,7 +6,7 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 import matplotlib as mpl
 import pdb
 
-model_dirs = ['poise','ops_new','estm_noclouds','hextor']
+model_dirs = ['poise','ops','estm_noclouds','hextor']
 #colors = ['b', 'r', 'c','orange']
 labels = ['VPLanet/POISE','OPS','ESTM (no cloud)','HEXTOR']
 #lat_output = 'ben1/case_0/lat_output.dat'
