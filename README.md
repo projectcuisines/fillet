@@ -21,7 +21,7 @@ exist. Note that after the publication of Protocol v1.0, the initial intercompar
 some parameters were meaningless for some implementations, so a revised Protocol, called v1.1, is
 currently in preparation.
 
-Protocol v2.0 will consist of the actual comparisons between different community models. We're currently 
+Protocol v2.0 (in process) will consist of the actual comparisons between different community models. We're currently 
 comparing the following codes: 
 <a href="https://academic.oup.com/mnras/article/514/4/5105/6609498">ESTM</a>, 
 <a href="https://iopscience.iop.org/article/10.3847/PSJ/ac49eb/pdf">HEXTOR</a>, 
