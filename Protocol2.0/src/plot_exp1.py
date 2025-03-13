@@ -7,9 +7,9 @@ import matplotlib as mpl
 import pdb
 
 model_dirs = ['poise','ops','estm_noclouds','hextor']
-#colors = ['b', 'r', 'c','orange']
-labels = ['VPLanet/POISE','OPS','ESTM (no cloud)','HEXTOR']
-#lat_output = 'ben1/case_0/lat_output.dat'
+labels = ['VPLanet','OPS','ESTM (no cloud)','HEXTOR']
+outfile='FILLET_Protocol2_Experiment1.pdf'
+
 glob_output = 'exp1/global_output.dat'
 
 fig, axes = plt.subplots(ncols=2,nrows=len(model_dirs),figsize=(7.5,3*len(model_dirs)))
@@ -23,18 +23,15 @@ for imod in np.arange(len(model_dirs)):
             case, inst, obl, XCO2, Tglob, IceLandNMax, IceLandNMin, IceLandSMax, \
                 IceLandSMin, IceOceanNMax, IceOceanNMin, IceOceanSMax, \
                 IceOceanSMin, Diff, OLR = np.loadtxt(str(globfile),comments='#',unpack=True)
-            IceLineNMax = IceLandNMax    #temporary fix
-            IceLineNMin = IceLandNMin    #Idea: maybe use hatching on plot to indicate mixed land/ocean states
+            IceLineNMax = IceLandNMax    
+            IceLineNMin = IceLandNMin    
             IceLineSMax = IceLandSMax
             IceLineSMin = IceLandSMin
         if 'ops' in model_dirs[imod]:
             case, inst, obl, XCO2, Tglob, IceLineNMax, IceLineNMin, IceLineSMax, IceLineSMin, Diff, OLR = np.loadtxt(str(globfile),comments='#',unpack=True)
-            #IceLineNMax = np.zeros_like(case) + 90.   #temporary fix for old template format
-            #IceLineSMin = np.zeros_like(case) + -90.0
         if 'estm' in model_dirs[imod]:
             case, inst, obl, XCO2, Tglob, IceLineNMin, IceLineSMax, fice, fclo, atoa, dtep, Diff = np.loadtxt(str(globfile),comments='#',unpack=True)
-            # Case Inst Obl XCO2 Tglob IceLineN IceLineS fice fclo ATOA dTep diff
-            IceLineNMax = np.zeros_like(case) + 90.   #temporary fix for old template format
+            IceLineNMax = np.zeros_like(case) + 90.
             IceLineSMin = np.zeros_like(case) + -90.0
         if 'hextor' in model_dirs[imod]:
             case, inst, obl, XCO2, Tglob, IceLineNMax, IceLineNMin, IceLineSMax, IceLineSMin, Diff, OLR = np.loadtxt(str(globfile),comments='#',unpack=True)
@@ -61,16 +58,12 @@ for imod in np.arange(len(model_dirs)):
     for isim in case:
         isim = int(isim)
         if IceLineNMax[isim] == IceLineNMin[isim]:
-            # Free[isim] = 1
             State[isim] = 0
         elif IceLineNMax[isim]  == 90 and IceLineNMin[isim] > 0:
-            # Cap[isim] = 1
             State[isim] = 1
         elif IceLineNMax[isim]  == 90 and IceLineNMin[isim] == 0:
-            # Sball[isim] = 1
             State[isim] = 3
         elif IceLineNMax[isim]  < 90 and IceLineNMin[isim] == 0:
-            # Belt[isim] = 1
             State[isim] = 2
         else:
             raise Exception("Logic is broken here at sim %d"%isim)
@@ -92,5 +85,5 @@ for imod in np.arange(len(model_dirs)):
     clb.ax.set_yticklabels(['Ice free','Ice caps','Ice belt','Snowball'])
 
 plt.tight_layout()
-plt.savefig('Exp1_temp_state.pdf')
+plt.savefig(outfile)
 plt.close()

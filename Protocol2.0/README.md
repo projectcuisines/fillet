@@ -37,4 +37,4 @@ CodeName/
 The structure of each `global_output.dat` and `lat_output.dat` must follow the formatting described in the [Templates](../Templates) directory.
 Please do not add extra files to your directory as they are unnecessary and increase the size of the repository. 
 
-To finish the process, add the new model directory and its name to the `model_dirs` and `labels` arrays at the top of each src/plot_*.py script.
+To finish the process, add the new model directory and its name to the `model_dirs` and `labels` arrays at the top of each src/plot_*.py script. In the experiment scripts, you may have to modify the input data for some codes.
