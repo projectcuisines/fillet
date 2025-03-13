@@ -2,6 +2,6 @@
 
 To regenerate one of the figures, just run the corresponding Python script, e.g.
 
-`python Figure1.py`
+`python src/Figure1.py`
 
 will generate Figure1.pdf. 

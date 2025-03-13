@@ -29,7 +29,7 @@ comparing the following codes:
 <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019JE006160">OPS</a>,
 <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab4da6/pdf">Shields-Bitz</a>, and 
 <a href="https://github.com/VirtualPlanetaryLaboratory/vplanet">VPLanet-POISE</a>. If you have access to 
-an EBM and would like to include it in future FILLET studies, please reachout to Chef 
+an EBM and would like to include it in future FILLET studies, please reach out to Chef 
 [Rory Barnes](mailto:rory@astro.washington.edu).
 
 This repository is organized as follows:
