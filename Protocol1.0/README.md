@@ -4,4 +4,4 @@ To regenerate one of the figures, just run the corresponding Python script, e.g.
 
 `python Figure1.py`
 
-which will then generate Figure1.pdf. 
+will generate Figure1.pdf. 
