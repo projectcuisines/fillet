@@ -4,9 +4,9 @@ import pathlib
 from astropy import units as u
 import pdb
 
-model_dirs = ['ops','poise', 'hextor', 'estm_noclouds']
-labels = ['OPS','VPLanet', 'HEXTOR', 'ESTM']
-colors = ['b', 'r', 'c', 'orange']
+model_dirs = ['ops','poise', 'hextor', 'estm_noclouds','estm']
+labels = ['OPS','VPLanet', 'HEXTOR', 'ESTMnc', 'ESTM']
+colors = ['b', 'r', 'c', 'orange', 'magenta']
 outfile='FILLET_Protocol2_Benchmark2.pdf'
 
 lat_output = 'ben2/case_0/lat_output.dat'
@@ -14,9 +14,9 @@ glob_output = 'ben2/global_output.dat'
 
 fig, axes = plt.subplots(ncols=2,nrows=2,figsize=(7.5,6))
 ylims = np.array([[235,325],
-         [0.2,0.61],
+         [0.2,0.65],
          [160,300],
-         [0.18,0.61]])
+         [0.18,0.65]])
 
 for imod in np.arange(len(model_dirs)):
 
