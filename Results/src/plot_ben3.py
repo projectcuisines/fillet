@@ -4,16 +4,16 @@ import pathlib
 from astropy import units as u
 import pdb
 
-model_dirs = ['ops','poise', 'hextor','estm_noclouds']
-labels = ['OPS','VPLanet', 'HEXTOR','ESTM']
-colors = ['b', 'r', 'c','orange']
+model_dirs = ['ops','poise', 'hextor','estm_noclouds', 'estm']
+labels = ['OPS','VPLanet', 'HEXTOR','ESTMnc', 'ESTM']
+colors = ['b', 'r', 'c','orange', 'magenta']
 outfile='FILLET_Protocol2_Benchmark3.pdf'
 
 lat_output = 'ben3/case_0/lat_output.dat'
 glob_output = 'ben3/global_output.dat'
 
 fig, axes = plt.subplots(ncols=2,nrows=2,figsize=(7.5,6))
-ylims = np.array([[280,313],
+ylims = np.array([[270,313],
          [0.2,0.7],
          [230,280],
          [0.2,0.51]])
@@ -35,8 +35,8 @@ for imod in np.arange(len(model_dirs)):
     axes[1][1].plot(lat,ATOA,c=colors[imod],lw=2,zorder=1000)
 
 axes[0][0].set(ylabel='Surface Temperature (K)',ylim=ylims[0])
-axes[0][0].legend(loc='best')
 axes[0][0].xaxis.set_ticks([-90,-60,-30,0,30,60,90])
+axes[0][0].legend(loc='best')
 
 axes[0][1].set(ylabel='Surface Albedo',ylim=ylims[1])
 axes[0][1].xaxis.set_ticks([-90,-60,-30,0,30,60,90])
