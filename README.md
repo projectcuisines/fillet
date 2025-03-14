@@ -10,10 +10,10 @@
 </h2>
 
 
-Welcome! You've found the hompage of FILLET, a comparison 
-of one-dimensional energy balance models (EBMs) that have been applied to habitable exoplanets 
-in peer-reviewed publications. The project began in 2022 as a part of CUISINES, with the first 
-paper describing "Protocol v1.0" published the next year 
+Welcome! You've found the hompage of <a href="https://nexss.info/cuisines/fillet-mip/">FILLET</a>, 
+a comparison of one-dimensional energy balance models (EBMs) that have been applied to habitable 
+exoplanets in peer-reviewed publications. The project began in 2022 as a part of CUISINES, with 
+the first paper describing "Protocol v1.0" published the next year 
 (<a href="https://iopscience.iop.org/article/10.3847/PSJ/acba05">Deitrick et al. 2023</a>).
 It lays out the methodology for benchmarking code against the pre-industrial Earth,
 as well as larger experiments that map out where in parameter space permanent ice sheets 
