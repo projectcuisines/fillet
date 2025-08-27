@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use FILLET, please cite it as below."
+title: "FILLET"
+version: "1.0.0"
+date-released: "2025-08-27"
+url: "https://github.com/astrovidee/fillet"
+license: "MIT"
+
+authors:
+  - family-names: Barnes
+    given-names: Rory
+    orcid: "https://orcid.org/0000-0001-6487-5445"
+    email: "rory@astro.washington.edu"
+    affiliation: "Astronomy Department, University of Washington, Seattle, WA, USA 98105-1580"
+
+  - family-names: Deitrick
+    given-names: Russell
+    orcid: "https://orcid.org/0000-0001-9423-8121"
+    affiliation: "School of Earth and Ocean Sciences, University of Victoria, Victoria, British Columbia, Canada"
+
+  - family-names: Haqq-Misra
+    given-names: Jacob
+    orcid: "https://orcid.org/0000-0003-4346-2611"
+    affiliation: "Blue Marble Space Institute of Science, Seattle, WA, USA"
+
+  - family-names: Kadoya
+    given-names: Shintaro
+    orcid: "https://orcid.org/0000-0002-5826-1540"
+    affiliation: "Japan Agency for Marine-Earth Science and Technology, X-star, Kanagawa, Japan"
+
+  - family-names: Ramirez
+    given-names: Ramses
+    orcid: "https://orcid.org/0000-0001-7553-8444"
+    affiliation: "University of Central Florida, Department of Physics, Planetary Sciences Group, Orlando, FL 32816, USA"
+
+  - family-names: Simonetti
+    given-names: Paolo
+    orcid: "https://orcid.org/0000-0002-7744-5804"
+    affiliation: >
+      University of Trieste, Dep. of Physics, Via G. B. Tiepolo 11, I-34143 Trieste, Italy;
+      INAF Trieste Astronomical Observatory, Via G. B. Tiepolo 11, I-34143 Trieste, Italy
+
+  - family-names: Venkatesan
+    given-names: Vidya
+    orcid: "https://orcid.org/0000-0002-5638-4344"
+    affiliation: "Department of Physics and Astronomy, University of California, Irvine, 4129 Frederick Reines Hall, Irvine, CA 92697-4575, USA"
+
+  - family-names: Fauchez
+    given-names: Thomas J.
+    orcid: "https://orcid.org/0000-0002-5967-9631"
+    affiliation: >
+      NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA;
+      Integrated Space Science and Technology Institute, Department of Physics, American University, Washington DC;
+      NASA GSFC Sellers Exoplanet Environments Collaboration
