@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "If you use FILLET, please cite it as below."
+message: "FILLET DATA Products and Results are available here."
 title: "FILLET"
 version: "1.0.0"
 date-released: "2025-08-27"
-url: "https://github.com/astrovidee/fillet"
+url: "https://github.com/projectcuisines/fillet"
 license: "MIT"
 
 authors:
