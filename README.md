@@ -7,6 +7,7 @@
   <a href="https://iopscience.iop.org/article/10.3847/PSJ/acba05">
     <img src="https://img.shields.io/badge/Read-Protocol_v1%2E0_paper-blue.svg?style=flat">
   </a>
+  <a href="https://doi.org/10.5281/zenodo.7542262"><img src="https://zenodo.org/badge/538239516.svg" alt="DOI"></a>
 </h2>
 
 
