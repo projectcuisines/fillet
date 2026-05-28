@@ -8,7 +8,7 @@ import pdb
 
 model_dirs = ['poise','ops','estm_noclouds','hextor']
 mod_labels = ['VPLanet','OPS','ESTM (no cloud)','HEXTOR']
-outfile='FILLET_Protocol2_Experiment4.pdf'
+outfile='FILLET_Results1_Experiment4.pdf'
 
 labels = ['Cold start','Warm start']
 colors = ['b','r']
@@ -21,6 +21,7 @@ glob_output = ['exp4_cold/global_output.dat', 'exp4_warm/global_output.dat']
 fig, axes = plt.subplots(ncols=1,nrows=len(model_dirs),figsize=(5,3*len(model_dirs)))
 
 for imod in np.arange(len(model_dirs)):
+    model_dirs[imod] = '../' + model_dirs[imod]
     for istart in np.arange(len(glob_output)):
         globfile = pathlib.Path(model_dirs[imod]) / glob_output[istart]
         if not globfile.exists():

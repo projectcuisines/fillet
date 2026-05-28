@@ -1,0 +1,8 @@
+# Name of benchmark/experiment: FILLET Benchmark 2
+# Model: AVALON (Albedo-feedback Variable Axial-tilt Latitudinal Outgoing-Net EBM)
+# Mode: seasonal
+# Ice line definition: latitude where annual-mean surface temperature crosses -10.0 °C
+# Single T per band: land and sea ice lines are identical (FILLET v1.1 four-value-per-hemisphere format)
+# Ice-free convention: NMaxLand=NMinLand=NMaxSea=NMinSea=90; SMaxLand=SMinLand=SMaxSea=SMinSea=-90
+# Case Inst Obl XCO2 Tglob IceLineNMaxLand IceLineNMinLand IceLineNMaxSea IceLineNMinSea IceLineSMaxLand IceLineSMinLand IceLineSMaxSea IceLineSMinSea Diff OLRglob
+0 1.0 23.5 280.0 299.2302637191644 90.0 90.0 90.0 90.0 -90.0 -90.0 -90.0 -90.0 0.5 262.1605274383288

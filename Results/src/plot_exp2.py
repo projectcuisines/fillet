@@ -6,34 +6,25 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 import matplotlib as mpl
 import pdb
 
-model_dirs = ['poise','ops','estm_noclouds','hextor']
-labels = ['VPLanet','OPS','ESTM (no cloud)','HEXTOR']
-outfile='FILLET_Protocol2_Experiment2.pdf'
+model_dirs = ['poise','ops','estm_noclouds','hextor','avalon']
+labels = ['VPLanet','OPS','ESTM (no cloud)','HEXTOR','avalon']
+outfile='FILLET_Results1_Experiment2.pdf'
 
 glob_output = 'exp2/global_output.dat'
 
 fig, axes = plt.subplots(ncols=2,nrows=len(model_dirs),figsize=(7.5,3*len(model_dirs)))
 
 for imod in np.arange(len(model_dirs)):
+    model_dirs[imod] = '../' + model_dirs[imod]
     globfile = pathlib.Path(model_dirs[imod]) / glob_output
     if not globfile.exists():
         print(str(globfile) + ' is missing')
     else:
-        if 'poise' in model_dirs[imod]:
-            case, inst, obl, XCO2, Tglob, IceLandNMax, IceLandNMin, IceLandSMax, \
-                IceLandSMin, IceOceanNMax, IceOceanNMin, IceOceanSMax, \
+        if ('poise' in model_dirs[imod]) or ('avalon' in model_dirs[imod]):
+            case, inst, obl, XCO2, Tglob, IceLineNMax, IceLineNMin, IceLineSMax, \
+                IceLineSMin, IceOceanNMax, IceOceanNMin, IceOceanSMax, \
                 IceOceanSMin, Diff, OLR = np.loadtxt(str(globfile),comments='#',unpack=True)
-            IceLineNMax = IceLandNMax 
-            IceLineNMin = IceLandNMin 
-            IceLineSMax = IceLandSMax
-            IceLineSMin = IceLandSMin
-        if 'ops' in model_dirs[imod]:
-            case, inst, obl, XCO2, Tglob, IceLineNMax, IceLineNMin, IceLineSMax, IceLineSMin, Diff, OLR = np.loadtxt(str(globfile),comments='#',unpack=True)
-        if 'estm' in model_dirs[imod]:
-            case, inst, obl, XCO2, Tglob, IceLineNMin, IceLineSMax, fice, fclo, atoa, dtep, diff = np.loadtxt(str(globfile),comments='#',unpack=True)
-            IceLineNMax = np.zeros_like(case) + 90.
-            IceLineSMin = np.zeros_like(case) + -90.0
-        if 'hextor' in model_dirs[imod]:
+        else:
             case, inst, obl, XCO2, Tglob, IceLineNMax, IceLineNMin, IceLineSMax, IceLineSMin, Diff, OLR = np.loadtxt(str(globfile),comments='#',unpack=True)
 
 
@@ -41,7 +32,7 @@ for imod in np.arange(len(model_dirs)):
     obl_plot = np.unique(obl)
 
     Tglob_plot = np.reshape(Tglob,(len(inst_plot),len(obl_plot)))
-    if 'ops' in model_dirs[imod]:
+    if ('ops' in model_dirs[imod]) or ('avalon' in model_dirs[imod]):
         Tglob_plot = np.reshape(Tglob,(len(obl_plot),len(inst_plot))).T
 
     ax = axes[imod][0]
@@ -70,7 +61,7 @@ for imod in np.arange(len(model_dirs)):
             raise Exception("Logic is broken here at sim %d"%isim)
 
     State_plot = np.reshape(State,(len(inst_plot),len(obl_plot)))
-    if 'ops' in model_dirs[imod]:
+    if ('ops' in model_dirs[imod]) or ('avalon' in model_dirs[imod]):
         State_plot = np.reshape(State,(len(obl_plot),len(inst_plot))).T
 
     cmap = mpl.colors.LinearSegmentedColormap.from_list('Custom cmap',['blue','purple','cyan','white'],4)
