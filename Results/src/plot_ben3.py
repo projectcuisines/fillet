@@ -3,31 +3,29 @@ import matplotlib.pyplot as plt
 import pathlib
 from astropy import units as u
 import pdb
+import results
 
-model_dirs = ['ops','poise', 'hextor','estm_noclouds', 'estm']
-labels = ['OPS','VPLanet', 'HEXTOR','ESTMnc', 'ESTM']
-colors = ['b', 'r', 'c','orange', 'magenta']
-outfile='FILLET_Protocol2_Benchmark3.pdf'
+model_dirs = ['ops','poise', 'hextor','estm_noclouds', 'estm','kadoya','avalon']
+labels = ['OPS','VPLanet', 'HEXTOR','ESTMnc', 'ESTM','Kadoya','avalon']
+colors = ['b', 'r', 'c','orange', 'magenta','purple','pink']
+outfile='FILLET_Results1_Benchmark3.pdf'
 
 lat_output = 'ben3/case_0/lat_output.dat'
 glob_output = 'ben3/global_output.dat'
 
 fig, axes = plt.subplots(ncols=2,nrows=2,figsize=(7.5,6))
-ylims = np.array([[270,313],
-         [0.2,0.7],
-         [230,280],
+ylims = np.array([[270,420],
+         [0.1,0.7],
+         [230,310],
          [0.2,0.51]])
 
 for imod in np.arange(len(model_dirs)):
-
+    model_dirs[imod] = '../' + model_dirs[imod]
     latfile = pathlib.Path(model_dirs[imod]) / lat_output
     if not latfile.exists():
         print(str(latfile) + ' is missing')
     else:
-        if 'estm' in model_dirs[imod]:
-          lat, Tsurf, Asurf, ATOA, OLR, fice, fclo, diff = np.loadtxt(str(latfile),comments='#',unpack=True)
-        else:
-          lat, Tsurf, Asurf, ATOA, OLR = np.loadtxt(str(latfile),comments='#',unpack=True)
+        lat, Tsurf, Asurf, ATOA, OLR = results.ReadBenchmark(model_dirs[imod],latfile)
 
     axes[0][0].plot(lat,Tsurf,c=colors[imod],label=labels[imod],lw=2,zorder=1000)
     axes[0][1].plot(lat,Asurf,c=colors[imod],lw=2,zorder=1000)

@@ -8,13 +8,14 @@ import pdb
 
 model_dirs = ['poise','hextor','ops','estm_noclouds']
 labels = ['VPLanet','HEXTOR','OPS','ESTM (no cloud)']
-outfile='FILLET_Protocol2_Experiment1a.pdf'
+outfile='FILLET_Results1_Experiment1a.pdf'
 
 glob_output = 'exp1a/global_output.dat'
 
 fig, axes = plt.subplots(ncols=2,nrows=len(model_dirs),figsize=(7.5,3*len(model_dirs)))
 
 for imod in np.arange(2): 
+    model_dirs[imod] = '../' + model_dirs[imod]
     globfile = pathlib.Path(model_dirs[imod]) / glob_output
     if not globfile.exists():
         print(str(globfile) + ' is missing')

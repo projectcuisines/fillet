@@ -6,9 +6,9 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 import matplotlib as mpl
 import pdb
 
-model_dirs = ['poise','ops','estm_noclouds','hextor']
-mod_labels = ['VPLanet','OPS','ESTM (no cloud)','HEXTOR']
-outfile='FILLET_Protocol2_Experiment3.pdf'
+model_dirs = ['poise','ops','estm_noclouds','hextor','avalon']
+mod_labels = ['VPLanet','OPS','ESTM (no cloud)','HEXTOR','avalon']
+outfile='FILLET_Results1_Experiment3.pdf'
 
 labels = ['Cold start','Warm start']
 colors = ['b','r']
@@ -21,8 +21,12 @@ glob_output = ['exp3_cold/global_output.dat', 'exp3_warm/global_output.dat']
 fig, axes = plt.subplots(ncols=1,nrows=len(model_dirs),figsize=(5,3*len(model_dirs)))
 
 for imod in np.arange(len(model_dirs)):
+    model_dirs[imod] = '../' + model_dirs[imod]
     for istart in np.arange(len(glob_output)):
-        globfile = pathlib.Path(model_dirs[imod]) / glob_output[istart]
+        if 'avalon' in model_dirs[imod]:
+            globfile = pathlib.Path(model_dirs[imod]) / 'exp3/global_output.dat'
+        else:
+            globfile = pathlib.Path(model_dirs[imod]) / glob_output[istart]
         if not globfile.exists():
             print(str(globfile) + ' is missing')
         else:
@@ -34,6 +38,14 @@ for imod in np.arange(len(model_dirs)):
                 IceLineNMin = IceLandNMin
                 IceLineSMax = IceLandSMax
                 IceLineSMin = IceLandSMin
+            if 'avalon' in model_dirs[imod]:
+                data = np.loadtxt(str(globfile),comments='#',usecols=range(15),unpack=True)
+                branch = np.loadtxt(str(globfile),comments='#',usecols=15,dtype=str)
+                branch_name = 'warming' if istart == 0 else 'cooling'
+                mask = branch == branch_name
+                case, inst, obl, XCO2, Tglob, IceLineNMax, IceLineNMin, IceLineSMax, \
+                    IceLineSMin, IceOceanNMax, IceOceanNMin, IceOceanSMax, \
+                    IceOceanSMin, Diff, OLR = data[:, mask]
             if 'ops' in model_dirs[imod]:
                 case, inst, obl, XCO2, Tglob, IceLineNMax, IceLineNMin, IceLineSMax, IceLineSMin, Diff, OLR = np.loadtxt(str(globfile),comments='#',unpack=True)
             if 'estm' in model_dirs[imod]:

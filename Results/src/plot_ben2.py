@@ -3,39 +3,36 @@ import matplotlib.pyplot as plt
 import pathlib
 from astropy import units as u
 import pdb
+import results
 
-model_dirs = ['ops','poise', 'hextor', 'estm_noclouds','estm']
-labels = ['OPS','VPLanet', 'HEXTOR', 'ESTMnc', 'ESTM']
-colors = ['b', 'r', 'c', 'orange', 'magenta']
-outfile='FILLET_Protocol2_Benchmark2.pdf'
+model_dirs = ['ops','poise', 'hextor', 'estm_noclouds','estm','kadoya','avalon']
+labels = ['OPS','VPLanet', 'HEXTOR', 'ESTMnc', 'ESTM','Kadoya','avalon']
+colors = ['b', 'r', 'c', 'orange', 'magenta','purple','pink']
+outfile='FILLET_Results1_Benchmark2.pdf'
 
 lat_output = 'ben2/case_0/lat_output.dat'
 glob_output = 'ben2/global_output.dat'
 
 fig, axes = plt.subplots(ncols=2,nrows=2,figsize=(7.5,6))
-ylims = np.array([[235,325],
-         [0.2,0.65],
-         [160,300],
+ylims = np.array([[200,325],
+         [0.1,0.65],
+         [100,310],
          [0.18,0.65]])
 
 for imod in np.arange(len(model_dirs)):
-
+    model_dirs[imod] = '../' + model_dirs[imod]
     latfile = pathlib.Path(model_dirs[imod]) / lat_output
     if not latfile.exists():
         print(str(latfile) + ' is missing')
     else:
-        if 'estm' in model_dirs[imod]:
-          lat, Tsurf, Asurf, ATOA, OLR, fice, fclo, diff = np.loadtxt(str(latfile),comments='#',unpack=True)
-        else:
-          lat, Tsurf, Asurf, ATOA, OLR = np.loadtxt(str(latfile),comments='#',unpack=True)
+        lat, Tsurf, Asurf, ATOA, OLR = results.ReadBenchmark(model_dirs[imod],latfile)
 
-    axes[0][0].plot(lat,Tsurf,c=colors[imod],label=labels[imod],lw=2,zorder=1000)
+    axes[0][0].plot(lat,Tsurf,c=colors[imod],lw=2,zorder=1000)
     axes[0][1].plot(lat,Asurf,c=colors[imod],lw=2,zorder=1000)
-    axes[1][0].plot(lat,OLR,c=colors[imod],lw=2,zorder=1000)
+    axes[1][0].plot(lat,OLR,c=colors[imod],label=labels[imod],lw=2,zorder=1000)
     axes[1][1].plot(lat,ATOA,c=colors[imod],lw=2,zorder=1000)
 
 axes[0][0].set(ylabel='Surface Temperature (K)',ylim=ylims[0])
-axes[0][0].legend(loc='best')
 axes[0][0].xaxis.set_ticks([-90,-60,-30,0,30,60,90])
 
 axes[0][1].set(ylabel='Surface Albedo',ylim=ylims[1])
@@ -43,6 +40,7 @@ axes[0][1].xaxis.set_ticks([-90,-60,-30,0,30,60,90])
 
 axes[1][0].set(xlabel='Latitude (deg)',ylabel='OLR (W m$^{-2}$)',ylim=ylims[2])
 axes[1][0].xaxis.set_ticks([-90,-60,-30,0,30,60,90])
+axes[1][0].legend(loc='best',framealpha=0.5)
 
 axes[1][1].set(xlabel='Latitude (deg)',ylabel='Total Albedo',ylim=ylims[3])
 axes[1][1].xaxis.set_ticks([-90,-60,-30,0,30,60,90])
