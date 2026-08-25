@@ -1,0 +1,25 @@
+28 May 2026
+
+Attending: R. Barnes, P. Simonetti, J. Haqq-Misra, R. Ramirez
+
+General Updates: JHM went to AbSciCon -- no EBM rsults
+
+New Results: Added Kadoya and avalon results to the repo. 
+
+Shields-Bitz latest results missing some columns. 
+- Dr. Venkatesan will update after she submits her thesis.
+
+Will probably drop ESTM (w/clouds) for ESTM (no clouds) because no clouds
+is more similar to other models.
+
+OPS also has cloud parameterization, will probably keep as is.
+
+Latest results show many differences, some make sense; cold 
+start/hysteresis experiments are confusing
+
+
+Action Items:
+- Rory will post plots in Results Overleaf doc
+- Start thinking about what could be origin of differences
+- Publish source code or send to Rory to start finding differences
+- Philosophical Point: As we find bugs in the code, do we compare original versions or updated versions?
