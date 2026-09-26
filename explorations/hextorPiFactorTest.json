@@ -1,0 +1,32 @@
+{
+ "fPiOverTwo": 1.5707963267948966,
+ "listBenchmarks": [
+  {
+   "sBenchmark": "ben1",
+   "fBestFitCO2ScaleFactor": 1.55,
+   "fRmsAtBestFit": 0.3745702024191962,
+   "fRmsAtScaleOne": 2.388170954370688,
+   "fRmsAtPiOverTwo": 0.3809232831681971,
+   "fMeanResidualAtScaleOne": -2.2892205876216973,
+   "fMeanResidualAtPiOverTwo": 0.1317052479093677
+  },
+  {
+   "sBenchmark": "ben2",
+   "fBestFitCO2ScaleFactor": 1.59,
+   "fRmsAtBestFit": 0.12301287972564014,
+   "fRmsAtScaleOne": 2.5502292465468632,
+   "fRmsAtPiOverTwo": 0.13568440807573415,
+   "fMeanResidualAtScaleOne": -2.5260032932529715,
+   "fMeanResidualAtPiOverTwo": -0.047239775475391516
+  },
+  {
+   "sBenchmark": "ben3",
+   "fBestFitCO2ScaleFactor": 1.62,
+   "fRmsAtBestFit": 0.04264407963193324,
+   "fRmsAtScaleOne": 2.9110223631586933,
+   "fRmsAtPiOverTwo": 0.21106860433051322,
+   "fMeanResidualAtScaleOne": -2.9096970582194057,
+   "fMeanResidualAtPiOverTwo": -0.2045144162818152
+  }
+ ]
+}

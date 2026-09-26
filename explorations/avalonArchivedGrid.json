@@ -1,0 +1,32 @@
+{
+ "iNumNodes": 90,
+ "aArchivedLatFirst5": [
+  -90.0,
+  -77.83,
+  -72.76,
+  -68.84,
+  -65.52
+ ],
+ "aArchivedLatLast5": [
+  65.52,
+  68.84,
+  72.76,
+  77.83,
+  90.0
+ ],
+ "fDxMin": 0.022339749858844377,
+ "fDxMax": 0.022580596410850695,
+ "fDxMean": 0.02247191011235955,
+ "fDxRelativeSpread": 0.010717671564281175,
+ "dictMaxAbsLatitudeMismatch_deg": {
+  "cellCentredEqualArea_n90": 8.549078830521609,
+  "cellEdgesEqualArea_n90": 0.004682290618397644,
+  "equalWidthLatitude_n90": 18.94528089887642,
+  "gaussLegendre_n90": 17.797811648911576,
+  "cellCentredPolesSnapped_n90": 2.6651115819757365
+ },
+ "sBestMatchingGrid": "cellEdgesEqualArea_n90",
+ "fBestMismatch_deg": 0.004682290618397644,
+ "bCurrentSourceGridMatches": false,
+ "fCurrentSourceGridMismatch_deg": 8.549078830521609
+}

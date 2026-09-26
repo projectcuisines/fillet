@@ -1,0 +1,182 @@
+
+=== ben1: rows=1 cols=11 header_cols=11
+  header: # Case Inst Obl XCO2 Tglob IceLineNMax IceLineNMin IceLineSMax IceLineSMin Diff OLR
+  Inst unique n=1 range=[1.004825,1.004825]
+  Obl unique=[23.44]
+  XCO2 unique n=1 range=[280,280]
+  Tglob range=[287.655,287.655]  zero rows=0
+  OLR - (A=203.3 + B(T-273.15)): max|res|=0.0000
+  OLR - (A=204.05 + B(T-273.15)): max|res|=0.7500
+  Diff unique=[0.58]
+
+=== ben2: rows=1 cols=11 header_cols=11
+  header: # Case Inst Obl XCO2 Tglob IceLineNMax IceLineNMin IceLineSMax IceLineSMin Diff OLR
+  Inst unique n=1 range=[0.999861,0.999861]
+  Obl unique=[23.5]
+  XCO2 unique n=1 range=[280,280]
+  Tglob range=[302.860,302.860]  zero rows=0
+  OLR - (A=203.3 + B(T-273.15)): max|res|=0.7500
+  OLR - (A=204.05 + B(T-273.15)): max|res|=0.0000
+  Diff unique=[0.5]
+
+=== ben3: rows=1 cols=11 header_cols=11
+  header: # Case Inst Obl XCO2 Tglob IceLineNMax IceLineNMin IceLineSMax IceLineSMin Diff OLR
+  Inst unique n=1 range=[0.999861,0.999861]
+  Obl unique=[60.]
+  XCO2 unique n=1 range=[280,280]
+  Tglob range=[302.809,302.809]  zero rows=0
+  OLR - (A=203.3 + B(T-273.15)): max|res|=0.7500
+  OLR - (A=204.05 + B(T-273.15)): max|res|=0.0000
+  Diff unique=[0.5]
+
+=== exp1: rows=190 cols=15 header_cols=11
+  header: # Case Inst Obl XCO2 Tglob IceLineNMax IceLineNMin IceLineSMax IceLineSMin Diff OLR
+  Inst unique n=19 range=[0.800098,1.250152]
+  Obl unique=[ 0. 10. 20. 30. 40. 50. 60. 70. 80. 90.]
+  XCO2 unique n=1 range=[280,280]
+  Tglob range=[227.620,335.632]  zero rows=0
+  OLR - (A=203.3 + B(T-273.15)): max|res|=0.7500
+  OLR - (A=204.05 + B(T-273.15)): max|res|=0.0000
+  Diff unique=[0.5]
+  Land: N/S asymmetric rows=1, max<min rows=0, NMin values(sample)=[ 0.   31.78 42.32 43.37 48.88 50.06 53.77 55.08]
+  Sea: N/S asymmetric rows=0, max<min rows=0, NMin values(sample)=[ 0.   43.37 51.26 52.5  57.85 60.85 62.46 64.16]
+  rows where land and sea northern min edge differ: 34
+
+=== exp1a: rows=190 cols=15 header_cols=11
+  header: # Case Inst Obl XCO2 Tglob IceLineNMax IceLineNMin IceLineSMax IceLineSMin Diff OLR
+  Inst unique n=19 range=[0.830434,1.312425]
+  Obl unique=[ 0. 10. 20. 30. 40. 50. 60. 70. 80. 90.]
+  XCO2 unique n=1 range=[280,280]
+  Tglob range=[229.596,343.610]  zero rows=0
+  OLR - (A=203.3 + B(T-273.15)): max|res|=0.7500
+  OLR - (A=204.05 + B(T-273.15)): max|res|=0.0000
+  Diff unique=[0.5]
+  Land: N/S asymmetric rows=1, max<min rows=0, NMin values(sample)=[ 0.   33.6  36.39 38.32 44.43 45.51 47.73 50.06]
+  Sea: N/S asymmetric rows=0, max<min rows=0, NMin values(sample)=[ 0.   45.51 46.61 47.73 53.77 55.08 59.32 62.46]
+  rows where land and sea northern min edge differ: 37
+
+=== exp2: rows=190 cols=15 header_cols=11
+  header: # Case Inst Obl XCO2 Tglob IceLineNMax IceLineNMin IceLineSMax IceLineSMin Diff OLR
+  Inst unique n=19 range=[1.050128,1.500183]
+  Obl unique=[ 0. 10. 20. 30. 40. 50. 60. 70. 80. 90.]
+  XCO2 unique n=1 range=[280,280]
+  Tglob range=[243.902,367.655]  zero rows=0
+  OLR - (A=203.3 + B(T-273.15)): max|res|=0.7500
+  OLR - (A=204.05 + B(T-273.15)): max|res|=0.0000
+  Diff unique=[0.5]
+  Land: N/S asymmetric rows=1, max<min rows=0, NMin values(sample)=[ 0.   39.3  42.32 48.88 59.32 90.  ]
+  Sea: N/S asymmetric rows=0, max<min rows=0, NMin values(sample)=[ 0. 90.]
+  rows where land and sea northern min edge differ: 9
+
+=== exp2a: rows=150 cols=15 header_cols=11
+  header: # Case Inst Obl XCO2 Tglob IceLineNMax IceLineNMin IceLineSMax IceLineSMin Diff OLR
+  Inst unique n=15 range=[1.051794,1.562283]
+  Obl unique=[ 0. 10. 20. 30. 40. 50. 60. 70. 80. 90.]
+  XCO2 unique n=1 range=[280,280]
+  Tglob range=[244.011,375.608]  zero rows=0
+  OLR - (A=203.3 + B(T-273.15)): max|res|=0.7500
+  OLR - (A=204.05 + B(T-273.15)): max|res|=0.0000
+  Diff unique=[0.5]
+  Land: N/S asymmetric rows=2, max<min rows=0, NMin values(sample)=[ 0.   25.68 34.52 48.88 62.46 90.  ]
+  Sea: N/S asymmetric rows=0, max<min rows=0, NMin values(sample)=[ 0. 90.]
+  rows where land and sea northern min edge differ: 8
+
+=== exp3_warm: rows=29 cols=15 header_cols=11
+  header: # Case Inst Obl XCO2 Tglob IceLineNMax IceLineNMin IceLineSMax IceLineSMin Diff OLR
+  Inst unique n=29 range=[0.800000,1.500000]
+  Obl unique=[23.5]
+  XCO2 unique n=1 range=[280,280]
+  Tglob range=[227.615,367.319]  zero rows=0
+  OLR - (A=203.3 + B(T-273.15)): max|res|=0.7500
+  OLR - (A=204.05 + B(T-273.15)): max|res|=0.0000
+  Diff unique=[0.5]
+  Land: N/S asymmetric rows=0, max<min rows=0, NMin values(sample)=[ 0.   44.59 56.56 66.05 75.21 90.  ]
+  Sea: N/S asymmetric rows=0, max<min rows=0, NMin values(sample)=[ 0.   52.63 64.25 78.56 90.  ]
+  rows where land and sea northern min edge differ: 4
+
+=== exp3_cold: rows=29 cols=15 header_cols=11
+  header: # Case Inst Obl XCO2 Tglob IceLineNMax IceLineNMin IceLineSMax IceLineSMin Diff OLR
+  Inst unique n=29 range=[0.768935,1.441754]
+  Obl unique=[23.5]
+  XCO2 unique n=1 range=[280,280]
+  Tglob range=[225.592,359.871]  zero rows=0
+  OLR - (A=203.3 + B(T-273.15)): max|res|=0.7500
+  OLR - (A=204.05 + B(T-273.15)): max|res|=0.0000
+  Diff unique=[0.5]
+  Land: N/S asymmetric rows=0, max<min rows=0, NMin values(sample)=[ 0. 90.]
+  Sea: N/S asymmetric rows=0, max<min rows=0, NMin values(sample)=[ 0. 90.]
+  rows where land and sea northern min edge differ: 0
+
+=== exp4_warm: rows=51 cols=15 header_cols=11
+  header: # Case Inst Obl XCO2 Tglob IceLineNMax IceLineNMin IceLineSMax IceLineSMin Diff OLR
+  Inst unique n=1 range=[0.965807,0.965807]
+  Obl unique=[23.5]
+  XCO2 unique n=51 range=[1e-06,0.1]
+  XCO2 log10 step min/max=0.1000/0.1000
+  Tglob range=[218.733,344.180]  zero rows=0
+  OLR - (A=203.3 + B(T-273.15)): max|res|=77.8711
+  OLR - (A=204.05 + B(T-273.15)): max|res|=78.6211
+  Diff unique=[0.5]
+  Land: N/S asymmetric rows=1, max<min rows=0, NMin values(sample)=[ 0.   49.02 53.9  59.42 62.55 66.05 70.12 75.21]
+  Sea: N/S asymmetric rows=0, max<min rows=0, NMin values(sample)=[ 0.   51.39 57.96 62.55 66.05 72.49 78.56 90.  ]
+  rows where land and sea northern min edge differ: 10
+
+=== exp4_cold: rows=51 cols=15 header_cols=11
+  header: # Case Inst Obl XCO2 Tglob IceLineNMax IceLineNMin IceLineSMax IceLineSMin Diff OLR
+  Inst unique n=1 range=[0.965807,0.965807]
+  Obl unique=[23.5]
+  XCO2 unique n=51 range=[1e-06,0.1]
+  XCO2 log10 step min/max=0.1000/0.1000
+  Tglob range=[218.733,344.180]  zero rows=0
+  OLR - (A=203.3 + B(T-273.15)): max|res|=77.8711
+  OLR - (A=204.05 + B(T-273.15)): max|res|=78.6211
+  Diff unique=[0.5]
+  Land: N/S asymmetric rows=0, max<min rows=0, NMin values(sample)=[ 0.   34.72 90.  ]
+  Sea: N/S asymmetric rows=0, max<min rows=0, NMin values(sample)=[ 0. 90.]
+  rows where land and sea northern min edge differ: 1
+
+--- lat files
+ben1
+  lat file: rows=150 cols=5 lat range=[-83.380,83.380] equal-area max|dx|=8.50e-09
+  mean Tsurf=287.6550 vs Tglob=287.6550; mean OLR=233.6154 vs OLRglob=233.6154
+  Asurf range=[0.2970,0.6000] ATOA range=[0.2665,0.6000] rows Asurf==ATOA: 10
+  N/S Tsurf asymmetry max=0.0027 K
+ben2
+  lat file: rows=150 cols=5 lat range=[-83.380,83.380] equal-area max|dx|=8.50e-09
+  mean Tsurf=302.8604 vs Tglob=302.8604; mean OLR=266.1447 vs OLRglob=266.1447
+  Asurf range=[0.2250,0.2762] ATOA range=[0.1945,0.3330] rows Asurf==ATOA: 0
+  N/S Tsurf asymmetry max=0.0149 K
+ben3
+  lat file: rows=150 cols=5 lat range=[-83.380,83.380] equal-area max|dx|=8.50e-09
+  mean Tsurf=302.8091 vs Tglob=302.8091; mean OLR=266.0375 vs OLRglob=266.0375
+  Asurf range=[0.2250,0.2612] ATOA range=[0.2300,0.2907] rows Asurf==ATOA: 0
+  N/S Tsurf asymmetry max=0.0069 K
+
+--- implied semi-major axes / luminosity factors
+  exp1a: implied a (L factor 1.004825) n=19 range=[0.87500,1.10000] steps=[0.0125]
+  exp1a: implied a (L factor 0.999861) n=19 range=[0.87284,1.09728] steps=[0.01246 0.01247]
+  exp2a: implied a (L factor 1.004825) n=15 range=[0.80198,0.97742] steps=[0.01253 0.01254]
+  exp2a: implied a (L factor 0.999861) n=15 range=[0.80000,0.97500] steps=[0.0125]
+  exp3 warm/cold Inst ratio unique=[1.0404] (1.02^2=1.04040)
+  exp4 Inst 0.965807 vs 1.004825/1.02^2=0.965806
+
+--- warm vs cold
+  exp3_warm vs exp3_cold: same Inst grid=False, same XCO2 grid=True, rows |dT|>0.01 K: 29
+  exp4_warm vs exp4_cold: same Inst grid=True, same XCO2 grid=True, rows |dT|>0.01 K: 36
+
+--- column naming: position -> written / v1.1-template
+  col  0: written=Case      v1.1=Case     
+  col  1: written=Inst      v1.1=Inst     
+  col  2: written=Obl       v1.1=Obl      
+  col  3: written=XCO2      v1.1=XCO2     
+  col  4: written=Tglob     v1.1=Tglob    
+  col  5: written=NMaxLand  v1.1=NMaxLand 
+  col  6: written=NMinLand  v1.1=NMinLand 
+  col  7: written=SMaxLand  v1.1=NMaxSea     <-- MISMATCH
+  col  8: written=SMinLand  v1.1=NMinSea     <-- MISMATCH
+  col  9: written=NMaxSea   v1.1=SMaxLand    <-- MISMATCH
+  col 10: written=NMinSea   v1.1=SMinLand    <-- MISMATCH
+  col 11: written=SMaxSea   v1.1=SMaxSea  
+  col 12: written=SMinSea   v1.1=SMinSea  
+  col 13: written=Diff      v1.1=Diff     
+  col 14: written=OLR       v1.1=OLRglob     <-- MISMATCH

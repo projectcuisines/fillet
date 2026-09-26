@@ -1,0 +1,89 @@
+{
+ "exp3_warm": {
+  "iCases": 29,
+  "fAlbedoIceFreeMean": 0.2150355609788917,
+  "iIceFree": 21,
+  "fAlbedoSnowballMean": 0.599996538196991,
+  "iSnowball": 5,
+  "fAlbedoIceFreeSpread": 0.003205884888562438,
+  "fAlbedoSnowballSpread": 2.3092263656820933e-09
+ },
+ "exp3_cold": {
+  "iCases": 29,
+  "fAlbedoIceFreeMean": 0.21457022008464346,
+  "iIceFree": 6,
+  "fAlbedoSnowballMean": 0.5999970873027343,
+  "iSnowball": 23,
+  "fAlbedoIceFreeSpread": 4.2897545460274245e-07,
+  "fAlbedoSnowballSpread": 4.351943576619277e-07
+ },
+ "exp4_warm": {
+  "iCases": 51,
+  "fAlbedoIceFreeMean": 0.17756588452416622,
+  "iIceFree": 36,
+  "fAlbedoSnowballMean": 0.5758482635349577,
+  "iSnowball": 9,
+  "fAlbedoIceFreeSpread": 0.026264601903191798,
+  "fAlbedoSnowballSpread": 0.007625216918661137
+ },
+ "exp4_cold": {
+  "iCases": 51,
+  "fAlbedoIceFreeMean": 0.16717351217513268,
+  "iIceFree": 6,
+  "fAlbedoSnowballMean": 0.5631445845917041,
+  "iSnowball": 45,
+  "fAlbedoIceFreeSpread": 0.001535139062879276,
+  "fAlbedoSnowballSpread": 0.104305714114457
+ },
+ "ben2": {
+  "iCases": 1,
+  "fAlbedoIceFreeMean": null,
+  "iIceFree": 0,
+  "fAlbedoSnowballMean": null,
+  "iSnowball": 0,
+  "fAlbedoIceFreeSpread": null,
+  "fAlbedoSnowballSpread": null
+ },
+ "hextor/exp3_warm": {
+  "iCases": 57,
+  "fAlbedoIceFreeMean": 0.18081516327659466,
+  "iIceFree": 39,
+  "fAlbedoSnowballMean": 0.6171744669930335,
+  "iSnowball": 13
+ },
+ "hextor/exp4_warm": {
+  "iCases": 50,
+  "fAlbedoIceFreeMean": 0.19701881608791497,
+  "iIceFree": 23,
+  "fAlbedoSnowballMean": null,
+  "iSnowball": 0
+ },
+ "hextor/exp3_cold": {
+  "iCases": 57,
+  "fAlbedoIceFreeMean": 0.1736178928139164,
+  "iIceFree": 28,
+  "fAlbedoSnowballMean": 0.6058196044513828,
+  "iSnowball": 29
+ },
+ "hextor/exp4_cold": {
+  "iCases": 50,
+  "fAlbedoIceFreeMean": 0.18595885378398236,
+  "iIceFree": 8,
+  "fAlbedoSnowballMean": 0.6038885973198979,
+  "iSnowball": 42
+ },
+ "avalon/exp3": {
+  "iCases": 114,
+  "fAlbedoIceFreeMean": 0.22963672265326754,
+  "iIceFree": 63,
+  "fAlbedoSnowballMean": 0.6023259043024758,
+  "iSnowball": 45
+ },
+ "avalon/exp4": {
+  "iCases": 100,
+  "fAlbedoIceFreeMean": 0.23023443371238034,
+  "iIceFree": 35,
+  "fAlbedoSnowballMean": 0.6023266807246004,
+  "iSnowball": 52
+ }
+}

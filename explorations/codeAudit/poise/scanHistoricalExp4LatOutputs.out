@@ -1,0 +1,8 @@
+  exp4_cold case 0: nlat=151 minTsurf=206.93 K cells<190K=0 ATOA range=[0.576,0.633] Asurf range=[0.600,0.600]
+  exp4_cold case 5: nlat=151 minTsurf=213.15 K cells<190K=0 ATOA range=[0.571,0.631] Asurf range=[0.600,0.600]
+  exp4_cold case 10: nlat=151 minTsurf=217.94 K cells<190K=0 ATOA range=[0.565,0.629] Asurf range=[0.600,0.600]
+  exp4_warm case 0: nlat=151 minTsurf=206.93 K cells<190K=0 ATOA range=[0.576,0.633] Asurf range=[0.600,0.600]
+  exp4_warm case 5: nlat=151 minTsurf=213.15 K cells<190K=0 ATOA range=[0.571,0.631] Asurf range=[0.600,0.600]
+  exp4_warm case 10: nlat=151 minTsurf=253.74 K cells<190K=0 ATOA range=[0.179,0.576] Asurf range=[0.225,0.580]
+exp3_warm case 0: nlat=151 lat[0]=-83.4024 has equator cell=True
+exp4_warm case 24 (~2.5e-4 bar): Tsurf eq=328.15 K pole=278.91 K, mean ATOA=0.200 mean Asurf=0.230, OLR max=287.57

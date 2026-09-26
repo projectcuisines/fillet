@@ -1,0 +1,217 @@
+ben1 {
+ "Tglob": 285.16228577728737,
+ "TglobPrevOrbit": 285.16228582641895,
+ "TglobTenOrbitsEarlier": 285.1622865911936,
+ "seaIceEver": {
+  "N": [
+   49.31748772795677,
+   82.59800031228968,
+   15
+  ],
+  "S": [
+   49.31748772795624,
+   82.59800031228691,
+   15
+  ]
+ },
+ "seaIceHalfYear": {
+  "N": [
+   52.34153799379268,
+   82.59800031228968,
+   13
+  ],
+  "S": [
+   52.34153799379209,
+   82.59800031228691,
+   13
+  ]
+ },
+ "seaIcePerennial": {
+  "N": [
+   57.31653624227747,
+   82.59800031228968,
+   10
+  ],
+  "S": [
+   57.31653624227682,
+   82.59800031228691,
+   10
+  ]
+ },
+ "landSnowEver": {
+  "N": [
+   42.454150204401344,
+   82.59800031228968,
+   20
+  ],
+  "S": [
+   45.09947203931096,
+   82.59800031228691,
+   18
+  ]
+ },
+ "landSnowHalfYear": {
+  "N": [
+   50.80503257401756,
+   82.59800031228968,
+   14
+  ],
+  "S": [
+   52.34153799379209,
+   82.59800031228691,
+   13
+  ]
+ },
+ "landSnowPerennial": {
+  "N": null,
+  "S": null
+ },
+ "crossTavg263": 61.07296769245102,
+ "crossTavgMinus2C": 52.27011545189039,
+ "crossToceanMinus2C": 52.69230490633959,
+ "crossTlandMinus2C": 51.390606655574324,
+ "meanIcelinePackage": 77.04086246971552,
+ "fracIceCellDaysWithWabove_2p013": 0.32239030146979936,
+ "albedoGlobalUnweighted": 0.343847648624067,
+ "albedoGlobalInsolWeighted": 0.324665915216175,
+ "albedoPolarBoxUnweighted": 0.5166957066656691,
+ "albedoPolarBoxInsolWeighted": 0.5216319272562691,
+ "maxAbsAlbedoDiffPerLat": 0.01016052270672696,
+ "OLRglob": 228.40567727453063,
+ "ASRglob": 228.43346685267244,
+ "Sused": 1353.010144161725
+}
+ben2 {
+ "Tglob": 284.1699252476663,
+ "TglobPrevOrbit": 284.1699254504453,
+ "TglobTenOrbitsEarlier": 284.1699285188351,
+ "seaIceEver": {
+  "N": [
+   49.31748772795677,
+   82.59800031228968,
+   15
+  ],
+  "S": [
+   49.31748772795624,
+   82.59800031228691,
+   15
+  ]
+ },
+ "seaIceHalfYear": {
+  "N": [
+   52.34153799379268,
+   82.59800031228968,
+   13
+  ],
+  "S": [
+   52.34153799379209,
+   82.59800031228691,
+   13
+  ]
+ },
+ "seaIcePerennial": {
+  "N": [
+   57.31653624227747,
+   82.59800031228968,
+   10
+  ],
+  "S": [
+   57.31653624227682,
+   82.59800031228691,
+   10
+  ]
+ },
+ "landSnowEver": {
+  "N": [
+   43.762185202893654,
+   82.59800031228968,
+   19
+  ],
+  "S": [
+   43.762185202893185,
+   82.59800031228691,
+   19
+  ]
+ },
+ "landSnowHalfYear": {
+  "N": [
+   52.34153799379268,
+   82.59800031228968,
+   13
+  ],
+  "S": [
+   52.34153799379209,
+   82.59800031228691,
+   13
+  ]
+ },
+ "landSnowPerennial": {
+  "N": null,
+  "S": null
+ },
+ "crossTavg263": 61.747382702465124,
+ "crossTavgMinus2C": 52.801824899788656,
+ "crossToceanMinus2C": 52.984528979627605,
+ "crossTlandMinus2C": 51.99076984094716,
+ "meanIcelinePackage": 77.13098278463397,
+ "fracIceCellDaysWithWabove_2p013": 0.3158695652173913,
+ "albedoGlobalUnweighted": 0.3483113575424384,
+ "albedoGlobalInsolWeighted": 0.33079087549451913,
+ "albedoPolarBoxUnweighted": 0.5154155648148151,
+ "albedoPolarBoxInsolWeighted": 0.5184347767274161,
+ "maxAbsAlbedoDiffPerLat": 0.004984641914289989,
+ "OLRglob": 226.33164376762264,
+ "ASRglob": 226.36168350537562,
+ "Sused": 1353.010144161725
+}
+ben3 {
+ "Tglob": 285.9997308746782,
+ "TglobPrevOrbit": 285.9997308746775,
+ "TglobTenOrbitsEarlier": 285.99973087464525,
+ "seaIceEver": {
+  "N": null,
+  "S": null
+ },
+ "seaIceHalfYear": {
+  "N": null,
+  "S": null
+ },
+ "seaIcePerennial": {
+  "N": null,
+  "S": null
+ },
+ "landSnowEver": {
+  "N": [
+   41.17288685179437,
+   82.59800031228968,
+   21
+  ],
+  "S": [
+   41.1728868517939,
+   82.59800031228691,
+   21
+  ]
+ },
+ "landSnowHalfYear": {
+  "N": null,
+  "S": null
+ },
+ "landSnowPerennial": {
+  "N": null,
+  "S": null
+ },
+ "crossTavg263": 90.0,
+ "crossTavgMinus2C": 90.0,
+ "crossToceanMinus2C": 90.0,
+ "crossTlandMinus2C": 90.0,
+ "meanIcelinePackage": 90.0,
+ "fracIceCellDaysWithWabove_2p013": null,
+ "albedoGlobalUnweighted": 0.31829448123071014,
+ "albedoGlobalInsolWeighted": 0.319561828906981,
+ "albedoPolarBoxUnweighted": 0.3939137627314829,
+ "albedoPolarBoxInsolWeighted": 0.3961385647246824,
+ "maxAbsAlbedoDiffPerLat": 0.0022248019931996876,
+ "OLRglob": 230.15593752807757,
+ "ASRglob": 230.1559375280869,
+ "Sused": 1352.9866330595582
+}

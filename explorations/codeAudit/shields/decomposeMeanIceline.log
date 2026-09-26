@@ -1,0 +1,10 @@
+package mean_iceline:                 77.13
+replica, linspace axis, -2.013 C:     77.13
+true axis, -2.013 C:                  62.77
+true axis, -1.999 C (includes W=-2):  52.32
+h>0.001 daily edge (cell centre), mean:    52.79
+h>0.001 daily edge (equatorward interface): 52.00
+multi-file sun obl=60: NaN count 0
+multi-file sun obl=80: NaN count 0
+multi-file sun obl=89: NaN count 0
+multi-file sun obl=90: NaN count 0

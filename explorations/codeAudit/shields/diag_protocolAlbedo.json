@@ -1,0 +1,238 @@
+{
+ "ben1": {
+  "cfg": {
+   "jmx": 120,
+   "runlength": 100.0,
+   "scaleQ": 1.0029549290688937,
+   "A": 203.3,
+   "B": 2.09,
+   "Dmag": 0.5,
+   "Toffset": -30.0,
+   "obl": 23.5,
+   "ecc": 0.0,
+   "per": 102.07,
+   "star": "G",
+   "land": "modern",
+   "casename": "ben1",
+   "hadleyflag": 0.0,
+   "albedoflag": 0.0,
+   "ice_model": 1.0,
+   "coldstart": 0.0,
+   "Cl": 0.3168808781402895,
+   "Cw": 12.67523512561158,
+   "nu": 3.0,
+   "rghflag": 0.0
+  },
+  "diag": {
+   "Tglob": 301.2186404833466,
+   "TglobPrevOrbit": 301.2186404816785,
+   "TglobTenOrbitsEarlier": 301.21864042309437,
+   "seaIceEver": {
+    "N": null,
+    "S": [
+     61.04497562814012,
+     82.59800031228691,
+     8
+    ]
+   },
+   "seaIceHalfYear": {
+    "N": null,
+    "S": [
+     70.33336178495857,
+     82.59800031228691,
+     4
+    ]
+   },
+   "seaIcePerennial": {
+    "N": null,
+    "S": null
+   },
+   "landSnowEver": {
+    "N": [
+     59.12996154981091,
+     82.59800031228968,
+     9
+    ],
+    "S": [
+     55.588491330230504,
+     82.59800031228691,
+     11
+    ]
+   },
+   "landSnowHalfYear": {
+    "N": [
+     82.59800031228968,
+     82.59800031228968,
+     1
+    ],
+    "S": [
+     70.33336178495857,
+     82.59800031228691,
+     4
+    ]
+   },
+   "landSnowPerennial": {
+    "N": null,
+    "S": null
+   },
+   "crossTavg263": 90.0,
+   "crossTavgMinus2C": 90.0,
+   "crossToceanMinus2C": 90.0,
+   "crossTlandMinus2C": 90.0,
+   "meanIcelinePackage": 90.0,
+   "fracIceCellDaysWithWabove_2p013": 0.32248296744890237,
+   "albedoGlobalUnweighted": 0.24638340537169748,
+   "albedoGlobalInsolWeighted": 0.22997043780205895,
+   "albedoPolarBoxUnweighted": 0.3099934428477228,
+   "albedoPolarBoxInsolWeighted": 0.2516421075179309,
+   "maxAbsAlbedoDiffPerLat": 0.12132941947131948,
+   "OLRglob": 261.9634586101943,
+   "ASRglob": 262.00603447515124,
+   "Sused": 1361.018056123933
+  }
+ },
+ "ben2": {
+  "cfg": {
+   "jmx": 120,
+   "runlength": 100.0,
+   "scaleQ": 1.0029549290688937,
+   "A": 203.3,
+   "B": 2.09,
+   "Dmag": 0.5,
+   "Toffset": -30.0,
+   "obl": 23.5,
+   "ecc": 0.0,
+   "per": 102.07,
+   "star": "G",
+   "land": "fillet",
+   "casename": "ben2",
+   "hadleyflag": 0.0,
+   "albedoflag": 0.0,
+   "ice_model": 1.0,
+   "coldstart": 0.0,
+   "Cl": 0.3168808781402895,
+   "Cw": 12.67523512561158,
+   "nu": 3.0,
+   "rghflag": 0.0
+  },
+  "diag": {
+   "Tglob": 302.0369139283853,
+   "TglobPrevOrbit": 302.036913913736,
+   "TglobTenOrbitsEarlier": 302.0369134781514,
+   "seaIceEver": {
+    "N": null,
+    "S": null
+   },
+   "seaIceHalfYear": {
+    "N": null,
+    "S": null
+   },
+   "seaIcePerennial": {
+    "N": null,
+    "S": null
+   },
+   "landSnowEver": {
+    "N": [
+     67.6683549907794,
+     82.59800031228968,
+     5
+    ],
+    "S": [
+     67.66835499077847,
+     82.59800031228691,
+     5
+    ]
+   },
+   "landSnowHalfYear": {
+    "N": null,
+    "S": null
+   },
+   "landSnowPerennial": {
+    "N": null,
+    "S": null
+   },
+   "crossTavg263": 90.0,
+   "crossTavgMinus2C": 90.0,
+   "crossToceanMinus2C": 90.0,
+   "crossTlandMinus2C": 90.0,
+   "meanIcelinePackage": 90.0,
+   "fracIceCellDaysWithWabove_2p013": null,
+   "albedoGlobalUnweighted": 0.22676388888888893,
+   "albedoGlobalInsolWeighted": 0.22506935435662298,
+   "albedoPolarBoxUnweighted": 0.25812500000000005,
+   "albedoPolarBoxInsolWeighted": 0.22730608910701874,
+   "maxAbsAlbedoDiffPerLat": 0.030818910892981305,
+   "OLRglob": 263.67365011032524,
+   "ASRglob": 263.6736502411034,
+   "Sused": 1361.018056123933
+  }
+ },
+ "ben3": {
+  "cfg": {
+   "jmx": 120,
+   "runlength": 100.0,
+   "scaleQ": 1.0029549290688937,
+   "A": 203.3,
+   "B": 2.09,
+   "Dmag": 0.5,
+   "Toffset": -30.0,
+   "obl": 60.0,
+   "ecc": 0.0,
+   "per": 102.07,
+   "star": "G",
+   "land": "fillet",
+   "casename": "ben3",
+   "hadleyflag": 0.0,
+   "albedoflag": 0.0,
+   "ice_model": 1.0,
+   "coldstart": 0.0,
+   "Cl": 0.3168808781402895,
+   "Cw": 12.67523512561158,
+   "nu": 3.0,
+   "rghflag": 0.0
+  },
+  "diag": {
+   "Tglob": 302.04601249105446,
+   "TglobPrevOrbit": 302.04601248759866,
+   "TglobTenOrbitsEarlier": 302.04601238484327,
+   "seaIceEver": {
+    "N": null,
+    "S": null
+   },
+   "seaIceHalfYear": {
+    "N": null,
+    "S": null
+   },
+   "seaIcePerennial": {
+    "N": null,
+    "S": null
+   },
+   "landSnowEver": {
+    "N": null,
+    "S": null
+   },
+   "landSnowHalfYear": {
+    "N": null,
+    "S": null
+   },
+   "landSnowPerennial": {
+    "N": null,
+    "S": null
+   },
+   "crossTavg263": 90.0,
+   "crossTavgMinus2C": 90.0,
+   "crossToceanMinus2C": 90.0,
+   "crossTlandMinus2C": 90.0,
+   "meanIcelinePackage": 90.0,
+   "fracIceCellDaysWithWabove_2p013": null,
+   "albedoGlobalUnweighted": 0.22500000000000006,
+   "albedoGlobalInsolWeighted": 0.22500000000000003,
+   "albedoPolarBoxUnweighted": 0.225,
+   "albedoPolarBoxInsolWeighted": 0.22500000000000028,
+   "maxAbsAlbedoDiffPerLat": 2.7755575615628914e-16,
+   "OLRglob": 263.6926661063039,
+   "ASRglob": 263.6926661371573,
+   "Sused": 1360.9944058691985
+  }
+ }
+}

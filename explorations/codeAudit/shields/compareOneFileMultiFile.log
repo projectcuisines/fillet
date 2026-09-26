@@ -1,0 +1,13 @@
+multi-file seasonal_setup globals after tuple unpack:
+  star       = 'G'
+  ice_model  = 'modern'
+  land       = 'Control'
+  casename   = 'G'
+  jmx        = 60
+land fraction identical: True
+L_out shapes (60, 35910) (60, 35910) max|diff| = 0.000e+00
+W_out shapes (60, 35910) (60, 35910) max|diff| = 0.000e+00
+h_out shapes (60, 35910) (60, 35910) max|diff| = 0.000e+00
+multi-file final-year mean Tg = 10.904874 C (G_dwarf_ws.txt row scaleQ=1: 10.904874)
+warmstart ice line, linspace axis = 70.607277 (file: 70.607277)
+warmstart ice line, true sin-lat axis = 50.505691

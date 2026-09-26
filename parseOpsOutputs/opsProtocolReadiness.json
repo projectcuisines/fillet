@@ -1,0 +1,260 @@
+{
+ "dictSourceConstants": {
+  "fDiffusionD0": 0.5,
+  "fSolarConstant": 1361.0,
+  "fIceLineThresholdK": 263.15,
+  "fIceRampUpperK": 273.15,
+  "fIceRampLowerK": 239.0,
+  "fIceRampScaleK": 12.5,
+  "fLandSnowSwitchK": 263.15,
+  "sDiffusionExpression": "fracd0(k)*d0*((Pdry+ ann_pco2ave + ann_ph2oave)/po)*((avemol0/avemol)**2)*latefac*(hcp/hcp0)* &",
+  "bDiffusionRescaled": true,
+  "sLatentHeatFactor": "ann_FH2O/0.0155",
+  "sPerBeltDiffusionFactor": "1.",
+  "bReportsEffectiveDiffusion": true,
+  "sCloudIRExpression": "max(-6.8*log((FC/FE)+1),-10.)",
+  "sCloudFractionExpression": "min(0.70*log((FC/FE)+1),1.)",
+  "fCloudIRInitialWm2": -4.0,
+  "fConvectiveFluxScaleWm2": 90.08,
+  "bCloudIRFromNamelist": false,
+  "sGlobalAlbedoDefinition": "albsum/fluxave",
+  "sGlobalAlbedoAccumulator": "area(k)*s(k)*atoa(k)",
+  "bColumnAlbedoFluxWeighted": false,
+  "sCO2CoordinateExpression": "44*Pdry*fco2(k)/(28*(1-fco2(k)))",
+  "fCO2CoordinateFactor": 1.5714285714285714,
+  "iNumBelts": 36,
+  "fOceanAlbedoDivisor": 90.0
+ },
+ "listFindings": [
+  {
+   "sQuantity": "instellation",
+   "sHandle": "a0",
+   "bNamelistSettable": true,
+   "sNote": "read from input_ebm.dat"
+  },
+  {
+   "sQuantity": "obliquity",
+   "sHandle": "obl",
+   "bNamelistSettable": true,
+   "sNote": "read from input_ebm.dat"
+  },
+  {
+   "sQuantity": "CO2 abundance",
+   "sHandle": "pco2i",
+   "bNamelistSettable": true,
+   "sNote": "read from input_ebm.dat"
+  },
+  {
+   "sQuantity": "diffusion coefficient",
+   "sHandle": "d0",
+   "bNamelistSettable": false,
+   "sNote": "compiled in; changing it needs a source edit"
+  },
+  {
+   "sQuantity": "land fraction",
+   "sHandle": "igeog/ocean",
+   "bNamelistSettable": false,
+   "sNote": "compiled in; changing it needs a source edit"
+  },
+  {
+   "sQuantity": "land albedo",
+   "sHandle": "groundalb",
+   "bNamelistSettable": true,
+   "sNote": "read from input_ebm.dat"
+  },
+  {
+   "sQuantity": "ocean albedo",
+   "sHandle": "fresnel_reflct.dat",
+   "bNamelistSettable": false,
+   "sNote": "compiled in; changing it needs a source edit"
+  },
+  {
+   "sQuantity": "ice albedo",
+   "sHandle": "aice_vis/aice_nir",
+   "bNamelistSettable": false,
+   "sNote": "compiled in; changing it needs a source edit"
+  },
+  {
+   "sQuantity": "solar constant",
+   "sHandle": "q0",
+   "bNamelistSettable": false,
+   "sNote": "q0 = 1361 W/m2 in source against the protocol 1361"
+  },
+  {
+   "sQuantity": "number of latitude belts",
+   "sHandle": "nbelts",
+   "bNamelistSettable": false,
+   "sNote": "compile-time parameter, 36 in this build"
+  }
+ ],
+ "listSourceVsSubmission": [
+  {
+   "sQuantity": "latitude belts",
+   "sSource": "36, a compile-time parameter",
+   "sArchive": "36 in every profile",
+   "bConsistent": true
+  },
+  {
+   "sQuantity": "solar constant",
+   "sSource": "q0 = 1361 W/m2",
+   "sArchive": "instellation filed as 1.00 relative to the protocol 1361",
+   "bConsistent": true
+  },
+  {
+   "sQuantity": "diffusion coefficient",
+   "sSource": "d0 = 0.50, rescaled every step by pressure, mean molecular weight, heat capacity, rotation rate and a latent-heat factor; the Benchmark 1 run reports 0.5169",
+   "sArchive": "Diff = 0.50, constant across every case",
+   "bConsistent": false,
+   "sNote": "the filed column is the nominal d0, not the coefficient the run used"
+  },
+  {
+   "sQuantity": "planetary albedo",
+   "sSource": "albsum/fluxave, i.e. reflected flux over incident flux",
+   "sArchive": "the ATOA column, an unweighted annual mean per belt",
+   "bConsistent": false,
+   "sNote": "area-weighting the filed column is not the planetary albedo and does not close the budget; the model's own value does",
+   "fSourceValue": 0.3
+  },
+  {
+   "sQuantity": "ice-line threshold",
+   "sSource": "263.15 K, interpolated between belt centres",
+   "sArchive": "263.15 K, per the file header and confirmed by recomputation",
+   "bConsistent": true
+  },
+  {
+   "sQuantity": "CO2 abundance, benchmarks",
+   "sSource": "a mixing ratio, converted to the table coordinate by 44/28",
+   "sArchive": "filed as 2.8e-04, a mixing ratio under a header that says ppm",
+   "bConsistent": false,
+   "sNote": "a unit-label error in the submission, not a model difference"
+  }
+ ],
+ "listDeliverableCheck": [
+  {
+   "sExperiment": "ben1",
+   "sSourceFile": "out/Benchmarks/1/global_output_bench1.dat",
+   "bShippedInSource": true,
+   "bPresentInArchive": true,
+   "dictAgreement": {
+    "bComparable": true,
+    "iRows": 1,
+    "iColumns": 7,
+    "fMaxAbsDifference": 180.0,
+    "bIdentical": false
+   }
+  },
+  {
+   "sExperiment": "ben2",
+   "sSourceFile": "out/Benchmarks/2/global_output_bench2.dat",
+   "bShippedInSource": true,
+   "bPresentInArchive": true,
+   "dictAgreement": {
+    "bComparable": true,
+    "iRows": 1,
+    "iColumns": 7,
+    "fMaxAbsDifference": 0.0,
+    "bIdentical": true
+   }
+  },
+  {
+   "sExperiment": "ben3",
+   "sSourceFile": "out/Benchmarks/3/global_output_bench3.dat",
+   "bShippedInSource": true,
+   "bPresentInArchive": true,
+   "dictAgreement": {
+    "bComparable": true,
+    "iRows": 1,
+    "iColumns": 7,
+    "fMaxAbsDifference": 0.0,
+    "bIdentical": true
+   }
+  },
+  {
+   "sExperiment": "exp1",
+   "sSourceFile": "out/Experiments/global_output_experiment1warmstart.dat",
+   "bShippedInSource": true,
+   "bPresentInArchive": true,
+   "dictAgreement": {
+    "bComparable": true,
+    "iRows": 190,
+    "iColumns": 11,
+    "fMaxAbsDifference": 0.0,
+    "bIdentical": true
+   }
+  },
+  {
+   "sExperiment": "exp2",
+   "sSourceFile": "out/Experiments/global_output_experiment2coldstart.dat",
+   "bShippedInSource": true,
+   "bPresentInArchive": true,
+   "dictAgreement": {
+    "bComparable": true,
+    "iRows": 250,
+    "iColumns": 11,
+    "fMaxAbsDifference": 0.0,
+    "bIdentical": true
+   }
+  },
+  {
+   "sExperiment": "exp3_warm",
+   "sSourceFile": "out/Experiments/global_output_experiment3_warmstart.dat",
+   "bShippedInSource": true,
+   "bPresentInArchive": true,
+   "dictAgreement": {
+    "bComparable": true,
+    "iRows": 56,
+    "iColumns": 11,
+    "fMaxAbsDifference": 0.0,
+    "bIdentical": true
+   }
+  },
+  {
+   "sExperiment": "exp3_cold",
+   "sSourceFile": "out/Experiments/global_output_experiment3_coldstart.dat",
+   "bShippedInSource": true,
+   "bPresentInArchive": true,
+   "dictAgreement": {
+    "bComparable": true,
+    "iRows": 56,
+    "iColumns": 11,
+    "fMaxAbsDifference": 0.0,
+    "bIdentical": true
+   }
+  },
+  {
+   "sExperiment": "exp4_warm",
+   "sSourceFile": "out/Experiments/global_output_experiment4_warmstart.dat",
+   "bShippedInSource": true,
+   "bPresentInArchive": true,
+   "dictAgreement": {
+    "bComparable": true,
+    "iRows": 51,
+    "iColumns": 11,
+    "fMaxAbsDifference": 15.099999999999994,
+    "bIdentical": false
+   }
+  },
+  {
+   "sExperiment": "exp4_cold",
+   "sSourceFile": null,
+   "bShippedInSource": false,
+   "bPresentInArchive": true,
+   "dictAgreement": {
+    "bComparable": false,
+    "sReason": "no counterpart run in the source tree"
+   }
+  }
+ ],
+ "dictExpFourBranches": {
+  "bComparable": true,
+  "iRows": 51,
+  "iColumns": 11,
+  "fMaxAbsDifference": 0.0,
+  "bIdentical": true,
+  "sNote": "the source tree ships only a warm-start Experiment 4, so there is no second run for the cold branch to hold"
+ },
+ "iShippedRuns": 19,
+ "iArchivedCases": 657,
+ "bShipsFilletDeliverables": true,
+ "sArchiveDirectory": "Results/ops"
+}

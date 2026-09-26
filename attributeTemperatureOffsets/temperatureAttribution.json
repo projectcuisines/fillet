@@ -1,0 +1,595 @@
+{
+ "listBenchmarks": [
+  {
+   "sBenchmark": "ben1",
+   "dictModels": {
+    "avalon": {
+     "fS0": 1361.0,
+     "fAlbedo": 0.28833186874105665,
+     "fA": 210.0,
+     "fB": 2.0,
+     "fTglobActual": 288.3748333966794,
+     "sLongwave": "linear A=210, B=2.0 (Myhre CO2 forcing)",
+     "fTglobZeroD": 289.2225408304277,
+     "fZeroDResidual": -0.8477074337483259
+    },
+    "poise": {
+     "fS0": 1367.566825,
+     "fAlbedo": 0.32414999714348736,
+     "fA": 203.3,
+     "fB": 2.09,
+     "fTglobActual": 287.6549704154272,
+     "sLongwave": "fixed linearisation dPlanckA/dPlanckB (bCalcAB = 0)",
+     "fTglobZeroD": 286.4358902610911,
+     "fZeroDResidual": 1.2190801543360976
+    },
+    "hextor": {
+     "fS0": 1361.0,
+     "fAlbedo": 0.2327755995574936,
+     "fA": 229.30421146244527,
+     "fB": 2.311598636271526,
+     "fTglobActual": 287.8947367789158,
+     "sLongwave": "lookup table linearised at Tglob, effective CO2 = (pi/2) x 280 ppm, cloudir = -6.3 W/m2",
+     "fTglobZeroD": 286.8824405240689,
+     "fZeroDResidual": 1.0122962548468877
+    },
+    "ops": {
+     "fS0": 1361.0,
+     "fAlbedo": 0.31554552480465703,
+     "fA": 218.85997025290064,
+     "fB": 1.4942650602761063,
+     "fTglobActual": 287.1938586843247,
+     "sLongwave": "lookup table linearised at Tglob, cloudir recovered from the archived profile = -3.78 W/m2",
+     "fTglobZeroD": 282.53632997931646,
+     "fZeroDResidual": 4.657528705008247
+    },
+    "shields_bitz": {
+     "fS0": 1361.0,
+     "fAlbedo": 0.3244229942311706,
+     "fA": 203.3,
+     "fB": 2.09,
+     "fTglobActual": 285.16228577728737,
+     "sLongwave": "A + B T exactly, A = 203.3, B = 2.09, no CO2 term",
+     "fTglobZeroD": 285.8605627812651,
+     "fZeroDResidual": -0.6982770039777506
+    }
+   },
+   "listPairs": [
+    {
+     "sModelA": "avalon",
+     "sModelB": "hextor",
+     "fDeltaTZeroD": -2.3401003063588064,
+     "fDeltaTActual": -0.4800966177635928,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": 8.814488436393646,
+      "fA": -9.001563951216951,
+      "fB": -2.1530247915355005
+     },
+     "fShapleySum": -2.3401003063588064,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "avalon",
+     "sModelB": "ops",
+     "fDeltaTZeroD": -6.686210851111241,
+     "fDeltaTActual": -1.1809747123546686,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": -5.4131895935764005,
+      "fA": -5.17965073814879,
+      "fB": 3.9066294806139488
+     },
+     "fShapleySum": -6.686210851111241,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "avalon",
+     "sModelB": "poise",
+     "fDeltaTZeroD": -2.7866505693365866,
+     "fDeltaTActual": -0.7198629812521631,
+     "dictShapley": {
+      "fS0": 0.5573183973546492,
+      "fAlbedo": -5.976636742654624,
+      "fA": 3.2778708133971244,
+      "fB": -0.645203037433736
+     },
+     "fShapleySum": -2.7866505693365866,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "avalon",
+     "sModelB": "shields_bitz",
+     "fDeltaTZeroD": -3.3619780491625875,
+     "fDeltaTActual": -3.212547619392012,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": -6.00780170841702,
+      "fA": 3.2778708133971293,
+      "fB": -0.6320471541426969
+     },
+     "fShapleySum": -3.3619780491625875,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "hextor",
+     "sModelB": "ops",
+     "fDeltaTZeroD": -4.346110544752435,
+     "fDeltaTActual": -0.7008780945910758,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": -15.515074321591149,
+      "fA": 5.753870150037254,
+      "fB": 5.41509362680146
+     },
+     "fShapleySum": -4.3461105447524355,
+     "fClosureError": -8.881784197001252e-16
+    },
+    {
+     "sModelA": "hextor",
+     "sModelB": "poise",
+     "fDeltaTZeroD": -0.4465502629777802,
+     "fDeltaTActual": -0.23976636348857028,
+     "dictShapley": {
+      "fS0": 0.539031540951901,
+      "fAlbedo": -14.197386371000036,
+      "fA": 11.845827827801168,
+      "fB": 1.3659767392691862
+     },
+     "fShapleySum": -0.4465502629777802,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "hextor",
+     "sModelB": "shields_bitz",
+     "fDeltaTZeroD": -1.021877742803781,
+     "fDeltaTActual": -2.7324510016284194,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": -14.204958997742324,
+      "fA": 11.845827827801173,
+      "fB": 1.3372534271373695
+     },
+     "fShapleySum": -1.021877742803781,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "ops",
+     "sModelB": "poise",
+     "fDeltaTZeroD": 3.8995602817746544,
+     "fDeltaTActual": 0.4611117311025055,
+     "dictShapley": {
+      "fS0": 0.6409880729714766,
+      "fAlbedo": -1.6838644724942025,
+      "fA": 8.92904388923825,
+      "fB": -3.9866072079408688
+     },
+     "fShapleySum": 3.899560281774655,
+     "fClosureError": 4.440892098500626e-16
+    },
+    {
+     "sModelA": "ops",
+     "sModelB": "shields_bitz",
+     "fDeltaTZeroD": 3.3242328019486536,
+     "fDeltaTActual": -2.0315729070373436,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": -1.7333390228884014,
+      "fA": 8.929043889238244,
+      "fB": -3.871472064401189
+     },
+     "fShapleySum": 3.3242328019486536,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "poise",
+     "sModelB": "shields_bitz",
+     "fDeltaTZeroD": -0.5753274798260009,
+     "fDeltaTActual": -2.492684638139849,
+     "dictShapley": {
+      "fS0": -0.53077659485146,
+      "fAlbedo": -0.04455088497454085,
+      "fA": 0.0,
+      "fB": 0.0
+     },
+     "fShapleySum": -0.5753274798260009,
+     "fClosureError": 0.0
+    }
+   ]
+  },
+  {
+   "sBenchmark": "ben2",
+   "dictModels": {
+    "avalon": {
+     "fS0": 1361.0,
+     "fAlbedo": 0.22499999999999998,
+     "fA": 210.0,
+     "fB": 2.0,
+     "fTglobActual": 299.55184317466916,
+     "sLongwave": "linear A=210, B=2.0 (Myhre CO2 forcing)",
+     "fTglobZeroD": 299.996875,
+     "fZeroDResidual": -0.44503182533082963
+    },
+    "poise": {
+     "fS0": 1360.862539,
+     "fAlbedo": 0.22744220357305067,
+     "fA": 204.05,
+     "fB": 2.09,
+     "fTglobActual": 302.86039344153943,
+     "sLongwave": "fixed linearisation dPlanckA/dPlanckB (bCalcAB = 0)",
+     "fTglobZeroD": 301.27738808251473,
+     "fZeroDResidual": 1.5830053590246962
+    },
+    "hextor": {
+     "fS0": 1361.0,
+     "fAlbedo": 0.2358204578755977,
+     "fA": 229.30421146244447,
+     "fB": 2.311598636271583,
+     "fTglobActual": 287.0384512171598,
+     "sLongwave": "lookup table linearised at Tglob, effective CO2 = (pi/2) x 280 ppm, cloudir = -6.3 W/m2",
+     "fTglobZeroD": 286.43426019272647,
+     "fZeroDResidual": 0.6041910244333053
+    },
+    "ops": {
+     "fS0": 1361.0,
+     "fAlbedo": 0.3241107720902149,
+     "fA": 219.2045509584203,
+     "fB": 1.4942650602761063,
+     "fTglobActual": 284.4662399313619,
+     "sLongwave": "lookup table linearised at Tglob, cloudir recovered from the archived profile = -4.12 W/m2",
+     "fTglobZeroD": 280.35538753405274,
+     "fZeroDResidual": 4.110852397309145
+    },
+    "shields_bitz": {
+     "fS0": 1361.0,
+     "fAlbedo": 0.3306685064107848,
+     "fA": 203.3,
+     "fB": 2.09,
+     "fTglobActual": 284.1699252476663,
+     "sLongwave": "A + B T exactly, A = 203.3, B = 2.09, no CO2 term",
+     "fTglobZeroD": 284.8437993749906,
+     "fZeroDResidual": -0.673874127324325
+    }
+   },
+   "listPairs": [
+    {
+     "sModelA": "avalon",
+     "sModelB": "hextor",
+     "fDeltaTZeroD": -13.562614807273519,
+     "fDeltaTActual": -12.513391957509384,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": -1.7167603624679373,
+      "fA": -9.001563951216468,
+      "fB": -2.8442904935891136
+     },
+     "fShapleySum": -13.562614807273519,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "avalon",
+     "sModelB": "ops",
+     "fDeltaTZeroD": -19.64148746594725,
+     "fDeltaTActual": -15.085603243307276,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": -19.714565321036616,
+      "fA": -5.381096979473654,
+      "fB": 5.45417483456302
+     },
+     "fShapleySum": -19.64148746594725,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "avalon",
+     "sModelB": "poise",
+     "fDeltaTZeroD": 1.2805130825147444,
+     "fDeltaTActual": 3.30855026687027,
+     "dictShapley": {
+      "fS0": -0.013009435347683507,
+      "fAlbedo": -0.40651376437286046,
+      "fA": 2.9109449760765407,
+      "fB": -1.210908693841252
+     },
+     "fShapleySum": 1.2805130825147446,
+     "fClosureError": 2.220446049250313e-16
+    },
+    {
+     "sModelA": "avalon",
+     "sModelB": "shields_bitz",
+     "fDeltaTZeroD": -15.153075625009365,
+     "fDeltaTActual": -15.38191792700286,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": -17.589793189311298,
+      "fA": 3.27787081339711,
+      "fB": -0.8411532490951762
+     },
+     "fShapleySum": -15.153075625009363,
+     "fClosureError": 1.7763568394002505e-15
+    },
+    {
+     "sModelA": "hextor",
+     "sModelB": "ops",
+     "fDeltaTZeroD": -6.078872658673731,
+     "fDeltaTActual": -2.5722112857978914,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": -16.549861351522168,
+      "fA": 5.564036097376601,
+      "fB": 4.906952595471836
+     },
+     "fShapleySum": -6.078872658673731,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "hextor",
+     "sModelB": "poise",
+     "fDeltaTZeroD": 14.843127889788263,
+     "fDeltaTActual": 15.821942224379654,
+     "dictShapley": {
+      "fS0": -0.01202958418945362,
+      "fAlbedo": 1.298527342315045,
+      "fA": 11.504176596280681,
+      "fB": 2.0524535353819906
+     },
+     "fShapleySum": 14.843127889788263,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "hextor",
+     "sModelB": "shields_bitz",
+     "fDeltaTZeroD": -1.5904608177358455,
+     "fDeltaTActual": -2.8685259694934757,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": -14.701046824685875,
+      "fA": 11.84582782780069,
+      "fB": 1.2647581791493394
+     },
+     "fShapleySum": -1.5904608177358455,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "ops",
+     "sModelB": "poise",
+     "fDeltaTZeroD": 20.922000548461995,
+     "fDeltaTActual": 18.394153510177546,
+     "dictShapley": {
+      "fS0": -0.014229168435714238,
+      "fAlbedo": 18.87378047757159,
+      "fA": 8.696395200640405,
+      "fB": -6.633945961314287
+     },
+     "fShapleySum": 20.92200054846199,
+     "fClosureError": -3.552713678800501e-15
+    },
+    {
+     "sModelA": "ops",
+     "sModelB": "shields_bitz",
+     "fDeltaTZeroD": 4.488411840937886,
+     "fDeltaTActual": -0.29631468369558434,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": -1.280407315808958,
+      "fA": 9.126780529666348,
+      "fB": -3.3579613729195046
+     },
+     "fShapleySum": 4.488411840937886,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "poise",
+     "sModelB": "shields_bitz",
+     "fDeltaTZeroD": -16.43358870752411,
+     "fDeltaTActual": -18.69046819387313,
+     "dictShapley": {
+      "fS0": 0.011854278929111691,
+      "fAlbedo": -16.80429466109437,
+      "fA": 0.35885167464114903,
+      "fB": 0.0
+     },
+     "fShapleySum": -16.43358870752411,
+     "fClosureError": 0.0
+    }
+   ]
+  },
+  {
+   "sBenchmark": "ben3",
+   "dictModels": {
+    "avalon": {
+     "fS0": 1361.0,
+     "fAlbedo": 0.22499999999999987,
+     "fA": 210.0,
+     "fB": 2.0,
+     "fTglobActual": 300.0331193268595,
+     "sLongwave": "linear A=210, B=2.0 (Myhre CO2 forcing)",
+     "fTglobZeroD": 299.996875,
+     "fZeroDResidual": 0.03624432685950296
+    },
+    "poise": {
+     "fS0": 1360.862539,
+     "fAlbedo": 0.25559361503274514,
+     "fA": 204.05,
+     "fB": 2.09,
+     "fTglobActual": 302.80908005886886,
+     "sLongwave": "fixed linearisation dPlanckA/dPlanckB (bCalcAB = 0)",
+     "fTglobZeroD": 296.69482812133367,
+     "fZeroDResidual": 6.114251937535187
+    },
+    "hextor": {
+     "fS0": 1361.0,
+     "fAlbedo": 0.21876270934210673,
+     "fA": 229.30421146244532,
+     "fB": 2.311598636271526,
+     "fTglobActual": 288.89972142184115,
+     "sLongwave": "lookup table linearised at Tglob, effective CO2 = (pi/2) x 280 ppm, cloudir = -6.3 W/m2",
+     "fTglobZeroD": 288.94503297457993,
+     "fZeroDResidual": -0.04531155273878085
+    },
+    "ops": {
+     "fS0": 1361.0,
+     "fAlbedo": 0.38121430760262875,
+     "fA": 220.1449163857515,
+     "fB": 1.494265060276092,
+     "fTglobActual": 285.3993076502974,
+     "sLongwave": "lookup table linearised at Tglob, cloudir recovered from the archived profile = -5.06 W/m2",
+     "fTglobZeroD": 266.72337275505083,
+     "fZeroDResidual": 18.67593489524654
+    },
+    "shields_bitz": {
+     "fS0": 1361.0,
+     "fAlbedo": 0.31953208609248396,
+     "fA": 203.3,
+     "fB": 2.09,
+     "fTglobActual": 285.9997308746782,
+     "sLongwave": "A + B T exactly, A = 203.3, B = 2.09, no CO2 term",
+     "fTglobZeroD": 286.6567979459485,
+     "fZeroDResidual": -0.6570670712702622
+    }
+   },
+   "listPairs": [
+    {
+     "sModelA": "avalon",
+     "sModelB": "hextor",
+     "fDeltaTZeroD": -11.051842025420058,
+     "fDeltaTActual": -11.133397905018342,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": 0.9896007630888638,
+      "fA": -9.001563951216989,
+      "fB": -3.039878837291932
+     },
+     "fShapleySum": -11.051842025420056,
+     "fClosureError": 1.7763568394002505e-15
+    },
+    {
+     "sModelA": "avalon",
+     "sModelB": "ops",
+     "fDeltaTZeroD": -33.27350224494916,
+     "fDeltaTActual": -14.633811676562118,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": -31.073284027181966,
+      "fA": -5.930846509186921,
+      "fB": 3.7306282914197197
+     },
+     "fShapleySum": -33.27350224494917,
+     "fClosureError": -1.4210854715202004e-14
+    },
+    {
+     "sModelA": "avalon",
+     "sModelB": "poise",
+     "fDeltaTZeroD": -3.3020468786663173,
+     "fDeltaTActual": 2.7759607320093664,
+     "dictShapley": {
+      "fS0": -0.012774521054126353,
+      "fAlbedo": -5.092419710613844,
+      "fA": 2.910944976076545,
+      "fB": -1.107797623074892
+     },
+     "fShapleySum": -3.3020468786663173,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "avalon",
+     "sModelB": "shields_bitz",
+     "fDeltaTZeroD": -13.340077054051505,
+     "fDeltaTActual": -14.03338845218127,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": -15.7360021505069,
+      "fA": 3.27787081339712,
+      "fB": -0.8819457169417243
+     },
+     "fShapleySum": -13.340077054051505,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "hextor",
+     "sModelB": "ops",
+     "fDeltaTZeroD": -22.2216602195291,
+     "fDeltaTActual": -3.5004137715437764,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": -30.451261290219104,
+      "fA": 5.045976388309612,
+      "fB": 3.1836246823803833
+     },
+     "fShapleySum": -22.22166021952911,
+     "fClosureError": -1.0658141036401503e-14
+    },
+    {
+     "sModelA": "hextor",
+     "sModelB": "poise",
+     "fDeltaTZeroD": 7.7497951467537405,
+     "fDeltaTActual": 13.909358637027708,
+     "dictShapley": {
+      "fS0": -0.01193681246017301,
+      "fAlbedo": -5.708341660980845,
+      "fA": 11.504176596281203,
+      "fB": 1.9658970239135556
+     },
+     "fShapleySum": 7.7497951467537405,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "hextor",
+     "sModelB": "shields_bitz",
+     "fDeltaTZeroD": -2.2882350286314477,
+     "fDeltaTActual": -2.899990547162929,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": -15.618827682597384,
+      "fA": 11.84582782780123,
+      "fB": 1.4847648261647066
+     },
+     "fShapleySum": -2.2882350286314477,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "ops",
+     "sModelB": "poise",
+     "fDeltaTZeroD": 29.97145536628284,
+     "fDeltaTActual": 17.409772408571484,
+     "dictShapley": {
+      "fS0": -0.013372721597093573,
+      "fAlbedo": 24.526455820885868,
+      "fA": 9.236021179102528,
+      "fB": -3.777648912108461
+     },
+     "fShapleySum": 29.97145536628284,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "ops",
+     "sModelB": "shields_bitz",
+     "fDeltaTZeroD": 19.93342519089765,
+     "fDeltaTActual": 0.6004232243808474,
+     "dictShapley": {
+      "fS0": 0.0,
+      "fAlbedo": 12.043544891595218,
+      "fA": 9.666406508128517,
+      "fB": -1.776526208826084
+     },
+     "fShapleySum": 19.93342519089765,
+     "fClosureError": 0.0
+    },
+    {
+     "sModelA": "poise",
+     "sModelB": "shields_bitz",
+     "fDeltaTZeroD": -10.038030175385188,
+     "fDeltaTActual": -16.809349184190637,
+     "dictShapley": {
+      "fS0": 0.011714392703206991,
+      "fAlbedo": -10.408596242729564,
+      "fA": 0.358851674641168,
+      "fB": 0.0
+     },
+     "fShapleySum": -10.038030175385188,
+     "fClosureError": 0.0
+    }
+   ]
+  }
+ ]
+}

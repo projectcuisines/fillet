@@ -1,0 +1,22 @@
+OLR (W/m2) by scheme at selected (T, pCO2 bar):
+  T=288.00 K pCO2= 2.8e-04: wk97= 236.68  hm16= 229.32  sms09= 230.22  linear= 235.09
+  T=218.73 K pCO2= 1.0e-06: wk97= 138.33  hm16= 169.29  sms09=  99.52  linear=  90.31
+  T=218.73 K pCO2= 2.8e-04: wk97= 104.85  hm16= 114.58  sms09=  99.52  linear=  90.31
+  T=250.00 K pCO2= 2.8e-04: wk97= 168.28  hm16= 171.25  sms09= 152.31  linear= 155.67
+  T=312.00 K pCO2= 2.8e-04: wk97= 270.30  hm16= 250.79  sms09= 285.35  linear= 285.25
+  T=330.00 K pCO2= 2.8e-04: wk97= 288.61  hm16= 257.33  sms09= 328.87  linear= 322.87
+  T=344.00 K pCO2= 1.0e-01: wk97= 274.38  hm16= 265.65  sms09= 363.66  linear= 352.13
+
+d OLR / d log10(pCO2) at 288 K, around 280 ppm (W/m2 per decade):
+  wk97: -7.457
+  hm16: +4.093
+  sms09: +0.000
+  linear: +0.000
+
+WK97 as coded: discontinuity at 190 K (pCO2=2.8e-4, 1e-6):
+  pCO2=0.00028: poly(190.0001)=46.54  sigmaT^4(189.9999)=73.90
+  pCO2=1e-06: poly(190.0001)=54.18  sigmaT^4(189.9999)=73.90
+  pCO2=0.00028: raw WK97 reaches 300 W/m2 at T=348.75 K
+  pCO2=0.01: raw max 297.4
+  pCO2=0.1: raw WK97 reaches 300 W/m2 at T=364.55 K
+  WK97 fit range per WK97 paper: 1e-5 <= pCO2 <= 10 bar, 190 <= T <= 380 K; archive Exp4 XCO2 below 1e-5 bar: 11 of 51

@@ -1,0 +1,88 @@
+{
+ "dictHextorExp1aVsExp2a": {
+  "aShape1a": [
+   190,
+   11
+  ],
+  "aShape2a": [
+   190,
+   11
+  ],
+  "bIdenticalInstellationGrid": true,
+  "bIdenticalTglob": false,
+  "fMaxAbsTglobDifference": 69.72999999999999,
+  "fInstMin1a": 0.83,
+  "fInstMax1a": 1.31,
+  "fInstMin2a": 0.83,
+  "fInstMax2a": 1.31,
+  "fExpectedExp2aInstMin": 1.051939513477975,
+  "fExpectedExp2aInstMax": 1.5624999999999998
+ },
+ "dictExp3Spacing": {
+  "hextor/exp3_warm": {
+   "iNumPoints": 57,
+   "fMin": 0.8,
+   "fMax": 1.5,
+   "fStepMin": 0.010000000000000009,
+   "fStepMax": 0.020000000000000018,
+   "fStepMedian": 0.010000000000000009,
+   "bUniform": false
+  },
+  "hextor/exp3_cold": {
+   "iNumPoints": 57,
+   "fMin": 0.8,
+   "fMax": 1.5,
+   "fStepMin": 0.010000000000000009,
+   "fStepMax": 0.020000000000000018,
+   "fStepMedian": 0.010000000000000009,
+   "bUniform": false
+  },
+  "poise/exp3_warm": {
+   "iNumPoints": 29,
+   "fMin": 0.8,
+   "fMax": 1.5,
+   "fStepMin": 0.02499999999999991,
+   "fStepMax": 0.025000000000000133,
+   "fStepMedian": 0.024999999999999967,
+   "bUniform": true
+  },
+  "poise/exp3_cold": {
+   "iNumPoints": 29,
+   "fMin": 0.768935,
+   "fMax": 1.441754,
+   "fStepMin": 0.024028999999999856,
+   "fStepMax": 0.024029999999999996,
+   "fStepMedian": 0.024029000000000078,
+   "bUniform": false
+  },
+  "avalon/exp3_cooling": {
+   "iNumPoints": 57,
+   "fMin": 0.8,
+   "fMax": 1.5,
+   "fStepMin": 0.012499999999999956,
+   "fStepMax": 0.012500000000000178,
+   "fStepMedian": 0.012499999999999956,
+   "bUniform": true
+  },
+  "avalon/exp3_warming": {
+   "iNumPoints": 57,
+   "fMin": 0.8,
+   "fMax": 1.5,
+   "fStepMin": 0.012499999999999956,
+   "fStepMax": 0.012500000000000178,
+   "fStepMedian": 0.012499999999999956,
+   "bUniform": true
+  }
+ },
+ "dictPoiseExp3BranchOffset": {
+  "fRatioMean": 0.9611693227037553,
+  "fRatioSpread": 1.045918367248433e-06,
+  "fImpliedSemiMajorAxisRatio": 1.019999712696218,
+  "fInferredColdStartSemiMajorAxis_au": 1.019999712696218
+ },
+ "dictPoiseExp4Instellation": {
+  "fInst": 0.965807,
+  "fDeficitFromUnity": 0.03419300000000003,
+  "fImpliedAbsorbedFluxDeficit_Wm2": 8.143917775000006
+ }
+}

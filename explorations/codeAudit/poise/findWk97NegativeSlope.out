@@ -1,0 +1,8 @@
+pCO2=0.00028 bar: dI/dT<=0 first at 362.5 K (I=302.6)
+pCO2=0.001 bar: dI/dT<=0 first at 361.3 K (I=296.9)
+pCO2=0.01 bar: dI/dT<=0 first at 374.1 K (I=297.4)
+pCO2=0.03 bar: dI/dT<=0 first at 395.8 K (I=309.4)
+pCO2=0.1 bar: dI/dT<=0 first at none below 420 K
+exp4_warm case 40: max Tsurf=346.89 K  max OLR=289.26 W/m2  cells with OLR>=299.9: 0
+exp4_warm case 45: max Tsurf=353.28 K  max OLR=291.35 W/m2  cells with OLR>=299.9: 0
+exp4_warm case 50: max Tsurf=359.91 K  max OLR=294.42 W/m2  cells with OLR>=299.9: 0

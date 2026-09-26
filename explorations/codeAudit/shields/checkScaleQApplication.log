@@ -1,0 +1,11 @@
+one-file scaleQ=0.800000: insolation actually used / unscaled = 0.640000 (scaleQ^2 = 0.640000)
+one-file scaleQ=0.900000: insolation actually used / unscaled = 0.810000 (scaleQ^2 = 0.810000)
+one-file scaleQ=1.005919: insolation actually used / unscaled = 1.011873 (scaleQ^2 = 1.011873)
+one-file scaleQ=1.200000: insolation actually used / unscaled = 1.440000 (scaleQ^2 = 1.440000)
+jmx=60 hadley=0: len(x)=60, |sum(Diff_Op@T)|=2.078e-13, max|colsum|=2.629e-13, symmetric=True, last lam=2.638e-13
+jmx=60 hadley=1: len(x)=60, |sum(Diff_Op@T)|=2.469e-13, max|colsum|=4.547e-13, symmetric=True, last lam=2.638e-13
+jmx=120 hadley=0: len(x)=119, |sum(Diff_Op@T)|=3.638e-12, max|colsum|=2.274e-13, symmetric=True, last lam=0.000e+00
+jmx=120 hadley=1: len(x)=119, |sum(Diff_Op@T)|=3.638e-11, max|colsum|=1.819e-12, symmetric=True, last lam=0.000e+00
+multi-file scaleQ=0.90 final-year Tg = -3.676214 C (G_dwarf_ws.txt: -3.676214)
+one-file scaleQ=0.900000 final-year Tg = -32.748637 C
+one-file scaleQ=0.948683 final-year Tg = -3.676214 C

@@ -1,0 +1,123 @@
+% Presentation version of the report's Table 1, the structural taxonomy.
+% Transposed relative to the report -- codes run down the page, properties
+% across -- and set on a 16:9 page so it drops straight onto a slide.
+% Cell text is cut to a phrase; the report's table carries the full wording.
+% Numbers are pulled from the pipeline's generated macros so this file cannot
+% drift from the analysis.
+\documentclass[10pt]{article}
+\usepackage[paperwidth=13.33in,paperheight=7.5in,margin=0.42in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\Wm}{\,\mathrm{W\,m^{-2}}}
+\newcommand{\degr}{^{\circ}}
+\input{../buildAnalysisPaper/tables/macros}
+
+% Row shading, so the eye tracks across ten columns.
+\definecolor{rowtint}{HTML}{F2F4F8}
+
+\begin{document}
+\vspace*{\fill}
+\begin{center}
+{\LARGE\bfseries Structural differences between the five FILLET codes}\\[0.15em]
+{\normalsize Read from each code's own source. $\dagger$ marks the
+configuration used for the archived submission, where it differs from the code
+default.}
+\end{center}
+\vspace{0.35em}
+
+\normalsize
+\setlength{\tabcolsep}{4.2pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabular}{%
+  >{\raggedright\arraybackslash}p{1.38cm}%
+  >{\raggedright\arraybackslash}p{2.75cm}%
+  >{\raggedright\arraybackslash}p{2.60cm}%
+  >{\raggedright\arraybackslash}p{3.55cm}%
+  >{\raggedright\arraybackslash}p{3.30cm}%
+  >{\raggedright\arraybackslash}p{2.80cm}%
+  >{\raggedright\arraybackslash}p{3.15cm}%
+  >{\raggedright\arraybackslash}p{3.05cm}%
+  >{\raggedright\arraybackslash}p{3.05cm}%
+  >{\raggedright\arraybackslash}p{2.55cm}}
+\toprule
+\textbf{Code} & \textbf{State per latitude} & \textbf{Grid} &
+\textbf{Longwave} & \textbf{Shortwave} & \textbf{Ice--albedo step} &
+\textbf{Ice-line diagnostic} & \textbf{Diffusion} &
+\textbf{Additional physics} & \textbf{Time stepping} \\
+\midrule
+
+\rowcolor{rowtint}
+\textbf{AVALON}\newline{\tiny Julia}
+ & one $T$; land/ocean blended
+ & 89 equal-area in $\sin\phi$, nodes at edges$^\dagger$
+ & linear $A+BT$; $A{=}210$, $B{=}2.0$; Myhre CO$_2$ forcing
+ & \textbf{no atmosphere}: prescribed surface albedo \emph{is} planetary; no zenith term
+ & hard step at \code{T\_ice}
+ & outermost band below \code{T\_ice}, snapped; $-10\degr$C$^\dagger$
+ & constant $D$, as prescribed
+ & none
+ & IMEX, $\Delta t\simeq1$ month \\
+
+\textbf{HEXTOR}\newline{\tiny Fortran}
+ & one $T$; ocean fraction per belt
+ & 18 equal-width $10\degr$ belts
+ & RT lookup table, trilinear in $(\log p,\log X_{\rm CO_2},T)$
+ & RT lookup of planetary albedo; \textbf{4 zenith nodes}; \code{fcloud}$=0$
+ & \textbf{ramp}, $10$~K window
+ & $263.15$~K crossing, interpolated
+ & \textbf{rescaled at run time}; submission files $d_0$, $10\%$ low
+ & carbon--silicate cycle (off), CO$_2$ condensation
+ & explicit, $\Delta t = 4.3\times10^{4}$~s \\
+
+\rowcolor{rowtint}
+\textbf{VPLanet}\newline{\tiny C (POISE)}
+ & \textbf{two} $T$ (land, water), coupled
+ & 150 equal-area in $\sin\phi$
+ & fixed $A+BT$ for Ben\,1--3, Exp\,1--3$^\dagger$; WK97 for Exp\,4$^\dagger$
+ & surface albedo $+\;0.08(3\sin^2 z-1)/2$ zenith term
+ & hard step at $-2\degr$C
+ & $273.15$~K land, $271.15$~K ocean, snapped
+ & constant $D$, as prescribed
+ & \textbf{ice sheets with flow} (on); sea ice (off)
+ & seasonal, 60 steps/orbit \\
+
+\textbf{OPS}\newline{\tiny Fortran}
+ & one $T$; ocean fraction per belt
+ & 36 equal-width $5\degr$ belts
+ & RT lookup table, bilinear in $(T,\ln p_{\rm CO_2})$; \emph{extrapolates}
+ & RT lookup; \textbf{19 zenith nodes}; Fresnel ocean; cloud diagnosed per belt
+ & \textbf{ramp}, $34$~K window; snow albedo $T$- and star-dependent
+ & $263.15$~K crossing, interpolated
+ & rescaled \emph{every step}; a function of the climate state
+ & weathering, CO$_2$ cloud, diagnosed H$_2$O cloud
+ & explicit, $\Delta t = 8.6\times10^{3}$~s \\
+
+\rowcolor{rowtint}
+\textbf{Shields-}\newline\textbf{Bitz}\newline{\tiny Python}
+ & \textbf{two} $T$ (land, water), $\nu{=}3.0$
+ & \sbBoxes\ equal-area in $\sin\phi$
+ & linear $A+BT$; $A{=}203.3$, $B{=}2.09$; \textbf{no CO$_2$ term at all}
+ & \textbf{no atmosphere}; albedos are broadband values weighted for the host star
+ & hard step at $-2\degr$C, but only $0.18$ tall
+ & seasonal mean of daily \emph{ocean} freezing latitude, on the wrong axis
+ & Hadley-cell \textbf{profile} $D(x)$, not a constant
+ & \textbf{thermodynamic sea ice} (thickness, latent heat)
+ & implicit, 360 steps/orbit \\
+
+\bottomrule
+\end{tabular}
+
+\vspace{0.9em}
+{\footnotesize Shields-Bitz has filed no FILLET submission; its row describes
+the code and the runs made for this analysis.}
+\vspace*{\fill}
+
+\end{document}

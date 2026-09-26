@@ -1,0 +1,153 @@
+{
+ "sLabel": "Tajika-Kadoya benchmarks",
+ "iFiles": 5,
+ "iNumericallyIdentical": 5,
+ "bArchiveUpToDate": true,
+ "listComparisons": [
+  {
+   "sNewFile": "/tmp/claude-1000/-workspace-fillet/dcaceaeb-83c1-4cac-a26f-ebb5442098ee/scratchpad/kadoyaNew/ben1/case0/lat_output.dat",
+   "sArchivedFile": "/workspace/fillet/Results/kadoya/ben1/case_0/lat_output.dat",
+   "bArchivedExists": true,
+   "bBytesIdentical": true,
+   "bHeadersIdentical": true,
+   "iHeaderLinesDiffering": 0,
+   "aShapeNew": [
+    181,
+    6
+   ],
+   "aShapeArchived": [
+    181,
+    6
+   ],
+   "bNumbersIdentical": true,
+   "fMaxAbsDifference": 0.0,
+   "fMaxRelDifference": 0.0,
+   "alistMaxAbsByColumn": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "iRowsDiffering": 0,
+   "sVerdict": "byte-identical"
+  },
+  {
+   "sNewFile": "/tmp/claude-1000/-workspace-fillet/dcaceaeb-83c1-4cac-a26f-ebb5442098ee/scratchpad/kadoyaNew/ben2/case0/lat_output.dat",
+   "sArchivedFile": "/workspace/fillet/Results/kadoya/ben2/case_0/lat_output.dat",
+   "bArchivedExists": true,
+   "bBytesIdentical": true,
+   "bHeadersIdentical": true,
+   "iHeaderLinesDiffering": 0,
+   "aShapeNew": [
+    181,
+    6
+   ],
+   "aShapeArchived": [
+    181,
+    6
+   ],
+   "bNumbersIdentical": true,
+   "fMaxAbsDifference": 0.0,
+   "fMaxRelDifference": 0.0,
+   "alistMaxAbsByColumn": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "iRowsDiffering": 0,
+   "sVerdict": "byte-identical"
+  },
+  {
+   "sNewFile": "/tmp/claude-1000/-workspace-fillet/dcaceaeb-83c1-4cac-a26f-ebb5442098ee/scratchpad/kadoyaNew/ben2/case1/lat_output.dat",
+   "sArchivedFile": "/workspace/fillet/Results/kadoya/ben2/case_1/lat_output.dat",
+   "bArchivedExists": true,
+   "bBytesIdentical": true,
+   "bHeadersIdentical": true,
+   "iHeaderLinesDiffering": 0,
+   "aShapeNew": [
+    181,
+    6
+   ],
+   "aShapeArchived": [
+    181,
+    6
+   ],
+   "bNumbersIdentical": true,
+   "fMaxAbsDifference": 0.0,
+   "fMaxRelDifference": 0.0,
+   "alistMaxAbsByColumn": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "iRowsDiffering": 0,
+   "sVerdict": "byte-identical"
+  },
+  {
+   "sNewFile": "/tmp/claude-1000/-workspace-fillet/dcaceaeb-83c1-4cac-a26f-ebb5442098ee/scratchpad/kadoyaNew/ben3/case0/lat_output.dat",
+   "sArchivedFile": "/workspace/fillet/Results/kadoya/ben3/case_0/lat_output.dat",
+   "bArchivedExists": true,
+   "bBytesIdentical": true,
+   "bHeadersIdentical": true,
+   "iHeaderLinesDiffering": 0,
+   "aShapeNew": [
+    181,
+    6
+   ],
+   "aShapeArchived": [
+    181,
+    6
+   ],
+   "bNumbersIdentical": true,
+   "fMaxAbsDifference": 0.0,
+   "fMaxRelDifference": 0.0,
+   "alistMaxAbsByColumn": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "iRowsDiffering": 0,
+   "sVerdict": "byte-identical"
+  },
+  {
+   "sNewFile": "/tmp/claude-1000/-workspace-fillet/dcaceaeb-83c1-4cac-a26f-ebb5442098ee/scratchpad/kadoyaNew/ben3/case1/lat_output.dat",
+   "sArchivedFile": "/workspace/fillet/Results/kadoya/ben3/case_1/lat_output.dat",
+   "bArchivedExists": true,
+   "bBytesIdentical": true,
+   "bHeadersIdentical": true,
+   "iHeaderLinesDiffering": 0,
+   "aShapeNew": [
+    181,
+    6
+   ],
+   "aShapeArchived": [
+    181,
+    6
+   ],
+   "bNumbersIdentical": true,
+   "fMaxAbsDifference": 0.0,
+   "fMaxRelDifference": 0.0,
+   "alistMaxAbsByColumn": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "iRowsDiffering": 0,
+   "sVerdict": "byte-identical"
+  }
+ ]
+}

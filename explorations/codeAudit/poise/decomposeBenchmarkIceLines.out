@@ -1,0 +1,3 @@
+ben1: IceLineNMin=57.178770 on-grid=False blend solutions (land, sea) with f_land=0.34: [(np.float64(50.0555), np.float64(60.8483))]
+ben2: IceLineNMin=86.291222 on-grid=False blend solutions (land, sea) with f_land=0.25: [(np.float64(75.1649), np.float64(90.0))]
+ben3: IceLineNMin=90.000000 on-grid=True blend solutions (land, sea) with f_land=0.25: [(np.float64(90.0), np.float64(90.0))]

@@ -1,0 +1,257 @@
+{
+ "fCO2CoordinateFactor": 1.5714285714285714,
+ "listBenchmarks": [
+  {
+   "sBenchmark": "ben1",
+   "dictLongwaveFingerprint": {
+    "ops": {
+     "fFittedCloudIR": -3.778933893119735,
+     "fRms": 2.2067482596613806,
+     "fMaxAbs": 3.5135520362787815,
+     "fRangeOfObserved": 66.12,
+     "fFittedSlope": 1.1014238899327753,
+     "fRmsAfterSlopeFit": 0.6943588818312436,
+     "fArchivedPlanckSlope": 1.7535362459043822,
+     "fPortedPlanckSlope": 1.5868660115865987,
+     "fRatio": 1.10503106947961
+    },
+    "ops_no_molar_factor": {
+     "fFittedCloudIR": -1.4713273167496013,
+     "fRms": 2.159781746844656,
+     "fMaxAbs": 3.5082188089175474,
+     "fRangeOfObserved": 66.12,
+     "fFittedSlope": 1.0980008498576854,
+     "fRmsAfterSlopeFit": 0.7369682962238963
+    },
+    "hextor": {
+     "fFittedCloudIR": 16.550041720720824,
+     "fRms": 7.18092717086787,
+     "fMaxAbs": 12.123461378371758,
+     "fRangeOfObserved": 66.12,
+     "fFittedSlope": 0.7657576331978303,
+     "fRmsAfterSlopeFit": 1.8501973341834101
+    }
+   },
+   "dictGrid": {
+    "iNumLatitudes": 36,
+    "equalWidth": {
+     "fMaxAbsDeviation_deg": 0.5,
+     "fRmsDeviation_deg": 0.5
+    },
+    "equalArea": {
+     "fMaxAbsDeviation_deg": 19.409622109270856,
+     "fRmsDeviation_deg": 13.57834333854545
+    },
+    "fMaxNorthSouthAsymmetry_deg": 1.0,
+    "iPairsDisagreeing": 6,
+    "bRecordedAsIntegers": true
+   },
+   "fTmin": 260.79,
+   "fTmax": 298.75
+  },
+  {
+   "sBenchmark": "ben2",
+   "dictLongwaveFingerprint": {
+    "ops": {
+     "fFittedCloudIR": -4.123514598639422,
+     "fRms": 2.271267156260802,
+     "fMaxAbs": 3.4414091859214295,
+     "fRangeOfObserved": 63.30000000000001,
+     "fFittedSlope": 1.1079967115727893,
+     "fRmsAfterSlopeFit": 0.5008706200469782,
+     "fArchivedPlanckSlope": 1.8642642081858367,
+     "fPortedPlanckSlope": 1.679418131809331,
+     "fRatio": 1.1100655476294998
+    },
+    "ops_no_molar_factor": {
+     "fFittedCloudIR": -1.816417117884086,
+     "fRms": 2.1965148084746557,
+     "fMaxAbs": 3.3938456138878905,
+     "fRangeOfObserved": 63.30000000000001,
+     "fFittedSlope": 1.1034943351736157,
+     "fRmsAfterSlopeFit": 0.5300806513502461
+    },
+    "hextor": {
+     "fFittedCloudIR": 14.100243941864385,
+     "fRms": 5.421372843478618,
+     "fMaxAbs": 9.437659157228154,
+     "fRangeOfObserved": 63.30000000000001,
+     "fFittedSlope": 0.813812950773196,
+     "fRmsAfterSlopeFit": 1.571091011656131
+    }
+   },
+   "dictGrid": {
+    "iNumLatitudes": 36,
+    "equalWidth": {
+     "fMaxAbsDeviation_deg": 0.5,
+     "fRmsDeviation_deg": 0.5
+    },
+    "equalArea": {
+     "fMaxAbsDeviation_deg": 19.409622109270856,
+     "fRmsDeviation_deg": 13.57834333854545
+    },
+    "fMaxNorthSouthAsymmetry_deg": 1.0,
+    "iPairsDisagreeing": 6,
+    "bRecordedAsIntegers": true
+   },
+   "fTmin": 260.56,
+   "fTmax": 295.06
+  },
+  {
+   "sBenchmark": "ben3",
+   "dictLongwaveFingerprint": {
+    "ops": {
+     "fFittedCloudIR": -5.063880025970451,
+     "fRms": 0.2359960180305718,
+     "fMaxAbs": 0.5449093004920371,
+     "fRangeOfObserved": 11.590000000000003,
+     "fFittedSlope": 1.0494198449750511,
+     "fRmsAfterSlopeFit": 0.1331814090200739,
+     "fArchivedPlanckSlope": 1.5174525714799258,
+     "fPortedPlanckSlope": 1.4453603924693428,
+     "fRatio": 1.0498783413370116
+    },
+    "ops_no_molar_factor": {
+     "fFittedCloudIR": -2.6732420906196057,
+     "fRms": 0.22738238488084211,
+     "fMaxAbs": 0.5379212111249672,
+     "fRangeOfObserved": 11.590000000000003,
+     "fFittedSlope": 1.0463272873846907,
+     "fRmsAfterSlopeFit": 0.1347260110085661
+    },
+    "hextor": {
+     "fFittedCloudIR": 16.618596551577483,
+     "fRms": 2.2429314093376225,
+     "fMaxAbs": 3.867306547515028,
+     "fRangeOfObserved": 11.590000000000003,
+     "fFittedSlope": 0.6489116936784558,
+     "fRmsAfterSlopeFit": 0.1477454582982414
+    }
+   },
+   "dictGrid": {
+    "iNumLatitudes": 36,
+    "equalWidth": {
+     "fMaxAbsDeviation_deg": 0.5,
+     "fRmsDeviation_deg": 0.5
+    },
+    "equalArea": {
+     "fMaxAbsDeviation_deg": 19.409622109270856,
+     "fRmsDeviation_deg": 13.57834333854545
+    },
+    "fMaxNorthSouthAsymmetry_deg": 1.0,
+    "iPairsDisagreeing": 6,
+    "bRecordedAsIntegers": true
+   },
+   "fTmin": 283.61,
+   "fTmax": 291.26
+  }
+ ],
+ "dictSubmissionAudit": {
+  "listFiles": [
+   {
+    "sExperiment": "ben1",
+    "iCases": 1,
+    "iProtocolCases": 1,
+    "iNumericColumns": 7,
+    "sResolvedFormat": "v1.0",
+    "fXCO2Min": 0.00028,
+    "fXCO2Max": 0.00028,
+    "sXCO2Unit": "mixing ratio"
+   },
+   {
+    "sExperiment": "ben2",
+    "iCases": 1,
+    "iProtocolCases": 1,
+    "iNumericColumns": 7,
+    "sResolvedFormat": "v1.0",
+    "fXCO2Min": 0.00028,
+    "fXCO2Max": 0.00028,
+    "sXCO2Unit": "mixing ratio"
+   },
+   {
+    "sExperiment": "ben3",
+    "iCases": 1,
+    "iProtocolCases": 1,
+    "iNumericColumns": 7,
+    "sResolvedFormat": "v1.0",
+    "fXCO2Min": 0.00028,
+    "fXCO2Max": 0.00028,
+    "sXCO2Unit": "mixing ratio"
+   },
+   {
+    "sExperiment": "exp1",
+    "iCases": 190,
+    "iProtocolCases": 190,
+    "iNumericColumns": 11,
+    "sResolvedFormat": "v1.1",
+    "fXCO2Min": 280.0,
+    "fXCO2Max": 280.0,
+    "sXCO2Unit": "ppm"
+   },
+   {
+    "sExperiment": "exp2",
+    "iCases": 250,
+    "iProtocolCases": 190,
+    "iNumericColumns": 11,
+    "sResolvedFormat": "v1.1",
+    "fXCO2Min": 280.0,
+    "fXCO2Max": 280.0,
+    "sXCO2Unit": "ppm"
+   },
+   {
+    "sExperiment": "exp3_cold",
+    "iCases": 56,
+    "iProtocolCases": 57,
+    "iNumericColumns": 11,
+    "sResolvedFormat": "v1.1",
+    "fXCO2Min": 280.0,
+    "fXCO2Max": 280.0,
+    "sXCO2Unit": "ppm"
+   },
+   {
+    "sExperiment": "exp3_warm",
+    "iCases": 56,
+    "iProtocolCases": 57,
+    "iNumericColumns": 11,
+    "sResolvedFormat": "v1.1",
+    "fXCO2Min": 280.0,
+    "fXCO2Max": 280.0,
+    "sXCO2Unit": "ppm"
+   },
+   {
+    "sExperiment": "exp4_cold",
+    "iCases": 51,
+    "iProtocolCases": 50,
+    "iNumericColumns": 11,
+    "sResolvedFormat": "v1.1",
+    "fXCO2Min": 1.0,
+    "fXCO2Max": 100000.0,
+    "sXCO2Unit": "ppm"
+   },
+   {
+    "sExperiment": "exp4_warm",
+    "iCases": 51,
+    "iProtocolCases": 50,
+    "iNumericColumns": 11,
+    "sResolvedFormat": "v1.1",
+    "fXCO2Min": 1.0,
+    "fXCO2Max": 100000.0,
+    "sXCO2Unit": "ppm"
+   }
+  ],
+  "listBranchPairs": [
+   {
+    "sPair": "exp3_cold / exp3_warm",
+    "bIdentical": false,
+    "iRowsDiffering": 5,
+    "fMaxTglobDifference_K": 1.6029999999999802
+   },
+   {
+    "sPair": "exp4_cold / exp4_warm",
+    "bIdentical": true,
+    "iRowsDiffering": 0,
+    "fMaxTglobDifference_K": 0.0
+   }
+  ]
+ }
+}

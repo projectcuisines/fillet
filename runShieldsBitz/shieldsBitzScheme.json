@@ -1,0 +1,228 @@
+{
+ "dictSourceConstants": {
+  "dictDefaults": {
+   "jmx": 120.0,
+   "runlength": 100.0,
+   "scaleQ": 1.0,
+   "A": 203.3,
+   "B": 2.09,
+   "Dmag": 0.44,
+   "Toffset": -30.0,
+   "obl": 0.0,
+   "ecc": 0.0,
+   "per": 102.07,
+   "star": "G",
+   "land": "Fillet",
+   "casename": "Control",
+   "hadleyflag": 1.0,
+   "albedoflag": 0.0,
+   "ice_model": 1.0,
+   "coldstart": 0.0,
+   "Cl": 0.45,
+   "Cw": 9.8,
+   "nu": 3.0,
+   "rghflag": 0.0
+  },
+  "fPlanckA": 203.3,
+  "fPlanckB": 2.09,
+  "fDiffusionMagnitude": 0.44,
+  "iNumBoxes": 120,
+  "fFreezingC": -2.0,
+  "fIceConductivity": 2.0,
+  "fOceanHeatCapacity": 9.8,
+  "fLandHeatCapacity": 0.45,
+  "fLandOceanCoupling": 3.0,
+  "iStepsPerYear": 360,
+  "fFilletLandFraction": 0.25,
+  "sDiffusionProfile": "Dmag * (1 + 9 * np.exp(- (x / np.sin(25 * np.pi / 180.0))**6))",
+  "fIceLineThresholdC": -2.013,
+  "sIceLineField": "W_out",
+  "sIceLineAxis": "np.linspace(-90, 90, jmx)",
+  "sDynamicsAxis": "np.arcsin(xi) * rd_conv",
+  "bCarriesCO2": false,
+  "bSeasonal": true,
+  "bThermodynamicIce": true
+ },
+ "dictBroadbandAlbedo": {
+  "Asnow": 0.64622,
+  "A_75": 0.57636,
+  "A_50": 0.51363,
+  "A_25": 0.45585,
+  "A_bi": 0.40093,
+  "A_o": 0.31948,
+  "A_l": 0.41484,
+  "c_2k": 0.901,
+  "c_1": 0.992,
+  "c_2": 0.991,
+  "c_5": 0.988,
+  "c_20": 0.979,
+  "c_100": 0.963,
+  "c_200": 0.954,
+  "m": 0.8
+ },
+ "dictAxisDiscrepancy": {
+  "iJmx": 120,
+  "fMaxOffsetDeg": 19.531101879764513,
+  "fRMSOffsetDeg": 14.000152971601871,
+  "fOffsetAtWorstBoxDeg": -19.531101879764513,
+  "fModelLatitudeAtWorstBox": -50.805032574017,
+  "fLocatorLatitudeAtWorstBox": -70.33613445378151
+ },
+ "listAxisEffectOnBenchmarks": [
+  {
+   "sBenchmark": "ben1",
+   "fEdgeOnModelAxisDeg": 61.07296769245102,
+   "fEdgeOnLocatorAxisDeg": 79.43253578046689,
+   "fDisplacementDeg": 18.35956808801587
+  },
+  {
+   "sBenchmark": "ben2",
+   "fEdgeOnModelAxisDeg": 61.74738270246513,
+   "fEdgeOnLocatorAxisDeg": 79.93297491631287,
+   "fDisplacementDeg": 18.18559221384774
+  },
+  {
+   "sBenchmark": "ben3",
+   "fEdgeOnModelAxisDeg": 90.0,
+   "fEdgeOnLocatorAxisDeg": 90.0,
+   "fDisplacementDeg": 0.0
+  }
+ ],
+ "dictShippedSweep": {
+  "sFile": "G_dwarf_ws.txt",
+  "sBranch": "warm start",
+  "iCases": 21,
+  "aInstellation": [
+   1.3,
+   1.25,
+   1.2,
+   1.15,
+   1.1,
+   1.05,
+   1.0,
+   0.95,
+   0.9,
+   0.85,
+   0.8,
+   0.75,
+   0.7,
+   0.65,
+   0.6,
+   0.55,
+   0.5,
+   0.45,
+   0.4,
+   0.35,
+   0.3
+  ],
+  "aIceEdgeDeg": [
+   90.0,
+   89.296084,
+   86.684102,
+   83.648141,
+   80.174497,
+   76.187443,
+   70.607277,
+   64.071238,
+   55.075563,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "aTglobK": [
+   318.886807,
+   313.32832399999995,
+   307.71054499999997,
+   302.07217699999995,
+   296.380045,
+   290.59700899999996,
+   284.054874,
+   277.25978999999995,
+   269.47378599999996,
+   243.53006,
+   239.62136199999998,
+   235.723213,
+   231.824955,
+   227.92543899999998,
+   224.02449699999997,
+   220.12217599999997,
+   216.218573,
+   212.31379699999997,
+   208.407944,
+   204.501106,
+   200.59336399999998
+  ],
+  "sNote": "written by `warmstart_sweep` at the package defaults, so the 25% land FILLET surface; temperatures are stored in Celsius and converted here"
+ },
+ "listFindings": [
+  {
+   "sQuantity": "instellation",
+   "sHandle": "scaleQ",
+   "bNamelistSettable": true,
+   "sNote": "set in the run configuration"
+  },
+  {
+   "sQuantity": "obliquity",
+   "sHandle": "obl",
+   "bNamelistSettable": true,
+   "sNote": "set in the run configuration"
+  },
+  {
+   "sQuantity": "CO2 abundance",
+   "sHandle": "-",
+   "bNamelistSettable": false,
+   "sNote": "not represented: the longwave is A + B T with A and B constants, so no CO2 abundance can be imposed"
+  },
+  {
+   "sQuantity": "diffusion coefficient",
+   "sHandle": "Dmag",
+   "bNamelistSettable": true,
+   "sNote": "set in the run configuration"
+  },
+  {
+   "sQuantity": "land fraction",
+   "sHandle": "land",
+   "bNamelistSettable": true,
+   "sNote": "set in the run configuration"
+  },
+  {
+   "sQuantity": "land albedo",
+   "sHandle": "A_l",
+   "bNamelistSettable": false,
+   "sNote": "compiled into the broadband albedo table for the stellar type"
+  },
+  {
+   "sQuantity": "ocean albedo",
+   "sHandle": "A_o",
+   "bNamelistSettable": false,
+   "sNote": "compiled into the broadband albedo table for the stellar type"
+  },
+  {
+   "sQuantity": "ice albedo",
+   "sHandle": "Asnow / A_75 / A_50 / A_25 / A_bi",
+   "bNamelistSettable": false,
+   "sNote": "compiled into the broadband albedo table for the stellar type"
+  },
+  {
+   "sQuantity": "Experiment 4",
+   "sHandle": "-",
+   "bNamelistSettable": false,
+   "sNote": "cannot be run: the experiment varies CO2, which the model has no term for"
+  },
+  {
+   "sQuantity": "ice-line definition",
+   "sHandle": "mean_iceline",
+   "bNamelistSettable": false,
+   "sNote": "the seasonal mean of the daily ocean freezing latitude, not the 263.15 K crossing of the annual-mean temperature the protocol asks for"
+  }
+ ]
+}

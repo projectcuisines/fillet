@@ -1,0 +1,98 @@
+{
+ "fPiOverTwo": 1.5707963267948966,
+ "fMolarMassRatio": 1.5714285714285714,
+ "fFractionalDifference": 0.0004024994347707008,
+ "listHextorBenchmarks": [
+  {
+   "sBenchmark": "ben1",
+   "fRmsAtPiOverTwo": 0.3809232831681971,
+   "fRmsAtMolarMassRatio": 0.38133693951370046,
+   "fRmsDifference": 0.00041365634550333263,
+   "bBothInsideBand": true,
+   "dictDiscriminationBand": {
+    "fBestScale": 1.551,
+    "fBestRms": 0.37454352083273157,
+    "fScaleLow": 1.4929999999999999,
+    "fScaleHigh": 1.607,
+    "fBandWidth": 0.1140000000000001
+   }
+  },
+  {
+   "sBenchmark": "ben2",
+   "fRmsAtPiOverTwo": 0.13568440807573415,
+   "fRmsAtMolarMassRatio": 0.13472612806851123,
+   "fRmsDifference": -0.0009582800072229225,
+   "bBothInsideBand": true,
+   "dictDiscriminationBand": {
+    "fBestScale": 1.587,
+    "fBestRms": 0.12257411778844844,
+    "fScaleLow": 1.554,
+    "fScaleHigh": 1.621,
+    "fBandWidth": 0.06699999999999995
+   }
+  },
+  {
+   "sBenchmark": "ben3",
+   "fRmsAtPiOverTwo": 0.21106860433051322,
+   "fRmsAtMolarMassRatio": 0.2084780248826036,
+   "fRmsDifference": -0.002590579447909608,
+   "bBothInsideBand": false,
+   "dictDiscriminationBand": {
+    "fBestScale": 1.624,
+    "fBestRms": 0.040947965067755734,
+    "fScaleLow": 1.6019999999999999,
+    "fScaleHigh": 1.647,
+    "fBandWidth": 0.04500000000000015
+   }
+  }
+ ],
+ "listOpsTable": [
+  {
+   "fTemperatureK": 250.0,
+   "fOLRWithMolarMassFactor": 167.50267671855747,
+   "fOLRWithPiOverTwo": 167.5043569392037,
+   "fOLRWithNoFactor": 169.38985343697158,
+   "fDifferenceBetweenConstants": -0.0016802206462216418,
+   "fValueOfTheFactorItself": -1.8871767184141106
+  },
+  {
+   "fTemperatureK": 273.15,
+   "fOLRWithMolarMassFactor": 212.44922647012407,
+   "fOLRWithPiOverTwo": 212.45127490796162,
+   "fOLRWithNoFactor": 214.74997441344556,
+   "fDifferenceBetweenConstants": -0.0020484378375442702,
+   "fValueOfTheFactorItself": -2.3007479433214826
+  },
+  {
+   "fTemperatureK": 288.0,
+   "fOLRWithMolarMassFactor": 237.27087250488108,
+   "fOLRWithPiOverTwo": 237.2730098140522,
+   "fOLRWithNoFactor": 239.67143823820476,
+   "fDifferenceBetweenConstants": -0.002137309171104107,
+   "fValueOfTheFactorItself": -2.400565733323674
+  },
+  {
+   "fTemperatureK": 300.0,
+   "fOLRWithMolarMassFactor": 249.48010141991122,
+   "fOLRWithPiOverTwo": 249.4821481292921,
+   "fOLRWithNoFactor": 251.77890800919224,
+   "fDifferenceBetweenConstants": -0.002046709380891798,
+   "fValueOfTheFactorItself": -2.298806589281014
+  }
+ ],
+ "listOpsSourceEvidence": [
+  {
+   "iLine": 517,
+   "sCode": "fco2(1:nbelts) = pco2i/((Pdry/28. + pco2i/44.)*44.)"
+  },
+  {
+   "iLine": 770,
+   "sCode": "pco2r(k) = 44*Pdry*fco2(k)/(28*(1-fco2(k)))"
+  }
+ ],
+ "dictTwentySixHundredKelvinTable": {
+  "fReportedConstant": 3.141592653589793,
+  "fTwiceMolarMassRatio": 3.142857142857143,
+  "sNote": "pi = 3.14159 against 2 x 44/28 = 3.14286; under the molar-mass reading this is a 2 bar background, which the shipped tables cannot confirm because both carry the same 1-11 bar total-pressure axis."
+ }
+}

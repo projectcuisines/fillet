@@ -1,0 +1,13 @@
+exp1 case 0: Asurf n_unique=1 mean=0.6000 source=threshold-reconstructed; OLR - (204.05+2.09(T-273.15)) max|res|=0.000
+exp1 case 75: Asurf n_unique=24 mean=0.2435 source=continuous (model output); OLR - (204.05+2.09(T-273.15)) max|res|=0.000
+exp1 case 150: Asurf n_unique=1 mean=0.2250 source=threshold-reconstructed; OLR - (204.05+2.09(T-273.15)) max|res|=0.000
+exp1a case 80: Asurf n_unique=3 mean=0.2350 source=threshold-reconstructed; OLR - (204.05+2.09(T-273.15)) max|res|=0.000
+exp2 case 100: Asurf n_unique=1 mean=0.6000 source=threshold-reconstructed; OLR - (204.05+2.09(T-273.15)) max|res|=0.000
+exp2a case 60: Asurf n_unique=1 mean=0.6000 source=threshold-reconstructed; OLR - (204.05+2.09(T-273.15)) max|res|=0.000
+exp3_warm case 5: Asurf n_unique=3 mean=0.3114 source=threshold-reconstructed; OLR - (204.05+2.09(T-273.15)) max|res|=0.000
+exp3_warm case 10: Asurf n_unique=1 mean=0.2250 source=threshold-reconstructed; OLR - (204.05+2.09(T-273.15)) max|res|=0.000
+exp3_cold case 5: Asurf n_unique=1 mean=0.6000 source=threshold-reconstructed; OLR - (204.05+2.09(T-273.15)) max|res|=0.000
+exp3_cold case 25: Asurf n_unique=1 mean=0.2250 source=threshold-reconstructed; OLR - (204.05+2.09(T-273.15)) max|res|=0.000
+exp4_warm case 10: Asurf n_unique=44 mean=0.2885 source=continuous (model output); OLR - (204.05+2.09(T-273.15)) max|res|=25.815
+exp4_warm case 24: Asurf n_unique=20 mean=0.2299 source=continuous (model output); OLR - (204.05+2.09(T-273.15)) max|res|=32.380
+exp4_cold case 44: Asurf n_unique=52 mean=0.5502 source=continuous (model output); OLR - (204.05+2.09(T-273.15)) max|res|=17.184

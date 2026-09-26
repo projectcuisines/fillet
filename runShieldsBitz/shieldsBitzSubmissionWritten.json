@@ -1,0 +1,41 @@
+{
+ "sDirectory": "../Results/shields_bitz",
+ "iBenchmarks": 3,
+ "sSourceCommit": "815caef",
+ "bAuthorSubmission": false,
+ "listBenchmarks": [
+  {
+   "sBenchmark": "ben1",
+   "listIceEdges": [
+    90.0,
+    61.07296769245102,
+    -61.50585830727313,
+    -90.0
+   ],
+   "fTglobK": 285.16228577728737,
+   "iNumLatitudes": 120
+  },
+  {
+   "sBenchmark": "ben2",
+   "listIceEdges": [
+    90.0,
+    61.747382702465124,
+    -61.74738117951752,
+    -90.0
+   ],
+   "fTglobK": 284.1699252476663,
+   "iNumLatitudes": 120
+  },
+  {
+   "sBenchmark": "ben3",
+   "listIceEdges": [
+    90.0,
+    90.0,
+    -90.0,
+    -90.0
+   ],
+   "fTglobK": 285.9997308746782,
+   "iNumLatitudes": 120
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "listGrids": [
+  {
+   "sModel": "avalon",
+   "sBenchmark": "ben1",
+   "iNumLatitudes": 90,
+   "fFirstLat": -90.0,
+   "fLastLat": 90.0,
+   "bNodesAtPoles": true,
+   "fDxMin": 0.022339749858844377,
+   "fDxMax": 0.022580596410850695,
+   "bEqualAreaInSinLat": false,
+   "bEqualWidthInLatitude": false,
+   "fTglobReported": 288.0002182560775,
+   "dictEstimates": {
+    "fSimpleMean": 287.9997777777778,
+    "fEdgeWeighted": 288.3748333966794,
+    "fCosWeighted": 291.92861206447856,
+    "fTrapezoidInSinLat": 288.37483339667943
+   },
+   "sConventionMatchingReport": "fSimpleMean",
+   "fSpreadAcrossConventions_K": 3.9288342867007486,
+   "fReportedMinusBest_K": 0.00044047829970850216
+  },
+  {
+   "sModel": "avalon",
+   "sBenchmark": "ben2",
+   "iNumLatitudes": 90,
+   "fFirstLat": -90.0,
+   "fLastLat": 90.0,
+   "bNodesAtPoles": true,
+   "fDxMin": 0.022339749858844377,
+   "fDxMax": 0.022580596410850695,
+   "bEqualAreaInSinLat": false,
+   "bEqualWidthInLatitude": false,
+   "fTglobReported": 299.2302637191644,
+   "dictEstimates": {
+    "fSimpleMean": 299.23,
+    "fEdgeWeighted": 299.55184317466916,
+    "fCosWeighted": 302.8729255147626,
+    "fTrapezoidInSinLat": 299.55184317466916
+   },
+   "sConventionMatchingReport": "fSimpleMean",
+   "fSpreadAcrossConventions_K": 3.6429255147625668,
+   "fReportedMinusBest_K": 0.00026371916436573883
+  },
+  {
+   "sModel": "avalon",
+   "sBenchmark": "ben3",
+   "iNumLatitudes": 90,
+   "fFirstLat": -90.0,
+   "fLastLat": 90.0,
+   "bNodesAtPoles": true,
+   "fDxMin": 0.022339749858844377,
+   "fDxMax": 0.022580596410850695,
+   "bEqualAreaInSinLat": false,
+   "bEqualWidthInLatitude": false,
+   "fTglobReported": 300.0888250862706,
+   "dictEstimates": {
+    "fSimpleMean": 300.0888888888889,
+    "fEdgeWeighted": 300.0331193268595,
+    "fCosWeighted": 299.4874731090193,
+    "fTrapezoidInSinLat": 300.03311932685955
+   },
+   "sConventionMatchingReport": "fSimpleMean",
+   "fSpreadAcrossConventions_K": 0.601415779869626,
+   "fReportedMinusBest_K": -6.380261828553557e-05
+  },
+  {
+   "sModel": "hextor",
+   "sBenchmark": "ben1",
+   "iNumLatitudes": 18,
+   "fFirstLat": -85.0,
+   "fLastLat": 85.0,
+   "bNodesAtPoles": false,
+   "fDxMin": 0.030268871802677233,
+   "fDxMax": 0.17431148549531633,
+   "bEqualAreaInSinLat": false,
+   "bEqualWidthInLatitude": true,
+   "fTglobReported": 288.03,
+   "dictEstimates": {
+    "fSimpleMean": 278.73833333333334,
+    "fEdgeWeighted": 287.8947367789158,
+    "fCosWeighted": 288.0338733559704,
+    "fTrapezoidInSinLat": 288.0338733559704
+   },
+   "sConventionMatchingReport": "fCosWeighted",
+   "fSpreadAcrossConventions_K": 9.295540022637056,
+   "fReportedMinusBest_K": -0.0038733559704269283
+  },
+  {
+   "sModel": "hextor",
+   "sBenchmark": "ben2",
+   "iNumLatitudes": 18,
+   "fFirstLat": -85.0,
+   "fLastLat": 85.0,
+   "bNodesAtPoles": false,
+   "fDxMin": 0.030268871802677233,
+   "fDxMax": 0.17431148549531633,
+   "bEqualAreaInSinLat": false,
+   "bEqualWidthInLatitude": true,
+   "fTglobReported": 287.15,
+   "dictEstimates": {
+    "fSimpleMean": 280.0083333333334,
+    "fEdgeWeighted": 287.0384512171598,
+    "fCosWeighted": 287.14589733115525,
+    "fTrapezoidInSinLat": 287.14589733115525
+   },
+   "sConventionMatchingReport": "fCosWeighted",
+   "fSpreadAcrossConventions_K": 7.1375639978218715,
+   "fReportedMinusBest_K": 0.004102668844723212
+  },
+  {
+   "sModel": "hextor",
+   "sBenchmark": "ben3",
+   "iNumLatitudes": 18,
+   "fFirstLat": -85.0,
+   "fLastLat": 85.0,
+   "bNodesAtPoles": false,
+   "fDxMin": 0.030268871802677233,
+   "fDxMax": 0.17431148549531633,
+   "bEqualAreaInSinLat": false,
+   "bEqualWidthInLatitude": true,
+   "fTglobReported": 288.89,
+   "dictEstimates": {
+    "fSimpleMean": 289.6444444444444,
+    "fEdgeWeighted": 288.89972142184115,
+    "fCosWeighted": 288.88837544021413,
+    "fTrapezoidInSinLat": 288.88837544021413
+   },
+   "sConventionMatchingReport": "fCosWeighted",
+   "fSpreadAcrossConventions_K": 0.7560690042302554,
+   "fReportedMinusBest_K": 0.0016245597858528527
+  },
+  {
+   "sModel": "poise",
+   "sBenchmark": "ben1",
+   "iNumLatitudes": 150,
+   "fFirstLat": -83.380372,
+   "fLastLat": 83.380372,
+   "bNodesAtPoles": false,
+   "fDxMin": 0.013333317536763312,
+   "fDxMax": 0.013333348700945727,
+   "bEqualAreaInSinLat": true,
+   "bEqualWidthInLatitude": false,
+   "fTglobReported": 287.65497,
+   "dictEstimates": {
+    "fSimpleMean": 287.6549704066666,
+    "fEdgeWeighted": 287.6549704154272,
+    "fCosWeighted": 291.3259721988934,
+    "fTrapezoidInSinLat": 287.8547467863455
+   },
+   "sConventionMatchingReport": "fSimpleMean",
+   "fSpreadAcrossConventions_K": 3.6710017922267753,
+   "fReportedMinusBest_K": -4.0666662926014396e-07
+  },
+  {
+   "sModel": "poise",
+   "sBenchmark": "ben2",
+   "iNumLatitudes": 150,
+   "fFirstLat": -83.380372,
+   "fLastLat": 83.380372,
+   "bNodesAtPoles": false,
+   "fDxMin": 0.013333317536763312,
+   "fDxMax": 0.013333348700945727,
+   "bEqualAreaInSinLat": true,
+   "bEqualWidthInLatitude": false,
+   "fTglobReported": 302.860393,
+   "dictEstimates": {
+    "fSimpleMean": 302.86039343333334,
+    "fEdgeWeighted": 302.86039344153943,
+    "fCosWeighted": 306.4176303880248,
+    "fTrapezoidInSinLat": 303.05081736238685
+   },
+   "sConventionMatchingReport": "fSimpleMean",
+   "fSpreadAcrossConventions_K": 3.5572369546914615,
+   "fReportedMinusBest_K": -4.333333549766394e-07
+  },
+  {
+   "sModel": "poise",
+   "sBenchmark": "ben3",
+   "iNumLatitudes": 150,
+   "fFirstLat": -83.380372,
+   "fLastLat": 83.380372,
+   "bNodesAtPoles": false,
+   "fDxMin": 0.013333317536763312,
+   "fDxMax": 0.013333348700945727,
+   "bEqualAreaInSinLat": true,
+   "bEqualWidthInLatitude": false,
+   "fTglobReported": 302.80908,
+   "dictEstimates": {
+    "fSimpleMean": 302.80908006,
+    "fEdgeWeighted": 302.80908005886886,
+    "fCosWeighted": 302.27707204114864,
+    "fTrapezoidInSinLat": 302.7803194299583
+   },
+   "sConventionMatchingReport": "fEdgeWeighted",
+   "fSpreadAcrossConventions_K": 0.532008018851343,
+   "fReportedMinusBest_K": -5.8868863561656326e-08
+  }
+ ]
+}

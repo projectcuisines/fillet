@@ -1,0 +1,2959 @@
+{
+ "listComparisons": [
+  {
+   "sModel": "hextor",
+   "sExperiment": "ben1",
+   "iArchivedCases": 1,
+   "iCurrentCases": 1,
+   "iMatchedCases": 1,
+   "fMeanDeltaTglob": -4.21999999999997,
+   "fMaxAbsDeltaTglob": -4.21999999999997,
+   "fRmsDeltaTglob": 4.21999999999997,
+   "fMaxAbsDeltaIceEdge": 5.5,
+   "iStateChanges": 0,
+   "fStateChangeFraction": 0.0,
+   "listStateChanges": []
+  },
+  {
+   "sModel": "hextor",
+   "sExperiment": "ben2",
+   "iArchivedCases": 1,
+   "iCurrentCases": 1,
+   "iMatchedCases": 1,
+   "fMeanDeltaTglob": -15.189999999999998,
+   "fMaxAbsDeltaTglob": -15.189999999999998,
+   "fRmsDeltaTglob": 15.189999999999998,
+   "fMaxAbsDeltaIceEdge": 26.099999999999994,
+   "iStateChanges": 0,
+   "fStateChangeFraction": 0.0,
+   "listStateChanges": []
+  },
+  {
+   "sModel": "hextor",
+   "sExperiment": "ben3",
+   "iArchivedCases": 1,
+   "iCurrentCases": 1,
+   "iMatchedCases": 1,
+   "fMeanDeltaTglob": -6.1200000000000045,
+   "fMaxAbsDeltaTglob": -6.1200000000000045,
+   "fRmsDeltaTglob": 6.1200000000000045,
+   "fMaxAbsDeltaIceEdge": 0.0,
+   "iStateChanges": 0,
+   "fStateChangeFraction": 0.0,
+   "listStateChanges": []
+  },
+  {
+   "sModel": "hextor",
+   "sExperiment": "exp1",
+   "iArchivedCases": 190,
+   "iCurrentCases": 190,
+   "iMatchedCases": 190,
+   "fMeanDeltaTglob": -8.78215789473684,
+   "fMaxAbsDeltaTglob": -58.00999999999999,
+   "fRmsDeltaTglob": 16.896859206747024,
+   "fMaxAbsDeltaIceEdge": 90.0,
+   "iStateChanges": 36,
+   "fStateChangeFraction": 0.18947368421052632,
+   "listStateChanges": [
+    {
+     "tKey": [
+      74,
+      50.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 267.54,
+     "fTglobCurrent": 224.89
+    },
+    {
+     "tKey": [
+      74,
+      60.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 278.85,
+     "fTglobCurrent": 228.05
+    },
+    {
+     "tKey": [
+      76,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 264.31,
+     "fTglobCurrent": 222.84
+    },
+    {
+     "tKey": [
+      76,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 270.77,
+     "fTglobCurrent": 223.06
+    },
+    {
+     "tKey": [
+      76,
+      40.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 276.72,
+     "fTglobCurrent": 225.4
+    },
+    {
+     "tKey": [
+      76,
+      50.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 282.67,
+     "fTglobCurrent": 228.42
+    },
+    {
+     "tKey": [
+      76,
+      60.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 282.13,
+     "fTglobCurrent": 231.35
+    },
+    {
+     "tKey": [
+      76,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 281.69,
+     "fTglobCurrent": 233.4
+    },
+    {
+     "tKey": [
+      76,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 281.55,
+     "fTglobCurrent": 234.87
+    },
+    {
+     "tKey": [
+      76,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_belt",
+     "sCurrent": "snowball",
+     "fTglobArchived": 247.58,
+     "fTglobCurrent": 235.41
+    },
+    {
+     "tKey": [
+      78,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 275.75,
+     "fTglobCurrent": 224.99
+    },
+    {
+     "tKey": [
+      78,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 277.27,
+     "fTglobCurrent": 224.99
+    },
+    {
+     "tKey": [
+      78,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 282.61,
+     "fTglobCurrent": 225.33
+    },
+    {
+     "tKey": [
+      78,
+      40.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 286.21,
+     "fTglobCurrent": 228.2
+    },
+    {
+     "tKey": [
+      78,
+      50.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 286.01,
+     "fTglobCurrent": 231.78
+    },
+    {
+     "tKey": [
+      78,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 285.04,
+     "fTglobCurrent": 236.89
+    },
+    {
+     "tKey": [
+      78,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 284.9,
+     "fTglobCurrent": 238.19
+    },
+    {
+     "tKey": [
+      78,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 284.9,
+     "fTglobCurrent": 238.82
+    },
+    {
+     "tKey": [
+      80,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 288.63,
+     "fTglobCurrent": 273.3
+    },
+    {
+     "tKey": [
+      80,
+      40.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 289.88,
+     "fTglobCurrent": 277.16
+    },
+    {
+     "tKey": [
+      80,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_belt",
+     "fTglobArchived": 288.31,
+     "fTglobCurrent": 243.06
+    },
+    {
+     "tKey": [
+      80,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_belt",
+     "fTglobArchived": 288.31,
+     "fTglobCurrent": 243.65
+    },
+    {
+     "tKey": [
+      82,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 293.41,
+     "fTglobCurrent": 280.87
+    },
+    {
+     "tKey": [
+      84,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 296.63,
+     "fTglobCurrent": 285.67
+    },
+    {
+     "tKey": [
+      84,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 296.97,
+     "fTglobCurrent": 286.75
+    },
+    {
+     "tKey": [
+      86,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 299.87,
+     "fTglobCurrent": 289.55
+    },
+    {
+     "tKey": [
+      86,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 299.91,
+     "fTglobCurrent": 288.79
+    },
+    {
+     "tKey": [
+      86,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 300.22,
+     "fTglobCurrent": 290.11
+    },
+    {
+     "tKey": [
+      88,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 302.96,
+     "fTglobCurrent": 293.51
+    },
+    {
+     "tKey": [
+      88,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 303.29,
+     "fTglobCurrent": 294.43
+    },
+    {
+     "tKey": [
+      88,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 303.38,
+     "fTglobCurrent": 294.65
+    },
+    {
+     "tKey": [
+      90,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 306.19,
+     "fTglobCurrent": 298.02
+    },
+    {
+     "tKey": [
+      90,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 306.33,
+     "fTglobCurrent": 297.91
+    },
+    {
+     "tKey": [
+      92,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 309.08,
+     "fTglobCurrent": 301.16
+    },
+    {
+     "tKey": [
+      92,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 309.14,
+     "fTglobCurrent": 301.32
+    },
+    {
+     "tKey": [
+      94,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 311.77,
+     "fTglobCurrent": 304.38
+    }
+   ]
+  },
+  {
+   "sModel": "hextor",
+   "sExperiment": "exp1a",
+   "iArchivedCases": 190,
+   "iCurrentCases": 190,
+   "iMatchedCases": 190,
+   "fMeanDeltaTglob": -9.263210526315788,
+   "fMaxAbsDeltaTglob": -58.01999999999998,
+   "fRmsDeltaTglob": 17.558837975578896,
+   "fMaxAbsDeltaIceEdge": 90.0,
+   "iStateChanges": 34,
+   "fStateChangeFraction": 0.17894736842105263,
+   "listStateChanges": [
+    {
+     "tKey": [
+      74,
+      50.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 277.04,
+     "fTglobCurrent": 225.6
+    },
+    {
+     "tKey": [
+      74,
+      60.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 279.33,
+     "fTglobCurrent": 229.13
+    },
+    {
+     "tKey": [
+      74,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 275.83,
+     "fTglobCurrent": 231.1
+    },
+    {
+     "tKey": [
+      76,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 264.57,
+     "fTglobCurrent": 222.97
+    },
+    {
+     "tKey": [
+      76,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 271.55,
+     "fTglobCurrent": 223.21
+    },
+    {
+     "tKey": [
+      76,
+      40.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 277.59,
+     "fTglobCurrent": 225.71
+    },
+    {
+     "tKey": [
+      76,
+      50.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 282.87,
+     "fTglobCurrent": 228.96
+    },
+    {
+     "tKey": [
+      76,
+      60.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 282.34,
+     "fTglobCurrent": 231.95
+    },
+    {
+     "tKey": [
+      76,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 281.9,
+     "fTglobCurrent": 234.01
+    },
+    {
+     "tKey": [
+      76,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 281.75,
+     "fTglobCurrent": 235.31
+    },
+    {
+     "tKey": [
+      76,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 280.97,
+     "fTglobCurrent": 235.95
+    },
+    {
+     "tKey": [
+      78,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 275.87,
+     "fTglobCurrent": 225.05
+    },
+    {
+     "tKey": [
+      78,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 278.1,
+     "fTglobCurrent": 225.06
+    },
+    {
+     "tKey": [
+      78,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 282.76,
+     "fTglobCurrent": 225.41
+    },
+    {
+     "tKey": [
+      78,
+      40.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 286.32,
+     "fTglobCurrent": 228.3
+    },
+    {
+     "tKey": [
+      78,
+      50.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 286.11,
+     "fTglobCurrent": 232.05
+    },
+    {
+     "tKey": [
+      78,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 285.15,
+     "fTglobCurrent": 237.16
+    },
+    {
+     "tKey": [
+      78,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 285.01,
+     "fTglobCurrent": 238.5
+    },
+    {
+     "tKey": [
+      78,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 285.0,
+     "fTglobCurrent": 239.17
+    },
+    {
+     "tKey": [
+      80,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 288.63,
+     "fTglobCurrent": 273.3
+    },
+    {
+     "tKey": [
+      80,
+      40.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 289.88,
+     "fTglobCurrent": 277.16
+    },
+    {
+     "tKey": [
+      80,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_belt",
+     "fTglobArchived": 288.31,
+     "fTglobCurrent": 243.06
+    },
+    {
+     "tKey": [
+      80,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_belt",
+     "fTglobArchived": 288.31,
+     "fTglobCurrent": 243.65
+    },
+    {
+     "tKey": [
+      82,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 293.52,
+     "fTglobCurrent": 281.04
+    },
+    {
+     "tKey": [
+      84,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 296.98,
+     "fTglobCurrent": 285.97
+    },
+    {
+     "tKey": [
+      86,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 300.42,
+     "fTglobCurrent": 288.98
+    },
+    {
+     "tKey": [
+      86,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 300.49,
+     "fTglobCurrent": 290.04
+    },
+    {
+     "tKey": [
+      86,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 300.78,
+     "fTglobCurrent": 290.92
+    },
+    {
+     "tKey": [
+      89,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 304.18,
+     "fTglobCurrent": 295.33
+    },
+    {
+     "tKey": [
+      89,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 304.28,
+     "fTglobCurrent": 295.68
+    },
+    {
+     "tKey": [
+      89,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 304.37,
+     "fTglobCurrent": 295.72
+    },
+    {
+     "tKey": [
+      91,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 307.78,
+     "fTglobCurrent": 299.68
+    },
+    {
+     "tKey": [
+      91,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 307.84,
+     "fTglobCurrent": 299.73
+    },
+    {
+     "tKey": [
+      94,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 311.14,
+     "fTglobCurrent": 303.45
+    }
+   ]
+  },
+  {
+   "sModel": "hextor",
+   "sExperiment": "exp2",
+   "iArchivedCases": 190,
+   "iCurrentCases": 190,
+   "iMatchedCases": 190,
+   "fMeanDeltaTglob": -4.922157894736845,
+   "fMaxAbsDeltaTglob": 62.70999999999998,
+   "fRmsDeltaTglob": 11.339912767695676,
+   "fMaxAbsDeltaIceEdge": 90.0,
+   "iStateChanges": 7,
+   "fStateChangeFraction": 0.03684210526315789,
+   "listStateChanges": [
+    {
+     "tKey": [
+      86,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_belt",
+     "fTglobArchived": 298.92,
+     "fTglobCurrent": 254.07
+    },
+    {
+     "tKey": [
+      88,
+      50.0,
+      2.45
+     ],
+     "sArchived": "ice_belt",
+     "sCurrent": "snowball",
+     "fTglobArchived": 256.77,
+     "fTglobCurrent": 250.53
+    },
+    {
+     "tKey": [
+      88,
+      60.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_belt",
+     "fTglobArchived": 303.04,
+     "fTglobCurrent": 255.78
+    },
+    {
+     "tKey": [
+      90,
+      50.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_belt",
+     "fTglobArchived": 307.0,
+     "fTglobCurrent": 257.9
+    },
+    {
+     "tKey": [
+      94,
+      20.0,
+      2.45
+     ],
+     "sArchived": "snowball",
+     "sCurrent": "ice_free",
+     "fTglobArchived": 246.44,
+     "fTglobCurrent": 304.98
+    },
+    {
+     "tKey": [
+      98,
+      10.0,
+      2.45
+     ],
+     "sArchived": "snowball",
+     "sCurrent": "ice_free",
+     "fTglobArchived": 247.49,
+     "fTglobCurrent": 310.2
+    },
+    {
+     "tKey": [
+      100,
+      0.0,
+      2.45
+     ],
+     "sArchived": "snowball",
+     "sCurrent": "ice_free",
+     "fTglobArchived": 250.05,
+     "fTglobCurrent": 312.63
+    }
+   ]
+  },
+  {
+   "sModel": "hextor",
+   "sExperiment": "exp2a",
+   "iArchivedCases": 190,
+   "iCurrentCases": 190,
+   "iMatchedCases": 190,
+   "fMeanDeltaTglob": -1.781526315789474,
+   "fMaxAbsDeltaTglob": 62.71000000000001,
+   "fRmsDeltaTglob": 8.70062795676871,
+   "fMaxAbsDeltaIceEdge": 90.0,
+   "iStateChanges": 6,
+   "fStateChangeFraction": 0.031578947368421054,
+   "listStateChanges": [
+    {
+     "tKey": [
+      80,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_belt",
+     "sCurrent": "snowball",
+     "fTglobArchived": 244.12,
+     "fTglobCurrent": 241.5
+    },
+    {
+     "tKey": [
+      86,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_belt",
+     "fTglobArchived": 299.53,
+     "fTglobCurrent": 254.41
+    },
+    {
+     "tKey": [
+      89,
+      50.0,
+      2.45
+     ],
+     "sArchived": "ice_belt",
+     "sCurrent": "snowball",
+     "fTglobArchived": 257.25,
+     "fTglobCurrent": 251.84
+    },
+    {
+     "tKey": [
+      89,
+      60.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_belt",
+     "fTglobArchived": 304.13,
+     "fTglobCurrent": 256.6
+    },
+    {
+     "tKey": [
+      91,
+      40.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 308.63,
+     "fTglobCurrent": 253.59
+    },
+    {
+     "tKey": [
+      98,
+      10.0,
+      2.45
+     ],
+     "sArchived": "snowball",
+     "sCurrent": "ice_free",
+     "fTglobArchived": 248.48,
+     "fTglobCurrent": 311.19
+    }
+   ]
+  },
+  {
+   "sModel": "avalon",
+   "sExperiment": "ben1",
+   "iArchivedCases": 1,
+   "iCurrentCases": 1,
+   "iMatchedCases": 1,
+   "fMeanDeltaTglob": -0.0010167677878598624,
+   "fMaxAbsDeltaTglob": -0.0010167677878598624,
+   "fRmsDeltaTglob": 0.0010167677878598624,
+   "fMaxAbsDeltaIceEdge": 22.70150771372046,
+   "iStateChanges": 0,
+   "fStateChangeFraction": 0.0,
+   "listStateChanges": []
+  },
+  {
+   "sModel": "avalon",
+   "sExperiment": "ben2",
+   "iArchivedCases": 1,
+   "iCurrentCases": 1,
+   "iMatchedCases": 1,
+   "fMeanDeltaTglob": -3.674584316167852,
+   "fMaxAbsDeltaTglob": -3.674584316167852,
+   "fRmsDeltaTglob": 3.674584316167852,
+   "fMaxAbsDeltaIceEdge": 25.841932763167122,
+   "iStateChanges": 1,
+   "fStateChangeFraction": 1.0,
+   "listStateChanges": [
+    {
+     "tKey": [
+      80,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 299.2302637191644,
+     "fTglobCurrent": 295.55567940299653
+    }
+   ]
+  },
+  {
+   "sModel": "avalon",
+   "sExperiment": "ben3",
+   "iArchivedCases": 1,
+   "iCurrentCases": 1,
+   "iMatchedCases": 1,
+   "fMeanDeltaTglob": -0.08822617575924596,
+   "fMaxAbsDeltaTglob": -0.08822617575924596,
+   "fRmsDeltaTglob": 0.08822617575924596,
+   "fMaxAbsDeltaIceEdge": 0.0,
+   "iStateChanges": 0,
+   "fStateChangeFraction": 0.0,
+   "listStateChanges": []
+  },
+  {
+   "sModel": "avalon",
+   "sExperiment": "exp1",
+   "iArchivedCases": 190,
+   "iCurrentCases": 190,
+   "iMatchedCases": 190,
+   "fMeanDeltaTglob": -8.338016710225318,
+   "fMaxAbsDeltaTglob": -60.0580396432087,
+   "fRmsDeltaTglob": 20.879630543512867,
+   "fMaxAbsDeltaIceEdge": 90.0,
+   "iStateChanges": 41,
+   "fStateChangeFraction": 0.21578947368421053,
+   "listStateChanges": [
+    {
+     "tKey": [
+      64,
+      50.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 273.5556798109285,
+     "fTglobCurrent": 222.5922460025684
+    },
+    {
+     "tKey": [
+      64,
+      60.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 273.7018621865204,
+     "fTglobCurrent": 222.59212537790302
+    },
+    {
+     "tKey": [
+      64,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 273.80957481238954,
+     "fTglobCurrent": 222.59233376677713
+    },
+    {
+     "tKey": [
+      64,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 273.87508510195596,
+     "fTglobCurrent": 222.59243113265018
+    },
+    {
+     "tKey": [
+      64,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 273.89792433887607,
+     "fTglobCurrent": 222.5927087768508
+    },
+    {
+     "tKey": [
+      66,
+      50.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 276.84954134015277,
+     "fTglobCurrent": 224.29346867791892
+    },
+    {
+     "tKey": [
+      66,
+      60.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 277.0002919149819,
+     "fTglobCurrent": 224.2934597174932
+    },
+    {
+     "tKey": [
+      66,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 277.1113705604095,
+     "fTglobCurrent": 224.29362945997212
+    },
+    {
+     "tKey": [
+      66,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 277.1789280465249,
+     "fTglobCurrent": 224.29371656600057
+    },
+    {
+     "tKey": [
+      66,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 277.2024810095988,
+     "fTglobCurrent": 224.2940655032509
+    },
+    {
+     "tKey": [
+      68,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 262.7685281743722,
+     "fTglobCurrent": 226.01386720199957
+    },
+    {
+     "tKey": [
+      68,
+      40.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 279.95230632769926,
+     "fTglobCurrent": 225.9949792308494
+    },
+    {
+     "tKey": [
+      68,
+      50.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 280.1434854359966,
+     "fTglobCurrent": 225.99480359822542
+    },
+    {
+     "tKey": [
+      68,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 280.48285232890777,
+     "fTglobCurrent": 225.9950300169273
+    },
+    {
+     "tKey": [
+      68,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 280.50711893026994,
+     "fTglobCurrent": 225.9953349947921
+    },
+    {
+     "tKey": [
+      70,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 273.802199343373,
+     "fTglobCurrent": 227.71576805636784
+    },
+    {
+     "tKey": [
+      70,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 272.6636241788805,
+     "fTglobCurrent": 227.69757424801384
+    },
+    {
+     "tKey": [
+      70,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 271.23723376300177,
+     "fTglobCurrent": 227.6979576559267
+    },
+    {
+     "tKey": [
+      70,
+      40.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 283.2406209725395,
+     "fTglobCurrent": 227.69625388939374
+    },
+    {
+     "tKey": [
+      72,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 280.82519568548645,
+     "fTglobCurrent": 229.41768623857365
+    },
+    {
+     "tKey": [
+      72,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 279.84810914077997,
+     "fTglobCurrent": 229.39889713097404
+    },
+    {
+     "tKey": [
+      72,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 279.65754905410677,
+     "fTglobCurrent": 229.39925213037688
+    },
+    {
+     "tKey": [
+      72,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 280.95888204098725,
+     "fTglobCurrent": 229.3971467585449
+    },
+    {
+     "tKey": [
+      72,
+      40.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 286.52883323994695,
+     "fTglobCurrent": 229.39757820606673
+    },
+    {
+     "tKey": [
+      74,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 285.69130441420316,
+     "fTglobCurrent": 231.11948690786681
+    },
+    {
+     "tKey": [
+      74,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 285.67287098978153,
+     "fTglobCurrent": 231.10028878663658
+    },
+    {
+     "tKey": [
+      74,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 286.16740603418856,
+     "fTglobCurrent": 231.10063300957324
+    },
+    {
+     "tKey": [
+      74,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 289.5759449593178,
+     "fTglobCurrent": 231.09847303681502
+    },
+    {
+     "tKey": [
+      76,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 290.9648920465277,
+     "fTglobCurrent": 232.80204512239794
+    },
+    {
+     "tKey": [
+      76,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 292.85777425417785,
+     "fTglobCurrent": 232.79973461096915
+    },
+    {
+     "tKey": [
+      78,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 295.26737618059246,
+     "fTglobCurrent": 287.3735675557842
+    },
+    {
+     "tKey": [
+      78,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 296.13955921153104,
+     "fTglobCurrent": 285.34371233957626
+    },
+    {
+     "tKey": [
+      80,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 299.1299231013657,
+     "fTglobCurrent": 295.7203968823646
+    },
+    {
+     "tKey": [
+      82,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 301.62348450607584,
+     "fTglobCurrent": 301.2702051609109
+    },
+    {
+     "tKey": [
+      82,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 301.77741415114264,
+     "fTglobCurrent": 301.01386926914586
+    },
+    {
+     "tKey": [
+      82,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 302.40439604208325,
+     "fTglobCurrent": 301.47935717980556
+    },
+    {
+     "tKey": [
+      84,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 304.8780964616824,
+     "fTglobCurrent": 305.8719170860337
+    },
+    {
+     "tKey": [
+      84,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 305.0358750456651,
+     "fTglobCurrent": 305.6712084831122
+    },
+    {
+     "tKey": [
+      86,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 308.1335265649537,
+     "fTglobCurrent": 309.6479244397077
+    },
+    {
+     "tKey": [
+      86,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 308.62419496024336,
+     "fTglobCurrent": 309.49417954093644
+    }
+   ]
+  },
+  {
+   "sModel": "avalon",
+   "sExperiment": "exp2",
+   "iArchivedCases": 190,
+   "iCurrentCases": 190,
+   "iMatchedCases": 190,
+   "fMeanDeltaTglob": -23.753078091686113,
+   "fMaxAbsDeltaTglob": -93.96385815107368,
+   "fRmsDeltaTglob": 45.028577059010715,
+   "fMaxAbsDeltaIceEdge": 90.0,
+   "iStateChanges": 54,
+   "fStateChangeFraction": 0.28421052631578947,
+   "listStateChanges": [
+    {
+     "tKey": [
+      96,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 326.7365502395424,
+     "fTglobCurrent": 249.81258437302822
+    },
+    {
+     "tKey": [
+      96,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 326.7708051054092,
+     "fTglobCurrent": 249.8130208543348
+    },
+    {
+     "tKey": [
+      98,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 329.94012566136126,
+     "fTglobCurrent": 251.5137513645085
+    },
+    {
+     "tKey": [
+      98,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 330.04037343499107,
+     "fTglobCurrent": 251.5138702977493
+    },
+    {
+     "tKey": [
+      98,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 330.0754124972959,
+     "fTglobCurrent": 251.51431587241643
+    },
+    {
+     "tKey": [
+      100,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 333.2419607575469,
+     "fTglobCurrent": 253.2150348620206
+    },
+    {
+     "tKey": [
+      100,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 333.3443221567495,
+     "fTglobCurrent": 253.21515622247037
+    },
+    {
+     "tKey": [
+      100,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 333.38001988015503,
+     "fTglobCurrent": 253.21561089049808
+    },
+    {
+     "tKey": [
+      102,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 334.17697854500386,
+     "fTglobCurrent": 254.94481064516802
+    },
+    {
+     "tKey": [
+      102,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 334.75906681417246,
+     "fTglobCurrent": 254.91827304952352
+    },
+    {
+     "tKey": [
+      102,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 335.1484521315629,
+     "fTglobCurrent": 254.91880485284238
+    },
+    {
+     "tKey": [
+      102,
+      60.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 336.37214543794676,
+     "fTglobCurrent": 254.91607539242588
+    },
+    {
+     "tKey": [
+      102,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 336.54375580927297,
+     "fTglobCurrent": 254.9164111173668
+    },
+    {
+     "tKey": [
+      102,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 336.6481739494801,
+     "fTglobCurrent": 254.91653490539068
+    },
+    {
+     "tKey": [
+      102,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 336.68454927362376,
+     "fTglobCurrent": 254.91699866814406
+    },
+    {
+     "tKey": [
+      104,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 337.43244868047304,
+     "fTglobCurrent": 256.64665596394804
+    },
+    {
+     "tKey": [
+      104,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 338.0259076699009,
+     "fTglobCurrent": 256.6195980232909
+    },
+    {
+     "tKey": [
+      104,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 338.4229756009519,
+     "fTglobCurrent": 256.6201402541259
+    },
+    {
+     "tKey": [
+      104,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 338.8017029415308,
+     "fTglobCurrent": 256.6170603929019
+    },
+    {
+     "tKey": [
+      104,
+      60.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 339.67058327311025,
+     "fTglobCurrent": 256.61735727487763
+    },
+    {
+     "tKey": [
+      104,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 339.8456647902683,
+     "fTglobCurrent": 256.6176995826606
+    },
+    {
+     "tKey": [
+      104,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 339.9521191190348,
+     "fTglobCurrent": 256.6178257979006
+    },
+    {
+     "tKey": [
+      104,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 339.98920286167106,
+     "fTglobCurrent": 256.61829865404127
+    },
+    {
+     "tKey": [
+      106,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 340.6878626760967,
+     "fTglobCurrent": 258.34850128272814
+    },
+    {
+     "tKey": [
+      106,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 341.29274834112374,
+     "fTglobCurrent": 258.32092299705835
+    },
+    {
+     "tKey": [
+      106,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 341.69742941245636,
+     "fTglobCurrent": 258.32147565540936
+    },
+    {
+     "tKey": [
+      106,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 342.08347648105945,
+     "fTglobCurrent": 258.3183365660849
+    },
+    {
+     "tKey": [
+      106,
+      60.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 342.9690500019014,
+     "fTglobCurrent": 258.3186391573294
+    },
+    {
+     "tKey": [
+      106,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 343.1474969796725,
+     "fTglobCurrent": 258.3189880479543
+    },
+    {
+     "tKey": [
+      108,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 343.94331307215333,
+     "fTglobCurrent": 260.0503466015082
+    },
+    {
+     "tKey": [
+      108,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 344.55961733840047,
+     "fTglobCurrent": 260.02224797082573
+    },
+    {
+     "tKey": [
+      108,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 344.9718738114017,
+     "fTglobCurrent": 260.0228110566928
+    },
+    {
+     "tKey": [
+      108,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 345.36522729572056,
+     "fTglobCurrent": 260.0196127392679
+    },
+    {
+     "tKey": [
+      108,
+      40.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 345.7172136724637,
+     "fTglobCurrent": 260.02023879168405
+    },
+    {
+     "tKey": [
+      108,
+      60.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 346.2675166417389,
+     "fTglobCurrent": 260.0199210397812
+    },
+    {
+     "tKey": [
+      108,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 346.4492878834516,
+     "fTglobCurrent": 260.0505135357568
+    },
+    {
+     "tKey": [
+      110,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 347.1988240454469,
+     "fTglobCurrent": 261.7522835895895
+    },
+    {
+     "tKey": [
+      110,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 347.82645592966304,
+     "fTglobCurrent": 261.72366454535694
+    },
+    {
+     "tKey": [
+      110,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 348.2463651937693,
+     "fTglobCurrent": 261.72423806011057
+    },
+    {
+     "tKey": [
+      110,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 348.64704201389355,
+     "fTglobCurrent": 261.7209805067829
+    }
+   ]
+  },
+  {
+   "sModel": "avalon",
+   "sExperiment": "exp2a",
+   "iArchivedCases": 150,
+   "iCurrentCases": 150,
+   "iMatchedCases": 150,
+   "fMeanDeltaTglob": -19.347280504423136,
+   "fMaxAbsDeltaTglob": -93.59685197418719,
+   "fRmsDeltaTglob": 40.64767545760479,
+   "fMaxAbsDeltaIceEdge": 90.0,
+   "iStateChanges": 35,
+   "fStateChangeFraction": 0.23333333333333334,
+   "listStateChanges": [
+    {
+     "tKey": [
+      96,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 326.865421152757,
+     "fTglobCurrent": 249.87898847742713
+    },
+    {
+     "tKey": [
+      96,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 326.8997165304243,
+     "fTglobCurrent": 249.8794253136632
+    },
+    {
+     "tKey": [
+      99,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 331.20373308135225,
+     "fTglobCurrent": 252.16485986355633
+    },
+    {
+     "tKey": [
+      99,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 331.30487651012584,
+     "fTglobCurrent": 252.16497972572895
+    },
+    {
+     "tKey": [
+      99,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 331.340077222866,
+     "fTglobCurrent": 252.16542878057115
+    },
+    {
+     "tKey": [
+      102,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 333.47248838149596,
+     "fTglobCurrent": 254.57648824032987
+    },
+    {
+     "tKey": [
+      102,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 334.0519870399651,
+     "fTglobCurrent": 254.5500632605173
+    },
+    {
+     "tKey": [
+      102,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 335.829167961685,
+     "fTglobCurrent": 254.54820922971842
+    },
+    {
+     "tKey": [
+      102,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 335.9331727443521,
+     "fTglobCurrent": 254.54833249243129
+    },
+    {
+     "tKey": [
+      102,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 335.96940540213683,
+     "fTglobCurrent": 254.54879428714545
+    },
+    {
+     "tKey": [
+      104,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 338.22974459036845,
+     "fTglobCurrent": 257.0634344093636
+    },
+    {
+     "tKey": [
+      104,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 338.8259143873597,
+     "fTglobCurrent": 257.0362490372748
+    },
+    {
+     "tKey": [
+      104,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 339.2248656936992,
+     "fTglobCurrent": 257.0367938217871
+    },
+    {
+     "tKey": [
+      104,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 339.6053572147481,
+     "fTglobCurrent": 257.0336994557222
+    },
+    {
+     "tKey": [
+      104,
+      60.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 340.478426989747,
+     "fTglobCurrent": 257.03399773588626
+    },
+    {
+     "tKey": [
+      104,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 340.6542394475161,
+     "fTglobCurrent": 257.0343416557937
+    },
+    {
+     "tKey": [
+      104,
+      80.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 340.7611900926919,
+     "fTglobCurrent": 257.03446846545404
+    },
+    {
+     "tKey": [
+      104,
+      90.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 340.79852151619986,
+     "fTglobCurrent": 257.0641230253616
+    },
+    {
+     "tKey": [
+      108,
+      0.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 343.19533536352367,
+     "fTglobCurrent": 259.6592903572852
+    },
+    {
+     "tKey": [
+      108,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 343.80892715530484,
+     "fTglobCurrent": 259.63131129338365
+    },
+    {
+     "tKey": [
+      108,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 344.2195181462058,
+     "fTglobCurrent": 259.6318719831779
+    },
+    {
+     "tKey": [
+      108,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 344.6111767832585,
+     "fTglobCurrent": 259.6286872754027
+    },
+    {
+     "tKey": [
+      108,
+      40.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 344.96161323765364,
+     "fTglobCurrent": 259.6293106638075
+    },
+    {
+     "tKey": [
+      108,
+      60.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 345.50962872470996,
+     "fTglobCurrent": 259.6289942640193
+    },
+    {
+     "tKey": [
+      108,
+      70.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 345.6906382044439,
+     "fTglobCurrent": 259.62934822485664
+    },
+    {
+     "tKey": [
+      111,
+      10.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 349.01339504055994,
+     "fTglobCurrent": 262.34179446391033
+    },
+    {
+     "tKey": [
+      111,
+      20.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 349.4360877183715,
+     "fTglobCurrent": 262.3423717672169
+    },
+    {
+     "tKey": [
+      111,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 349.8393305573123,
+     "fTglobCurrent": 262.33909269497764
+    },
+    {
+     "tKey": [
+      111,
+      40.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 350.2002049556017,
+     "fTglobCurrent": 262.33973455468896
+    },
+    {
+     "tKey": [
+      111,
+      50.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 350.5115475890235,
+     "fTglobCurrent": 262.3395102599576
+    },
+    {
+     "tKey": [
+      111,
+      60.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 350.76445277618143,
+     "fTglobCurrent": 262.3394087798193
+    },
+    {
+     "tKey": [
+      114,
+      30.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 355.30340886895624,
+     "fTglobCurrent": 265.1716724963985
+    },
+    {
+     "tKey": [
+      114,
+      40.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 355.6751344835641,
+     "fTglobCurrent": 265.17233365908623
+    },
+    {
+     "tKey": [
+      114,
+      50.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 355.99575680608945,
+     "fTglobCurrent": 265.1721026190243
+    },
+    {
+     "tKey": [
+      118,
+      50.0,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 361.73127415258836,
+     "fTglobCurrent": 268.13442217840117
+    }
+   ]
+  },
+  {
+   "sModel": "avalon",
+   "sExperiment": "exp3_cooling",
+   "iArchivedCases": 57,
+   "iCurrentCases": 57,
+   "iMatchedCases": 57,
+   "fMeanDeltaTglob": -6.2773824729892755,
+   "fMaxAbsDeltaTglob": -58.93662833830939,
+   "fRmsDeltaTglob": 18.570640533879782,
+   "fMaxAbsDeltaIceEdge": 90.0,
+   "iStateChanges": 12,
+   "fStateChangeFraction": 0.21052631578947367,
+   "listStateChanges": [
+    {
+     "tKey": [
+      70,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 269.94167968023726,
+     "fTglobCurrent": 227.6985879816101
+    },
+    {
+     "tKey": [
+      71,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 275.7956748955156,
+     "fTglobCurrent": 228.549275710298
+    },
+    {
+     "tKey": [
+      72,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 280.2857610716234,
+     "fTglobCurrent": 229.39996343898588
+    },
+    {
+     "tKey": [
+      73,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 283.63924412506015,
+     "fTglobCurrent": 230.25065116767377
+    },
+    {
+     "tKey": [
+      74,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 286.85142292725305,
+     "fTglobCurrent": 231.10133889636614
+    },
+    {
+     "tKey": [
+      75,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 289.2169060234926,
+     "fTglobCurrent": 231.95202663364526
+    },
+    {
+     "tKey": [
+      76,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 291.7393590602457,
+     "fTglobCurrent": 232.8027307219363
+    },
+    {
+     "tKey": [
+      77,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 293.88643206146963,
+     "fTglobCurrent": 280.6001913949434
+    },
+    {
+     "tKey": [
+      78,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 295.9540037535044,
+     "fTglobCurrent": 286.9442219103404
+    },
+    {
+     "tKey": [
+      79,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 297.5925266354121,
+     "fTglobCurrent": 291.7817216399038
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 299.2310348652851,
+     "fTglobCurrent": 296.2877297271707
+    },
+    {
+     "tKey": [
+      81,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 300.8695430951581,
+     "fTglobCurrent": 299.62150078279575
+    }
+   ]
+  },
+  {
+   "sModel": "avalon",
+   "sExperiment": "exp3_warming",
+   "iArchivedCases": 57,
+   "iCurrentCases": 57,
+   "iMatchedCases": 57,
+   "fMeanDeltaTglob": -14.415148622919547,
+   "fMaxAbsDeltaTglob": -88.23588314753556,
+   "fRmsDeltaTglob": 35.48990507111341,
+   "fMaxAbsDeltaIceEdge": 90.0,
+   "iStateChanges": 10,
+   "fStateChangeFraction": 0.17543859649122806,
+   "listStateChanges": [
+    {
+     "tKey": [
+      103,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 336.91591737248575,
+     "fTglobCurrent": 255.77047256644863
+    },
+    {
+     "tKey": [
+      104,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 338.55447941898086,
+     "fTglobCurrent": 256.6211602949315
+    },
+    {
+     "tKey": [
+      105,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 340.1929876612163,
+     "fTglobCurrent": 257.4718480234144
+    },
+    {
+     "tKey": [
+      106,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 341.8314958910921,
+     "fTglobCurrent": 258.32253575189725
+    },
+    {
+     "tKey": [
+      107,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 343.4700041209651,
+     "fTglobCurrent": 259.1732234803801
+    },
+    {
+     "tKey": [
+      108,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 345.1085123508381,
+     "fTglobCurrent": 260.023911208863
+    },
+    {
+     "tKey": [
+      109,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 346.7470205807111,
+     "fTglobCurrent": 260.87459893734587
+    },
+    {
+     "tKey": [
+      110,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 348.3855288105841,
+     "fTglobCurrent": 261.7252866658287
+    },
+    {
+     "tKey": [
+      111,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 350.0240370404571,
+     "fTglobCurrent": 262.57597439431163
+    },
+    {
+     "tKey": [
+      112,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 351.66254527033004,
+     "fTglobCurrent": 263.4266621227945
+    }
+   ]
+  },
+  {
+   "sModel": "avalon",
+   "sExperiment": "exp4_cooling",
+   "iArchivedCases": 50,
+   "iCurrentCases": 50,
+   "iMatchedCases": 50,
+   "fMeanDeltaTglob": -18.01884174836823,
+   "fMaxAbsDeltaTglob": -61.946266833424204,
+   "fRmsDeltaTglob": 31.2871344108157,
+   "fMaxAbsDeltaIceEdge": 90.0,
+   "iStateChanges": 25,
+   "fStateChangeFraction": 0.5,
+   "listStateChanges": [
+    {
+     "tKey": [
+      80,
+      23.5,
+      0.2
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 269.3434600681884,
+     "fTglobCurrent": 222.3893857383638
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      0.31
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 272.58766477201874,
+     "fTglobCurrent": 223.01789748568598
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      0.41
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 275.6969322449313,
+     "fTglobCurrent": 223.64640923300857
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      0.51
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 277.51028770218085,
+     "fTglobCurrent": 224.2749209803307
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      0.61
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 279.28361062944975,
+     "fTglobCurrent": 224.9034327276533
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      0.71
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 281.01448359923694,
+     "fTglobCurrent": 225.53194447497543
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      0.82
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 282.700199532025,
+     "fTglobCurrent": 226.16045622229802
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      0.92
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 284.33815065729124,
+     "fTglobCurrent": 226.78896796962016
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      1.02
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 285.6708643990539,
+     "fTglobCurrent": 227.41747971694278
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      1.12
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 287.2142651916606,
+     "fTglobCurrent": 228.04599146426492
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      1.22
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 288.51933202123956,
+     "fTglobCurrent": 228.6745032115875
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      1.33
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 289.979722677959,
+     "fTglobCurrent": 229.30301495890967
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      1.43
+     ],
+     "sArchived": "ice_cap",
+     "sCurrent": "snowball",
+     "fTglobArchived": 290.7803019428461,
+     "fTglobCurrent": 229.93152670625003
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      1.53
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 292.02831111973984,
+     "fTglobCurrent": 230.56003848108216
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      1.63
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "snowball",
+     "fTglobArchived": 293.1348596641193,
+     "fTglobCurrent": 231.1885928306951
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      1.73
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 293.99752959301645,
+     "fTglobCurrent": 277.89574482853254
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      1.84
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 294.94375843901065,
+     "fTglobCurrent": 282.52457844413425
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      1.94
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 295.87659527979565,
+     "fTglobCurrent": 285.65945237315435
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      2.04
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 296.5992971093308,
+     "fTglobCurrent": 288.6480615334888
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      2.14
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 297.3566188999919,
+     "fTglobCurrent": 290.3962204731489
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      2.24
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 297.98522910989044,
+     "fTglobCurrent": 292.1009109063813
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      2.35
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 298.6136944691444,
+     "fTglobCurrent": 293.75935952887244
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      2.45
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 299.2422062164667,
+     "fTglobCurrent": 295.76479778765435
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      2.55
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 299.8707179637891,
+     "fTglobCurrent": 297.80598260988484
+    },
+    {
+     "tKey": [
+      80,
+      23.5,
+      2.65
+     ],
+     "sArchived": "ice_free",
+     "sCurrent": "ice_cap",
+     "fTglobArchived": 300.49922971111135,
+     "fTglobCurrent": 299.26659217640855
+    }
+   ]
+  },
+  {
+   "sModel": "avalon",
+   "sExperiment": "exp4_warming",
+   "iArchivedCases": 50,
+   "iCurrentCases": 50,
+   "iMatchedCases": 50,
+   "fMeanDeltaTglob": 0.40048671985293255,
+   "fMaxAbsDeltaTglob": 0.40049647506518227,
+   "fRmsDeltaTglob": 0.4004867198553573,
+   "fMaxAbsDeltaIceEdge": 0.0,
+   "iStateChanges": 0,
+   "fStateChangeFraction": 0.0,
+   "listStateChanges": []
+  }
+ ]
+}

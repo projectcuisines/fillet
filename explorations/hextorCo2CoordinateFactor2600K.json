@@ -1,0 +1,11 @@
+{
+  "iLevels": 36,
+  "dMeanX": 3.1427752636404866,
+  "dSemX": 7.307918389095571e-05,
+  "dMinX": 3.1416605972323377,
+  "dMaxX": 3.1436133166179134,
+  "dPiOverTwo": 1.5707963267948966,
+  "dMolarMassRatio": 1.5714285714285714,
+  "dSigmaFromPiOverTwo": 21510.625230725087,
+  "dSigmaFromMolarMassRatio": 21501.97372970917
+}

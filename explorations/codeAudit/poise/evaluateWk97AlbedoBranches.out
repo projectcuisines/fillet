@@ -1,0 +1,16 @@
+Ice surface (0.6), pCO2=1e-6 bar: TOA albedo from the branch actually used (370) vs intended fallback
+  T= 188.1 K zen=  40: used(370)=0.838 cold-fit(280)=0.577 intended ice albedo=0.600
+  T= 188.1 K zen=  70: used(370)=0.843 cold-fit(280)=0.599 intended ice albedo=0.600
+  T= 188.1 K zen=  85: used(370)=0.857 cold-fit(280)=0.627 intended ice albedo=0.600
+  T= 183.1 K zen=  40: used(370)=0.862 cold-fit(280)=0.574 intended ice albedo=0.600
+  T= 183.1 K zen=  70: used(370)=0.866 cold-fit(280)=0.596 intended ice albedo=0.600
+  T= 183.1 K zen=  85: used(370)=0.880 cold-fit(280)=0.624 intended ice albedo=0.600
+  T= 173.1 K zen=  40: used(370)=0.910 cold-fit(280)=0.565 intended ice albedo=0.600
+  T= 173.1 K zen=  70: used(370)=0.914 cold-fit(280)=0.588 intended ice albedo=0.600
+  T= 173.1 K zen=  85: used(370)=0.928 cold-fit(280)=0.616 intended ice albedo=0.600
+
+AlbedoTaylor ocean surface albedo used instead of dAlbedoWater when bCalcAB=1:
+  noon zenith    0 deg: 0.030  (protocol ocean albedo 0.2)
+  noon zenith   30 deg: 0.035  (protocol ocean albedo 0.2)
+  noon zenith   60 deg: 0.065  (protocol ocean albedo 0.2)
+  noon zenith   80 deg: 0.151  (protocol ocean albedo 0.2)

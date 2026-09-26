@@ -1,0 +1,23 @@
+{
+ "fRunLengthYears": 5.0,
+ "iJmx": 120,
+ "fWallSeconds": 138.34775590896606,
+ "fSecondsPerModelYear": 27.669551181793214,
+ "listResultKeys": [
+  "L_out",
+  "Lann",
+  "W_out",
+  "Wann",
+  "alb_l_ann",
+  "alb_l_out",
+  "alb_w_ann",
+  "alb_w_out",
+  "final_L",
+  "final_W",
+  "final_h",
+  "h_ann",
+  "h_out",
+  "setup",
+  "thedays"
+ ]
+}

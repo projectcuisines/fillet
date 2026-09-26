@@ -1,0 +1,10 @@
+mode            bench   Tglob   dTyr  sEver  sHalf   sPer  lEver  lHalf   x263   x-2C    pkg   fW-2    albU    albW  imbal
+previous        ben1   285.16 -5e-08   49.3   52.3   57.3   42.5   50.8   61.1   52.3   77.0   0.32  0.3438  0.3247  0.028
+previous        ben2   284.17 -2e-07   49.3   52.3   57.3   43.8   52.3   61.7   52.8   77.1   0.32  0.3483  0.3308  0.030
+previous        ben3   286.00  7e-13   free   free   free   41.2   free   90.0   90.0   90.0      -  0.3183  0.3196  0.000
+protocolCfg     ben1   285.47 -2e-08   47.9   50.8   55.6   38.7   49.3   60.2   50.5   76.1   0.33  0.3450  0.3256  0.439
+protocolCfg     ben2   284.72 -8e-08   49.3   52.3   55.6   41.2   50.8   62.3   52.2   76.8   0.32  0.3491  0.3313  0.038
+protocolCfg     ben3   286.65  2e-10   free   free   free   35.1   free   90.0   90.0   90.0      -  0.3184  0.3196  0.000
+protocolAlbedo  ben1   301.22  2e-09   free   free   free   59.1   82.6   90.0   90.0   90.0   0.32  0.2464  0.2300  0.043
+protocolAlbedo  ben2   302.04  1e-08   free   free   free   67.7   free   90.0   90.0   90.0      -  0.2268  0.2251  0.000
+protocolAlbedo  ben3   302.05  3e-09   free   free   free   free   free   90.0   90.0   90.0      -  0.2250  0.2250  0.000

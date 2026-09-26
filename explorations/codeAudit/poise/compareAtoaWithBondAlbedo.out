@@ -1,0 +1,3 @@
+ben1: area-mean ATOA=0.3451  area-mean Asurf=0.3517  Bond albedo implied by OLRglob=0.3167  (difference ATOA-Bond=+0.0284)
+ben2: area-mean ATOA=0.2365  area-mean Asurf=0.2356  Bond albedo implied by OLRglob=0.2177  (difference ATOA-Bond=+0.0188)
+ben3: area-mean ATOA=0.2550  area-mean Asurf=0.2437  Bond albedo implied by OLRglob=0.2180  (difference ATOA-Bond=+0.0370)

@@ -1,0 +1,268 @@
+{
+  "sPlotDirectory": "Plot",
+  "sFigureType": "pdf",
+  "iNumberOfCores": -1,
+  "listSteps": [
+    {
+      "sName": "parseFilletOutputs",
+      "sDirectory": "parseFilletOutputs",
+      "bRunEnabled": true,
+      "bPlotOnly": false,
+      "bNoInputData": false,
+      "saInputDataFiles": [
+        "Results/avalon/ben1/global_output.dat",
+        "Results/hextor/ben1/global_output.dat",
+        "Results/poise/ben1/global_output.dat",
+        "Results/ops/ben1/global_output.dat"
+      ],
+      "saDataCommands": [
+        "python3 dataParseFilletOutputs.py --results-dir ../Results --out-global filletGlobal.json --out-lat filletLat.json --out-audit columnLayoutAudit.json"
+      ],
+      "saOutputDataFiles": [
+        "parseFilletOutputs/filletGlobal.json",
+        "parseFilletOutputs/filletLat.json",
+        "parseFilletOutputs/columnLayoutAudit.json"
+      ],
+      "saPlotCommands": [],
+      "saPlotFiles": []
+    },
+    {
+      "sName": "auditProtocolCompliance",
+      "sDirectory": "auditProtocolCompliance",
+      "bRunEnabled": true,
+      "bPlotOnly": false,
+      "bNoInputData": true,
+      "saDataCommands": [
+        "python3 dataAuditProtocolCompliance.py --global-json {step:parseFilletOutputs.filletGlobal} --results-dir ../Results --out protocolComplianceAudit.json --ops-runs-json {step:parseOpsOutputs.opsRuns}"
+      ],
+      "saOutputDataFiles": [
+        "auditProtocolCompliance/protocolComplianceAudit.json"
+      ],
+      "saPlotCommands": [],
+      "saPlotFiles": []
+    },
+    {
+      "sName": "parseOpsOutputs",
+      "sDirectory": "parseOpsOutputs",
+      "bRunEnabled": true,
+      "bPlotOnly": false,
+      "bNoInputData": false,
+      "saInputDataFiles": [
+        "../TOTAL_EBM_constantpCO2_36belts_FILLET/input_ebm.dat",
+        "../TOTAL_EBM_constantpCO2_36belts_FILLET/driver.f90",
+        "../TOTAL_EBM_constantpCO2_36belts_FILLET/out/Benchmarks/1/model1.out",
+        "../TOTAL_EBM_constantpCO2_36belts_FILLET/out/Benchmarks/1/global_output_bench1.dat"
+      ],
+      "saDataCommands": [
+        "python3 dataParseOpsOutputs.py --ops-repo /workspace/TOTAL_EBM_constantpCO2_36belts_FILLET --out-runs opsRuns.json --out-readiness opsProtocolReadiness.json --global-json {step:parseFilletOutputs.filletGlobal} --lat-json {step:parseFilletOutputs.filletLat} --archive-dir ../Results/ops"
+      ],
+      "saOutputDataFiles": [
+        "parseOpsOutputs/opsRuns.json",
+        "parseOpsOutputs/opsProtocolReadiness.json"
+      ],
+      "saPlotCommands": [],
+      "saPlotFiles": []
+    },
+    {
+      "sName": "runShieldsBitz",
+      "sDirectory": "runShieldsBitz",
+      "bRunEnabled": true,
+      "bPlotOnly": false,
+      "bNoInputData": false,
+      "saInputDataFiles": [
+        "../shieldsEBM/EBM_one_file.py",
+        "../shieldsEBM/G_dwarf_ws.txt"
+      ],
+      "saDataCommands": [
+        "python3 dataRunShieldsBitzBenchmarks.py --shields-repo /workspace/shieldsEBM --benchmarks ben1,ben2,ben3 --runlength 100 --jmx 120 --out shieldsBitzBenchmarks.json",
+        "python3 dataCharacterizeShieldsBitz.py --shields-repo /workspace/shieldsEBM --benchmarks-json shieldsBitzBenchmarks.json --star G --out shieldsBitzScheme.json",
+        "python3 dataWriteShieldsBitzSubmission.py --benchmarks-json shieldsBitzBenchmarks.json --results-dir ../Results --out shieldsBitzSubmissionWritten.json"
+      ],
+      "saOutputDataFiles": [
+        "runShieldsBitz/shieldsBitzBenchmarks.json",
+        "runShieldsBitz/shieldsBitzScheme.json",
+        "runShieldsBitz/shieldsBitzSubmissionWritten.json",
+        "Results/shields_bitz/ben1/global_output.dat",
+        "Results/shields_bitz/ben2/global_output.dat",
+        "Results/shields_bitz/ben3/global_output.dat"
+      ],
+      "saPlotCommands": [],
+      "saPlotFiles": []
+    },
+    {
+      "sName": "compareRadiationSchemes",
+      "sDirectory": "compareRadiationSchemes",
+      "bRunEnabled": true,
+      "bPlotOnly": false,
+      "bNoInputData": false,
+      "saInputDataFiles": [
+        "../hextor/model/radiation/radiation_N2_CO2_Sun.h5",
+        "../TOTAL_EBM_constantpCO2_36belts_FILLET/data/OLRparaminterp.325"
+      ],
+      "saDataCommands": [
+        "python3 dataCompareRadiationSchemes.py --hextor-table /workspace/hextor/model/radiation/radiation_N2_CO2_Sun.h5 --out radiationSchemes.json --ops-olr-table /workspace/TOTAL_EBM_constantpCO2_36belts_FILLET/data/OLRparaminterp.325",
+        "python3 ../explorations/testOpsCloudOffsetProfile.py --lat-json {step:parseFilletOutputs.filletLat} --ops-olr-table /workspace/TOTAL_EBM_constantpCO2_36belts_FILLET/data/OLRparaminterp.325 --out ../explorations/opsCloudOffsetProfile.json"
+      ],
+      "saOutputDataFiles": [
+        "compareRadiationSchemes/radiationSchemes.json"
+      ],
+      "saPlotCommands": [
+        "python3 plotRadiationSchemes.py --radiation-json radiationSchemes.json --co2-json ../explorations/olrCO2Dependence.json --out ../Plot/figRadiationSchemes.pdf"
+      ],
+      "saPlotFiles": [
+        "Plot/figRadiationSchemes.pdf"
+      ]
+    },
+    {
+      "sName": "compareAlbedoSchemes",
+      "sDirectory": "compareAlbedoSchemes",
+      "bRunEnabled": true,
+      "bPlotOnly": false,
+      "bNoInputData": false,
+      "saInputDataFiles": [
+        "../hextor/model/radiation/radiation_N2_CO2_Sun.h5",
+        "../TOTAL_EBM_constantpCO2_36belts_FILLET/data/PALBparaminterp.325",
+        "../TOTAL_EBM_constantpCO2_36belts_FILLET/data/fresnel_reflct.dat"
+      ],
+      "saDataCommands": [
+        "python3 dataCompareAlbedoSchemes.py --hextor-table /workspace/hextor/model/radiation/radiation_N2_CO2_Sun.h5 --out albedoSchemes.json --ops-palb-table /workspace/TOTAL_EBM_constantpCO2_36belts_FILLET/data/PALBparaminterp.325 --ops-fresnel-table /workspace/TOTAL_EBM_constantpCO2_36belts_FILLET/data/fresnel_reflct.dat"
+      ],
+      "saOutputDataFiles": [
+        "compareAlbedoSchemes/albedoSchemes.json"
+      ],
+      "saPlotCommands": [
+        "python3 plotAlbedoSchemes.py --albedo-json albedoSchemes.json --out ../Plot/figAlbedoSchemes.pdf"
+      ],
+      "saPlotFiles": [
+        "Plot/figAlbedoSchemes.pdf"
+      ]
+    },
+    {
+      "sName": "compareBenchmarks",
+      "sDirectory": "compareBenchmarks",
+      "bRunEnabled": true,
+      "bPlotOnly": false,
+      "bNoInputData": true,
+      "saDataCommands": [
+        "python3 dataCompareBenchmarks.py --lat-json {step:parseFilletOutputs.filletLat} --global-json {step:parseFilletOutputs.filletGlobal} --hextor-table /workspace/hextor/model/radiation/radiation_N2_CO2_Sun.h5 --out benchmarkBudget.json --ops-olr-table /workspace/TOTAL_EBM_constantpCO2_36belts_FILLET/data/OLRparaminterp.325 --ops-runs-json {step:parseOpsOutputs.opsRuns} --shields-benchmarks-json {step:runShieldsBitz.shieldsBitzBenchmarks}"
+      ],
+      "saOutputDataFiles": [
+        "compareBenchmarks/benchmarkBudget.json"
+      ],
+      "saPlotCommands": [
+        "python3 plotBenchmarks.py --benchmark-json benchmarkBudget.json --benchmark ben1 --out ../Plot/figBenchmark1.pdf"
+      ],
+      "saPlotFiles": [
+        "Plot/figBenchmark1.pdf"
+      ]
+    },
+    {
+      "sName": "attributeTemperatureOffsets",
+      "sDirectory": "attributeTemperatureOffsets",
+      "bRunEnabled": true,
+      "bPlotOnly": false,
+      "bNoInputData": true,
+      "saDataCommands": [
+        "python3 dataAttributeTemperatureOffsets.py --benchmark-json {step:compareBenchmarks.benchmarkBudget} --hextor-table /workspace/hextor/model/radiation/radiation_N2_CO2_Sun.h5 --out temperatureAttribution.json --ops-olr-table /workspace/TOTAL_EBM_constantpCO2_36belts_FILLET/data/OLRparaminterp.325"
+      ],
+      "saOutputDataFiles": [
+        "attributeTemperatureOffsets/temperatureAttribution.json"
+      ],
+      "saPlotCommands": [
+        "python3 plotTemperatureAttribution.py --attribution-json temperatureAttribution.json --out ../Plot/figAttribution.pdf"
+      ],
+      "saPlotFiles": [
+        "Plot/figAttribution.pdf"
+      ]
+    },
+    {
+      "sName": "harmonizeIceLines",
+      "sDirectory": "harmonizeIceLines",
+      "bRunEnabled": true,
+      "bPlotOnly": false,
+      "bNoInputData": true,
+      "saDataCommands": [
+        "python3 dataHarmonizeIceLines.py --lat-json {step:parseFilletOutputs.filletLat} --hextor-exp1-dir /workspace/hextor/fillet/exp1 --avalon-exp1-dir /workspace/avalon/experiments/exp1 --out harmonizedIceLines.json --ops-runs-json {step:parseOpsOutputs.opsRuns} --shields-benchmarks-json {step:runShieldsBitz.shieldsBitzBenchmarks}",
+        "python3 dataQuantifyVersionDrift.py --results-dir ../Results --hextor-repo /workspace/hextor --avalon-repo /workspace/avalon --out versionDrift.json"
+      ],
+      "saOutputDataFiles": [
+        "harmonizeIceLines/harmonizedIceLines.json",
+        "harmonizeIceLines/versionDrift.json"
+      ],
+      "saPlotCommands": [
+        "python3 plotIceLineDefinitions.py --harmonized-json harmonizedIceLines.json --drift-json versionDrift.json --out ../Plot/figIceLineDefinitions.pdf",
+        "python3 plotVersionDrift.py --drift-json versionDrift.json --pifactor-json ../explorations/hextorPiFactorTest.json --out ../Plot/figVersionDrift.pdf"
+      ],
+      "saPlotFiles": [
+        "Plot/figIceLineDefinitions.pdf",
+        "Plot/figVersionDrift.pdf"
+      ]
+    },
+    {
+      "sName": "compareClimateStates",
+      "sDirectory": "compareClimateStates",
+      "bRunEnabled": true,
+      "bPlotOnly": false,
+      "bNoInputData": true,
+      "saDataCommands": [
+        "python3 dataCompareClimateStates.py --global-json {step:parseFilletOutputs.filletGlobal} --out climateStates.json"
+      ],
+      "saOutputDataFiles": [
+        "compareClimateStates/climateStates.json"
+      ],
+      "saPlotCommands": [
+        "python3 plotClimateStates.py --states-json climateStates.json --out ../Plot/figClimateStates.pdf"
+      ],
+      "saPlotFiles": [
+        "Plot/figClimateStates.pdf"
+      ]
+    },
+    {
+      "sName": "compareBifurcations",
+      "sDirectory": "compareBifurcations",
+      "bRunEnabled": true,
+      "bPlotOnly": false,
+      "bNoInputData": true,
+      "saDataCommands": [
+        "python3 dataCompareBifurcations.py --global-json {step:parseFilletOutputs.filletGlobal} --out bifurcations.json --shields-scheme-json {step:runShieldsBitz.shieldsBitzScheme}"
+      ],
+      "saOutputDataFiles": [
+        "compareBifurcations/bifurcations.json"
+      ],
+      "saPlotCommands": [
+        "python3 plotBifurcations.py --bifurcation-json bifurcations.json --out ../Plot/figBifurcations.pdf"
+      ],
+      "saPlotFiles": [
+        "Plot/figBifurcations.pdf"
+      ]
+    },
+    {
+      "sName": "buildAnalysisPaper",
+      "sDirectory": "buildAnalysisPaper",
+      "bRunEnabled": true,
+      "bPlotOnly": false,
+      "bNoInputData": true,
+      "saDataCommands": [
+        "python3 dataBuildResultTables.py --benchmark-json {step:compareBenchmarks.benchmarkBudget} --radiation-json {step:compareRadiationSchemes.radiationSchemes} --attribution-json {step:attributeTemperatureOffsets.temperatureAttribution} --audit-json {step:auditProtocolCompliance.protocolComplianceAudit} --layout-json {step:parseFilletOutputs.columnLayoutAudit} --harmonized-json {step:harmonizeIceLines.harmonizedIceLines} --states-json {step:compareClimateStates.climateStates} --drift-json {step:harmonizeIceLines.versionDrift} --bifurcation-json {step:compareBifurcations.bifurcations} --out-dir tables --albedo-json {step:compareAlbedoSchemes.albedoSchemes} --ops-readiness-json {step:parseOpsOutputs.opsProtocolReadiness} --co2coord-json ../explorations/co2CoordinateMolarMass.json --shields-scheme-json {step:runShieldsBitz.shieldsBitzScheme}",
+        "bash buildPaper.sh"
+      ],
+      "saOutputDataFiles": [
+        "buildAnalysisPaper/tables/tabBenchmarkBudget.tex",
+        "buildAnalysisPaper/tables/tabRadiation.tex",
+        "buildAnalysisPaper/tables/tabAttribution.tex",
+        "buildAnalysisPaper/tables/tabCompliance.tex",
+        "buildAnalysisPaper/tables/tabOpsReadiness.tex",
+        "buildAnalysisPaper/tables/tabBranchOrder.tex",
+        "buildAnalysisPaper/tables/tabIceLines.tex",
+        "buildAnalysisPaper/tables/tabStateCensus.tex",
+        "buildAnalysisPaper/tables/tabDrift.tex",
+        "buildAnalysisPaper/tables/tabHysteresis.tex",
+        "buildAnalysisPaper/tables/macros.tex"
+      ],
+      "saPlotCommands": [],
+      "saPlotFiles": [
+        "Plot/filletThreeCodeComparison.pdf"
+      ]
+    }
+  ]
+}
